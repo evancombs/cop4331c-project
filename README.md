@@ -12,3 +12,6 @@ Group project for COP4331C, Ecosystem simulation in Unity
 
 ## Trello Board
 https://trello.com/b/XcVEDUUZ/ecosystem-simulator
+
+## Velocity and Burndown Charts
+https://docs.google.com/spreadsheets/d/19BmK0eXDsYoo56flhFZZDQ0n-dbL6gCYnCxExAwiSNk/edit?usp=sharing
