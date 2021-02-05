@@ -39,15 +39,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 384
+    x: 434
     y: 0
-    width: 679
-    height: 660
+    width: 628
+    height: 606
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &3
@@ -65,15 +65,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1063
+    x: 1062
     y: 0
-    width: 492
-    height: 660
+    width: 493
+    height: 606
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -97,10 +97,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 606, y: 492}
+  m_MinSize: {x: 781, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 121
+  controlID: 248
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -120,13 +120,12 @@ MonoBehaviour:
     y: 0
     width: 365
     height: 947
-  m_MinSize: {x: 101, y: 121}
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 13}
-  m_Selected: 1
+  - {fileID: 16}
+  m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,13 +144,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 384
-    height: 660
+    width: 434
+    height: 606
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 18}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &7
@@ -170,15 +169,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 660
+    y: 606
     width: 1555
-    height: 287
+    height: 341
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 14}
+  - {fileID: 15}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &8
@@ -272,7 +271,7 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 60
+  controlID: 80
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,1743 +293,12 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1555
-    height: 660
+    height: 606
   m_MinSize: {x: 505, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 61
+  controlID: 81
 --- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 363648761, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: GitHub
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1555
-    y: 73
-    width: 364
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
-  progressMessageClearTime: -1
-  notificationClearTime: -1
-  timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
-  changeTab: 3
-  activeTab: 3
-  initProjectView:
-    hasCompletedInitialCheck: 0
-    isUserDataPresent: 0
-    lastCheckUserChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 8
-  branchesView:
-    treeLocals:
-      IsRemote: 0
-      folders:
-        keys:
-        - Local branches
-        values:
-        - path: Local branches
-          label: Local branches
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: Local branches
-      pathSeparator: /
-      displayRootNode: 1
-      isSelectable: 1
-      isCheckable: 0
-      nodes:
-      - path: Local branches
-        label: Local branches
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      - path: master
-        label: master
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 1
-        treeIsCheckable: 0
-        checkState: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-    treeRemotes:
-      IsRemote: 1
-      folders:
-        keys:
-        - Remote branches
-        values:
-        - path: Remote branches
-          label: Remote branches
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 0
-          checkState: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: Remote branches
-      pathSeparator: /
-      displayRootNode: 1
-      isSelectable: 1
-      isCheckable: 0
-      nodes:
-      - path: Remote branches
-        label: Remote branches
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-    mode: 0
-    newBranchName: 
-    scroll: {x: 0, y: 0}
-    disableDelete: 1
-    disableCreate: 1
-    lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2021-02-05T11:59:44.417-05:00
-      cacheType: 2
-    lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2021-02-05T11:59:39.559-05:00
-      cacheType: 1
-    currentBranch:
-      name: master
-      tracking: 
-    currentRemote:
-      name: origin
-      url: https://github.com/evancombs/cop4331c-project
-      login: 
-      user: 
-      host: 
-      function: 0
-      token: 
-    localBranches:
-    - name: master
-      tracking: 
-    remoteBranches: []
-  changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
-    commitBody: 
-    commitMessage: Added gh
-    currentBranch: '[master]'
-    treeScroll: {x: 0, y: 0}
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys:
-        - Ecosystem Simulator
-        - Ecosystem Simulator\Assets
-        - Ecosystem Simulator\Assets\Scenes
-        - Ecosystem Simulator\Library
-        - Ecosystem Simulator\Library\Artifacts
-        - Ecosystem Simulator\Library\Artifacts\34
-        - Ecosystem Simulator\Library\Artifacts\50
-        - Ecosystem Simulator\Library\gfu
-        - Ecosystem Simulator\Library\gfu\cache
-        - Ecosystem Simulator\Library\ShaderCache
-        - Ecosystem Simulator\Library\ShaderCache\0
-        - Ecosystem Simulator\Library\ShaderCache\2
-        - Ecosystem Simulator\Library\ShaderCache\7
-        - Ecosystem Simulator\Library\ShaderCache\8
-        - Ecosystem Simulator\Library\ShaderCache\f
-        - Ecosystem Simulator\Temp
-        values:
-        - path: Ecosystem Simulator
-          label: Ecosystem Simulator
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Assets
-          label: Assets
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Assets\Scenes
-          label: Scenes
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Library
-          label: Library
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Library\Artifacts
-          label: Artifacts
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Library\Artifacts\34
-          label: 34
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Library\Artifacts\50
-          label: 50
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Library\gfu
-          label: gfu
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Library\gfu\cache
-          label: cache
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Library\ShaderCache
-          label: ShaderCache
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Library\ShaderCache\0
-          label: 0
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Library\ShaderCache\2
-          label: 2
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Library\ShaderCache\7
-          label: 7
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Library\ShaderCache\8
-          label: 8
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Library\ShaderCache\f
-          label: f
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Ecosystem Simulator\Temp
-          label: Temp
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: \
-      displayRootNode: 0
-      isSelectable: 1
-      isCheckable: 1
-      isUsingGlobalSelection: 1
-      nodes:
-      - path: 
-        label: 
-        level: -1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator
-        label: Ecosystem Simulator
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Assets
-        label: Assets
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Assets\Scenes
-        label: Scenes
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Assets\Scenes\SampleScene.unity
-        label: SampleScene.unity
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Assets\Scenes\SampleScene.unity
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Assets\Scenes\SampleScene.unity
-          projectPath: Assets\Scenes\SampleScene.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Ecosystem Simulator\Library
-        label: Library
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Library\ArtifactDB
-        label: ArtifactDB
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\ArtifactDB
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\ArtifactDB
-          projectPath: Library\ArtifactDB
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Ecosystem Simulator\Library\Artifacts
-        label: Artifacts
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Library\Artifacts\34
-        label: 34
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Library\Artifacts\34\343f5c9562588728ff681eb49699686d
-        label: 343f5c9562588728ff681eb49699686d
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\Artifacts\34\343f5c9562588728ff681eb49699686d
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\Artifacts\34\343f5c9562588728ff681eb49699686d
-          projectPath: Library\Artifacts\34\343f5c9562588728ff681eb49699686d
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Ecosystem Simulator\Library\Artifacts\50
-        label: 50
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Library\Artifacts\50\50dd5af66e16d2e420cf57980e2cbac5
-        label: 50dd5af66e16d2e420cf57980e2cbac5
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\Artifacts\50\50dd5af66e16d2e420cf57980e2cbac5
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\Artifacts\50\50dd5af66e16d2e420cf57980e2cbac5
-          projectPath: Library\Artifacts\50\50dd5af66e16d2e420cf57980e2cbac5
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Ecosystem Simulator\Library\EditorInstance.json
-        label: EditorInstance.json
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\EditorInstance.json
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\EditorInstance.json
-          projectPath: Library\EditorInstance.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Ecosystem Simulator\Library\gfu
-        label: gfu
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Library\gfu\cache
-        label: cache
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Library\gfu\cache\gitlocks.yaml
-        label: gitlocks.yaml
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\gfu\cache\gitlocks.yaml
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\gfu\cache\gitlocks.yaml
-          projectPath: Library\gfu\cache\gitlocks.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Ecosystem Simulator\Library\gfu\cache\gitstatusentries.yaml
-        label: gitstatusentries.yaml
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\gfu\cache\gitstatusentries.yaml
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\gfu\cache\gitstatusentries.yaml
-          projectPath: Library\gfu\cache\gitstatusentries.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Ecosystem Simulator\Library\gfu\cache\gittrackingstatus.yaml
-        label: gittrackingstatus.yaml
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\gfu\cache\gittrackingstatus.yaml
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\gfu\cache\gittrackingstatus.yaml
-          projectPath: Library\gfu\cache\gittrackingstatus.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Ecosystem Simulator\Library\gfu\cache\repoinfo.yaml
-        label: repoinfo.yaml
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\gfu\cache\repoinfo.yaml
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\gfu\cache\repoinfo.yaml
-          projectPath: Library\gfu\cache\repoinfo.yaml
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Ecosystem Simulator\Library\SceneVisibilityState.asset
-        label: SceneVisibilityState.asset
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\SceneVisibilityState.asset
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\SceneVisibilityState.asset
-          projectPath: Library\SceneVisibilityState.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Ecosystem Simulator\Library\ShaderCache
-        label: ShaderCache
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Library\ShaderCache\0
-        label: 0
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Library\ShaderCache\0\05f3dd573f4c5e23c969ddfca7148798.bin
-        label: 05f3dd573f4c5e23c969ddfca7148798.bin
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\ShaderCache\0\05f3dd573f4c5e23c969ddfca7148798.bin
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\ShaderCache\0\05f3dd573f4c5e23c969ddfca7148798.bin
-          projectPath: Library\ShaderCache\0\05f3dd573f4c5e23c969ddfca7148798.bin
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Ecosystem Simulator\Library\ShaderCache\2
-        label: 2
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Library\ShaderCache\2\22786da5cd6120d0ab23c7fa8b19e6ff.bin
-        label: 22786da5cd6120d0ab23c7fa8b19e6ff.bin
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\ShaderCache\2\22786da5cd6120d0ab23c7fa8b19e6ff.bin
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\ShaderCache\2\22786da5cd6120d0ab23c7fa8b19e6ff.bin
-          projectPath: Library\ShaderCache\2\22786da5cd6120d0ab23c7fa8b19e6ff.bin
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Ecosystem Simulator\Library\ShaderCache\2\2c9c95761c59d389c263d53901e4cdc9.bin
-        label: 2c9c95761c59d389c263d53901e4cdc9.bin
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\ShaderCache\2\2c9c95761c59d389c263d53901e4cdc9.bin
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\ShaderCache\2\2c9c95761c59d389c263d53901e4cdc9.bin
-          projectPath: Library\ShaderCache\2\2c9c95761c59d389c263d53901e4cdc9.bin
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Ecosystem Simulator\Library\ShaderCache\7
-        label: 7
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Library\ShaderCache\7\773525cd13ea616dec838ff1941dd47d.bin
-        label: 773525cd13ea616dec838ff1941dd47d.bin
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\ShaderCache\7\773525cd13ea616dec838ff1941dd47d.bin
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\ShaderCache\7\773525cd13ea616dec838ff1941dd47d.bin
-          projectPath: Library\ShaderCache\7\773525cd13ea616dec838ff1941dd47d.bin
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Ecosystem Simulator\Library\ShaderCache\8
-        label: 8
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Library\ShaderCache\8\89cb6f245ed9f4bed81d85294a329e8f.bin
-        label: 89cb6f245ed9f4bed81d85294a329e8f.bin
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\ShaderCache\8\89cb6f245ed9f4bed81d85294a329e8f.bin
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\ShaderCache\8\89cb6f245ed9f4bed81d85294a329e8f.bin
-          projectPath: Library\ShaderCache\8\89cb6f245ed9f4bed81d85294a329e8f.bin
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Ecosystem Simulator\Library\ShaderCache\EditorEncounteredVariants
-        label: EditorEncounteredVariants
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\ShaderCache\EditorEncounteredVariants
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\ShaderCache\EditorEncounteredVariants
-          projectPath: Library\ShaderCache\EditorEncounteredVariants
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Ecosystem Simulator\Library\ShaderCache\f
-        label: f
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Library\ShaderCache\f\f3016b98b7671003236f547cdb88b0e1.bin
-        label: f3016b98b7671003236f547cdb88b0e1.bin
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\ShaderCache\f\f3016b98b7671003236f547cdb88b0e1.bin
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\ShaderCache\f\f3016b98b7671003236f547cdb88b0e1.bin
-          projectPath: Library\ShaderCache\f\f3016b98b7671003236f547cdb88b0e1.bin
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
-        label: shadercompiler-UnityShaderCompiler.exe0.log
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe1.log
-        label: shadercompiler-UnityShaderCompiler.exe1.log
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe1.log
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\shadercompiler-UnityShaderCompiler.exe1.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe2.log
-        label: shadercompiler-UnityShaderCompiler.exe2.log
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe2.log
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\shadercompiler-UnityShaderCompiler.exe2.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
-        label: shadercompiler-UnityShaderCompiler.exe3.log
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe4.log
-        label: shadercompiler-UnityShaderCompiler.exe4.log
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe4.log
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\shadercompiler-UnityShaderCompiler.exe4.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe5.log
-        label: shadercompiler-UnityShaderCompiler.exe5.log
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe5.log
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\shadercompiler-UnityShaderCompiler.exe5.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe6.log
-        label: shadercompiler-UnityShaderCompiler.exe6.log
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe6.log
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\shadercompiler-UnityShaderCompiler.exe6.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe7.log
-        label: shadercompiler-UnityShaderCompiler.exe7.log
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe7.log
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\shadercompiler-UnityShaderCompiler.exe7.log
-          projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Ecosystem Simulator\Library\SourceAssetDB
-        label: SourceAssetDB
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Library\SourceAssetDB
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Library\SourceAssetDB
-          projectPath: Library\SourceAssetDB
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Ecosystem Simulator\Temp
-        label: Temp
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Ecosystem Simulator\Temp\UnityLockfile
-        label: UnityLockfile
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Ecosystem Simulator\Temp\UnityLockfile
-          fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem
-            Simulator\Temp\UnityLockfile
-          projectPath: Temp\UnityLockfile
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-    gitStatusEntries:
-    - path: Ecosystem Simulator\Assets\Scenes\SampleScene.unity
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scenes\SampleScene.unity
-      projectPath: Assets\Scenes\SampleScene.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Ecosystem Simulator\Library\ArtifactDB
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ArtifactDB
-      projectPath: Library\ArtifactDB
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Ecosystem Simulator\Library\Artifacts\34\343f5c9562588728ff681eb49699686d
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\34\343f5c9562588728ff681eb49699686d
-      projectPath: Library\Artifacts\34\343f5c9562588728ff681eb49699686d
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Ecosystem Simulator\Library\Artifacts\50\50dd5af66e16d2e420cf57980e2cbac5
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\50\50dd5af66e16d2e420cf57980e2cbac5
-      projectPath: Library\Artifacts\50\50dd5af66e16d2e420cf57980e2cbac5
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Ecosystem Simulator\Library\EditorInstance.json
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\EditorInstance.json
-      projectPath: Library\EditorInstance.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Ecosystem Simulator\Library\gfu\cache\gitlocks.yaml
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gitlocks.yaml
-      projectPath: Library\gfu\cache\gitlocks.yaml
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Ecosystem Simulator\Library\gfu\cache\gitstatusentries.yaml
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gitstatusentries.yaml
-      projectPath: Library\gfu\cache\gitstatusentries.yaml
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Ecosystem Simulator\Library\gfu\cache\gittrackingstatus.yaml
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gittrackingstatus.yaml
-      projectPath: Library\gfu\cache\gittrackingstatus.yaml
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Ecosystem Simulator\Library\gfu\cache\repoinfo.yaml
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\repoinfo.yaml
-      projectPath: Library\gfu\cache\repoinfo.yaml
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Ecosystem Simulator\Library\SceneVisibilityState.asset
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\SceneVisibilityState.asset
-      projectPath: Library\SceneVisibilityState.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Ecosystem Simulator\Library\ShaderCache\0\05f3dd573f4c5e23c969ddfca7148798.bin
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ShaderCache\0\05f3dd573f4c5e23c969ddfca7148798.bin
-      projectPath: Library\ShaderCache\0\05f3dd573f4c5e23c969ddfca7148798.bin
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Ecosystem Simulator\Library\ShaderCache\2\22786da5cd6120d0ab23c7fa8b19e6ff.bin
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ShaderCache\2\22786da5cd6120d0ab23c7fa8b19e6ff.bin
-      projectPath: Library\ShaderCache\2\22786da5cd6120d0ab23c7fa8b19e6ff.bin
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Ecosystem Simulator\Library\ShaderCache\2\2c9c95761c59d389c263d53901e4cdc9.bin
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ShaderCache\2\2c9c95761c59d389c263d53901e4cdc9.bin
-      projectPath: Library\ShaderCache\2\2c9c95761c59d389c263d53901e4cdc9.bin
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Ecosystem Simulator\Library\ShaderCache\7\773525cd13ea616dec838ff1941dd47d.bin
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ShaderCache\7\773525cd13ea616dec838ff1941dd47d.bin
-      projectPath: Library\ShaderCache\7\773525cd13ea616dec838ff1941dd47d.bin
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Ecosystem Simulator\Library\ShaderCache\8\89cb6f245ed9f4bed81d85294a329e8f.bin
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ShaderCache\8\89cb6f245ed9f4bed81d85294a329e8f.bin
-      projectPath: Library\ShaderCache\8\89cb6f245ed9f4bed81d85294a329e8f.bin
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Ecosystem Simulator\Library\ShaderCache\EditorEncounteredVariants
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ShaderCache\EditorEncounteredVariants
-      projectPath: Library\ShaderCache\EditorEncounteredVariants
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Ecosystem Simulator\Library\ShaderCache\f\f3016b98b7671003236f547cdb88b0e1.bin
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ShaderCache\f\f3016b98b7671003236f547cdb88b0e1.bin
-      projectPath: Library\ShaderCache\f\f3016b98b7671003236f547cdb88b0e1.bin
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe1.log
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe1.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe2.log
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe2.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe4.log
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe4.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe5.log
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe5.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe6.log
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe6.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe7.log
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe7.log
-      projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Ecosystem Simulator\Library\SourceAssetDB
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\SourceAssetDB
-      projectPath: Library\SourceAssetDB
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Ecosystem Simulator\Temp\UnityLockfile
-      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityLockfile
-      projectPath: Temp\UnityLockfile
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 27 changed files
-    lastCurrentBranchChangedEvent:
-      updatedTimeString: 2021-02-05T12:26:57.212-05:00
-      cacheType: 1
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 2021-02-05T12:27:12.942-05:00
-      cacheType: 6
-    lastLocksChangedEvent:
-      updatedTimeString: 2021-02-05T12:26:58.126-05:00
-      cacheType: 7
-  historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
-    logEntries:
-    - commitID: 70ee9906f3b1dc6f0708fa66503112669ae19770
-      mergeA: 
-      mergeB: 
-      authorName: Evan Combs
-      authorEmail: evan@combs-family.com
-      commitEmail: evan@combs-family.com
-      commitName: Evan Combs
-      summary: new file added
-      description: 
-      timeString: 2021-01-14T17:47:53.000-05:00
-      commitTimeString: 2021-01-14T17:47:53.000-05:00
-      changes:
-      - path: gittest.txt
-        fullPath: C:\Users\evan\Documents\gittest.txt
-        projectPath: ..\..\..\gittest.txt
-        originalPath: 
-        indexStatus: 4
-        workTreeStatus: 0
-    statusAhead: 0
-    lastLogChangedEvent:
-      updatedTimeString: 2021-02-05T11:59:39.859-05:00
-      cacheType: 3
-    lastTrackingStatusChangedEvent:
-      updatedTimeString: 2021-02-05T11:59:39.708-05:00
-      cacheType: 5
-    historyControl:
-      scroll: {x: 0, y: 0}
-      entries:
-      - commitID: 70ee9906f3b1dc6f0708fa66503112669ae19770
-        mergeA: 
-        mergeB: 
-        authorName: Evan Combs
-        authorEmail: evan@combs-family.com
-        commitEmail: evan@combs-family.com
-        commitName: Evan Combs
-        summary: new file added
-        description: 
-        timeString: 2021-01-14T17:47:53.000-05:00
-        commitTimeString: 2021-01-14T17:47:53.000-05:00
-        changes:
-        - path: gittest.txt
-          fullPath: C:\Users\evan\Documents\gittest.txt
-          projectPath: ..\..\..\gittest.txt
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      statusAhead: 0
-      selectedIndex: -1
-    selectedEntry:
-      commitID: 
-      mergeA: 
-      mergeB: 
-      authorName: 
-      authorEmail: 
-      commitEmail: 
-      commitName: 
-      summary: 
-      description: 
-      timeString: 0001-01-01T00:00:00.000+00:00
-      commitTimeString: 0001-01-01T00:00:00.000+00:00
-      changes: []
-    treeChanges:
-      assets:
-        keys: []
-        values: []
-      folders:
-        keys: []
-        values: []
-      checkedFileNodes:
-        keys: []
-        values: []
-      title: 
-      pathSeparator: /
-      displayRootNode: 0
-      isSelectable: 1
-      isCheckable: 0
-      isUsingGlobalSelection: 0
-      nodes: []
-      selectedNode:
-        path: 
-        label: 
-        level: 0
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-    detailsScroll: {x: 0, y: 0}
-  settingsView:
-    gitPathView:
-      gitPath: C:\Users\evan\AppData\Local\GitHubUnity\git\cmd\git.exe
-      gitLfsPath: C:\Users\evan\AppData\Local\GitHubUnity\git-lfs\git-lfs.exe
-      errorMessage: 
-      resetToBundled: 0
-      resetToSystem: 0
-      changingManually: 0
-    hasRemote: 1
-    lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2021-02-05T11:59:39.559-05:00
-      cacheType: 1
-    metricsEnabled: 1
-    newRepositoryRemoteUrl: https://github.com/evancombs/cop4331c-project
-    repositoryRemoteName: origin
-    repositoryRemoteUrl: https://github.com/evancombs/cop4331c-project
-    scroll: {x: 0, y: 0}
-    userSettingsView:
-      gitName: Evan Combs
-      gitEmail: evan@combs-family.com
-      newGitName: Evan Combs
-      newGitEmail: evan@combs-family.com
-      needsSaving: 0
-      lastCheckUserChangedEvent:
-        updatedTimeString: 2021-02-05T11:59:40.177-05:00
-        cacheType: 8
-    webTimeout: 3000
-    gitTimeout: 5000
-  locksView:
-    currentRemoteHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
-    keychainHasUpdate: 0
-    locksControl:
-      scroll: {x: 0, y: 0}
-      gitLockEntries: []
-      assets:
-        keys: []
-        values: []
-      gitStatusDictionary:
-        keys: []
-        values: []
-      selectedEntry:
-        gitLock:
-          id: 
-          path: 
-          owner:
-            name: 
-            email: 
-          lockedAtString: 
-        gitFileStatus: 0
-        lockedAt: 1 Jan 0001, 00:00
-    lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2021-02-05T11:59:39.559-05:00
-      cacheType: 1
-    lastLocksChangedEvent:
-      updatedTimeString: 2021-02-05T11:59:40.185-05:00
-      cacheType: 7
-    lastStatusEntriesChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
-      cacheType: 6
-    lockedFiles: []
-    gitStatusEntries: []
-    currentUsername: evancombs
-    unlockFileMenuContent:
-      m_Text: Release Lock
-      m_Image: {fileID: 0}
-      m_Tooltip: 
-    forceUnlockFileMenuContent:
-      m_Text: Release Lock (forced)
-      m_Image: {fileID: 0}
-      m_Tooltip: 
-  hasRemote: 1
-  currentRemoteName: ecosystem
-  currentBranch: master
-  currentRemoteUrl: https://github.com/evancombs/cop4331c-project
-  statusAhead: 0
-  statusBehind: 0
-  hasItemsToCommit: 1
-  isTrackingRemoteBranch: 1
-  currentBranchContent:
-    m_Text: master
-    m_Image: {fileID: 0}
-    m_Tooltip: Active branch
-  currentRemoteUrlContent:
-    m_Text: https://github.com/evancombs/cop4331c-project
-    m_Image: {fileID: 0}
-    m_Tooltip: Url of the ecosystem remote
-  lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2021-02-05T12:26:57.212-05:00
-    cacheType: 1
-  lastTrackingStatusChangedEvent:
-    updatedTimeString: 2021-02-05T12:26:58.217-05:00
-    cacheType: 5
-  lastStatusEntriesChangedEvent:
-    updatedTimeString: 2021-02-05T12:27:12.942-05:00
-    cacheType: 6
-  pullButtonContent:
-    m_Text: Pull
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  pushButtonContent:
-    m_Text: Push
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  refreshButtonContent:
-    m_Text: Refresh
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  fetchButtonContent:
-    m_Text: Fetch
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
-  appManagerProgressValue: 0
-  appManagerProgressMessage: 
-  connections: []
-  primaryConnectionUsername: evancombs
---- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2056,7 +324,7 @@ MonoBehaviour:
     width: 1323
     height: 266
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &15
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2077,10 +345,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1063
+    x: 1062
     y: 73
-    width: 490
-    height: 639
+    width: 491
+    height: 585
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -2090,7 +358,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 490, y: 618}
+  m_TargetSize: {x: 491, y: 564}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2105,10 +373,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -245
-    m_HBaseRangeMax: 245
-    m_VBaseRangeMin: -309
-    m_VBaseRangeMax: 309
+    m_HBaseRangeMin: -245.5
+    m_HBaseRangeMax: 245.5
+    m_VBaseRangeMin: -282
+    m_VBaseRangeMax: 282
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2126,29 +394,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 490
-      height: 618
+      width: 491
+      height: 564
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 245, y: 309}
+    m_Translation: {x: 245.5, y: 282}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -245
-      y: -309
-      width: 490
-      height: 618
+      x: -245.5
+      y: -282
+      width: 491
+      height: 564
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 490, y: 639}
+  m_LastWindowPixelSize: {x: 491, y: 585}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &16
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2170,9 +438,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 733
+    y: 679
     width: 1554
-    height: 266
+    height: 320
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -2199,9 +467,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 86340000
-    m_LastClickedID: 13446
-    m_ExpandedIDs: 000000008634000000ca9a3b
+    m_SelectedIDs: 5e350000
+    m_LastClickedID: 13662
+    m_ExpandedIDs: 000000005e35000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2229,7 +497,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000086340000
+    m_ExpandedIDs: 000000005e350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2256,7 +524,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2285,7 +553,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2323,7 +591,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2346,15 +614,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 383
-    height: 639
+    width: 433
+    height: 585
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e2f9ffff
-      m_LastClickedID: -1566
-      m_ExpandedIDs: 66fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 78faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2378,7 +646,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 46d18f0123d31714c8886d60a4dc3643
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2399,10 +667,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 384
+    x: 434
     y: 73
-    width: 677
-    height: 639
+    width: 626
+    height: 585
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc039fe7e54dce649889cd40c76b899b
@@ -2414,9 +682,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -0.8393879, y: 3.1646628, z: -1.3758466}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -0.8393879, y: 3.1646628, z: -1.3758466}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2466,9 +734,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 10
+    m_Target: 2.107395
     speed: 2
-    m_Value: 10
+    m_Value: 2.407395
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2493,7 +761,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &20
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
