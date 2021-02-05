@@ -19,4 +19,4 @@ https://trello.com/b/XcVEDUUZ/ecosystem-simulator
 *  Requirements: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
 *  Trello Board: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
 *  Burndown Chart:https://docs.google.com/spreadsheets/d/e/2PACX-1vQLRTb9AD6_khIRKxzz53ufLACLG2N7zqat4mDHz0amRLF3J8sGi_Oo4RcDWqL22e7Li2q0_pVJqtKT/pubhtml?gid=0&single=true
-*  Velocity Chart: https://docs.google.com/spreadsheets/d/19BmK0eXDsYoo56flhFZZDQ0n-dbL6gCYnCxExAwiSNk/edit?usp=sharing
+*  Velocity Chart: https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml
