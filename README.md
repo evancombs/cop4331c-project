@@ -13,5 +13,10 @@ Group project for COP4331C, Ecosystem simulation in Unity
 ## Trello Board
 https://trello.com/b/XcVEDUUZ/ecosystem-simulator
 
-## Velocity and Burndown Charts
-https://docs.google.com/spreadsheets/d/19BmK0eXDsYoo56flhFZZDQ0n-dbL6gCYnCxExAwiSNk/edit?usp=sharing
+## Sprint 1
+*  Product Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
+*  Sprint Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
+*  Requirements: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
+*  Trello Board: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
+*  Burndown Chart:https://docs.google.com/spreadsheets/d/e/2PACX-1vQLRTb9AD6_khIRKxzz53ufLACLG2N7zqat4mDHz0amRLF3J8sGi_Oo4RcDWqL22e7Li2q0_pVJqtKT/pubhtml?gid=0&single=true
+*  Velocity Chart: https://docs.google.com/spreadsheets/d/19BmK0eXDsYoo56flhFZZDQ0n-dbL6gCYnCxExAwiSNk/edit?usp=sharing
