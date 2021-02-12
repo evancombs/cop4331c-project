@@ -5,8 +5,11 @@ using UnityEngine;
 // A type of organism that moves around within the ecosystem.
 public class Fauna : Organism
 {
-    private int speed;
-    private int currentNutrition;
-    private int reproductiveRate;
-    private int waterValue;
+    private int movementSpeed;
+    private int nutritionLevel;
+    
+    public void move()
+    {
+
+    }
 }

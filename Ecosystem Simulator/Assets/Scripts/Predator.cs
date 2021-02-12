@@ -6,5 +6,5 @@ using UnityEngine;
 public class Predator : Fauna
 {
     private int lethality; // Effectiveness at killing other fauna
-    
+    private bool consumeFlora;
 }

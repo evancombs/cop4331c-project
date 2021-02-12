@@ -5,5 +5,6 @@ using UnityEngine;
 // A class of fauna that obtain nutrients only from the environment, not other fauna.
 public class Prey : Fauna
 {
+    private bool consumeFlora = true;
 
 }

@@ -6,5 +6,5 @@ using UnityEngine;
 public class Flora : Organism
 {
     
-    private int nutritionValue;
+    
 }

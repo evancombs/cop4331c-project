@@ -16,5 +16,11 @@ public class OrganismDriver : MonoBehaviour
     void Update()
     {
         // organism.OrganismUpdate();
+        if (organism.getCurrentHealth() < 0)
+        {
+            organism.kill();
+            Destroy(gameObject);
+        }
+          
     }
 }
