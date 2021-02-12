@@ -5,7 +5,7 @@ using UnityEngine;
 // Flora are imobile organisms that serve as food sources for predators/prey
 public class Flora : MonoBehaviour
 {
-    public double waterLevel;
+    public double waterLevel = 1;
 
     int maxHealth;
     int currentHealth;
@@ -56,6 +56,7 @@ public class Flora : MonoBehaviour
         z = transform.position.z + Random.Range(-5f, 5);
         for (int i = 0; i < n; i++)
             Instantiate(flora, new Vector3(x, y, z), Quaternion.identity);
+        waterLevel = 50;
         return n;
     }
 }

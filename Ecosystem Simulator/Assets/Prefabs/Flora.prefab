@@ -106,5 +106,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2204c64b11e84fd47acce1826e40be84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waterLevel: 0
-  flora: {fileID: 0}
+  waterLevel: 1
+  flora: {fileID: 3327946866403494059}

@@ -13,9 +13,225 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-02-12T13:56:21.662-05:00
-  initializedAtString: 2021-02-12T13:56:21.662-05:00
+  lastUpdatedAtString: 2021-02-12T16:22:01.438-05:00
+  initializedAtString: 2021-02-12T16:19:20.759-05:00
   log:
+  - commitID: ec9155685df2b5cb707368bf6ca15933980ed9d2
+    mergeA: 
+    mergeB: 
+    authorName: Evan Combs
+    authorEmail: evan@combs-family.com
+    commitEmail: evan@combs-family.com
+    commitName: Evan Combs
+    summary: Last commit failed to upload, re commiting
+    description: 
+    timeString: 2021-02-12T13:59:59.000-05:00
+    commitTimeString: 2021-02-12T13:59:59.000-05:00
+    changes:
+    - path: Ecosystem Simulator\Assets\Ground.asset
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Ground.asset
+      projectPath: Assets\Ground.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Ground.asset.meta
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Ground.asset.meta
+      projectPath: Assets\Ground.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Materials.meta
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Materials.meta
+      projectPath: Assets\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Materials\Green.mat
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Materials\Green.mat
+      projectPath: Assets\Materials\Green.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Materials\Green.mat.meta
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Materials\Green.mat.meta
+      projectPath: Assets\Materials\Green.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Materials\Ground.physicMaterial
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Materials\Ground.physicMaterial
+      projectPath: Assets\Materials\Ground.physicMaterial
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Materials\Ground.physicMaterial.meta
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Materials\Ground.physicMaterial.meta
+      projectPath: Assets\Materials\Ground.physicMaterial.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Materials\Water.mat
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Materials\Water.mat
+      projectPath: Assets\Materials\Water.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Materials\Water.mat.meta
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Materials\Water.mat.meta
+      projectPath: Assets\Materials\Water.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Prefabs.meta
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Prefabs.meta
+      projectPath: Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Prefabs\Flora.prefab
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Prefabs\Flora.prefab
+      projectPath: Assets\Prefabs\Flora.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Prefabs\Flora.prefab.meta
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Prefabs\Flora.prefab.meta
+      projectPath: Assets\Prefabs\Flora.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scenes\Ecosystem.unity
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scenes\Ecosystem.unity
+      projectPath: Assets\Scenes\Ecosystem.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scenes\Ecosystem.unity.meta
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scenes\Ecosystem.unity.meta
+      projectPath: Assets\Scenes\Ecosystem.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scripts\WaterSource.cs
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\WaterSource.cs
+      projectPath: Assets\Scripts\WaterSource.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scripts\WaterSource.cs.meta
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\WaterSource.cs.meta
+      projectPath: Assets\Scripts\WaterSource.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\ArtifactDB
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\SourceAssetDB
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe10.log
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe10.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe10.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe11.log
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe11.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe11.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe4.log
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe4.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe6.log
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe6.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe8.log
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe8.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe8.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe9.log
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe9.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe9.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: 74462bf8f51d228d90916133044caff56dc3bdda
     mergeA: 
     mergeB: 
