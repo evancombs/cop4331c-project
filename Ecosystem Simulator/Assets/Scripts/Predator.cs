@@ -6,7 +6,7 @@ using UnityEngine;
 public class Predator : MonoBehaviour
 {
     int nutrientLevel;
-    int waterLevel;
+    double waterLevel;
 
     int maxHealth;
     int currentHealth;

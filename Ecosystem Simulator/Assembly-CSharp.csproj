@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Flora.cs" />
     <Compile Include="Assets\Scripts\Predator.cs" />
     <Compile Include="Assets\Scripts\Prey.cs" />
+    <Compile Include="Assets\Scripts\WaterSource.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
