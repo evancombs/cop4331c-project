@@ -13,673 +13,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-02-11T20:02:29.804-05:00
-  initializedAtString: 2021-02-11T19:52:26.776-05:00
+  lastUpdatedAtString: 2021-02-11T20:52:26.428-05:00
+  initializedAtString: 2021-02-11T20:38:38.160-05:00
   entries:
+  - path: Ecosystem Simulator\.vs\Ecosystem Simulator\v16\.suo
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\.vs\Ecosystem
+      Simulator\v16\.suo
+    projectPath: .vs\Ecosystem Simulator\v16\.suo
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Ecosystem Simulator\Assembly-CSharp.csproj
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Assets\Scripts.meta
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts.meta
-    projectPath: Assets\Scripts.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Assets\Scripts\Fauna.cs
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Fauna.cs
-    projectPath: Assets\Scripts\Fauna.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Assets\Scripts\Fauna.cs.meta
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Fauna.cs.meta
-    projectPath: Assets\Scripts\Fauna.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Assets\Scripts\Flora.cs
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Flora.cs
-    projectPath: Assets\Scripts\Flora.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Assets\Scripts\Flora.cs.meta
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Flora.cs.meta
-    projectPath: Assets\Scripts\Flora.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Ecosystem Simulator\Assets\Scripts\Organism.cs
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Organism.cs
     projectPath: Assets\Scripts\Organism.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Assets\Scripts\Organism.cs.meta
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Organism.cs.meta
-    projectPath: Assets\Scripts\Organism.cs.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator\Assets\Scripts\OrganismDriver.cs
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\OrganismDriver.cs
+    projectPath: Assets\Scripts\OrganismDriver.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Assets\Scripts\Predator.cs
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Predator.cs
-    projectPath: Assets\Scripts\Predator.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Assets\Scripts\Predator.cs.meta
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Predator.cs.meta
-    projectPath: Assets\Scripts\Predator.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Assets\Scripts\Prey.cs
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Prey.cs
-    projectPath: Assets\Scripts\Prey.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Assets\Scripts\Prey.cs.meta
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Prey.cs.meta
-    projectPath: Assets\Scripts\Prey.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Ecosystem Simulator.sln
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Ecosystem
-      Simulator.sln
-    projectPath: Ecosystem Simulator.sln
+  - path: Ecosystem Simulator\Assets\Scripts\OrganismDriver.cs.meta
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\OrganismDriver.cs.meta
+    projectPath: Assets\Scripts\OrganismDriver.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Ecosystem Simulator\Library\ArtifactDB
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ArtifactDB
     projectPath: Library\ArtifactDB
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\Artifacts\02\02c875ae36fbba1786ea6d09357acaab
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\02\02c875ae36fbba1786ea6d09357acaab
-    projectPath: Library\Artifacts\02\02c875ae36fbba1786ea6d09357acaab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\03\0372c718d6ec5e4a6eab61ed03798091
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\03\0372c718d6ec5e4a6eab61ed03798091
-    projectPath: Library\Artifacts\03\0372c718d6ec5e4a6eab61ed03798091
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\05\051c829ac24f2ac6f741244447e51dd8
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\05\051c829ac24f2ac6f741244447e51dd8
-    projectPath: Library\Artifacts\05\051c829ac24f2ac6f741244447e51dd8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\05\05ae2da9253ef5c7cb4d71c925e0c6b1
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\05\05ae2da9253ef5c7cb4d71c925e0c6b1
-    projectPath: Library\Artifacts\05\05ae2da9253ef5c7cb4d71c925e0c6b1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\07\07f2742fc1aeefd1cc1382ad384f873b
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\07\07f2742fc1aeefd1cc1382ad384f873b
-    projectPath: Library\Artifacts\07\07f2742fc1aeefd1cc1382ad384f873b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\0d\0d284b3a3a074ddd8018a463e6b7783e
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\0d\0d284b3a3a074ddd8018a463e6b7783e
-    projectPath: Library\Artifacts\0d\0d284b3a3a074ddd8018a463e6b7783e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\0e\0e9ca3ff78e84fa9cc73760339b7702c
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\0e\0e9ca3ff78e84fa9cc73760339b7702c
-    projectPath: Library\Artifacts\0e\0e9ca3ff78e84fa9cc73760339b7702c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\0f\0f7eb195ec212bfccb6f77271afbc012
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\0f\0f7eb195ec212bfccb6f77271afbc012
-    projectPath: Library\Artifacts\0f\0f7eb195ec212bfccb6f77271afbc012
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\18\183014429fb6c923bf041acf7eb31e67
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\18\183014429fb6c923bf041acf7eb31e67
-    projectPath: Library\Artifacts\18\183014429fb6c923bf041acf7eb31e67
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\18\187a4e5d7302521f942cc4819bb34c9b
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\18\187a4e5d7302521f942cc4819bb34c9b
-    projectPath: Library\Artifacts\18\187a4e5d7302521f942cc4819bb34c9b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\1a\1a69c4bf290be2f493339cca20dc83b9
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\1a\1a69c4bf290be2f493339cca20dc83b9
-    projectPath: Library\Artifacts\1a\1a69c4bf290be2f493339cca20dc83b9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\1b\1b738399cd0fae6164df67a40dd9a6da
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\1b\1b738399cd0fae6164df67a40dd9a6da
-    projectPath: Library\Artifacts\1b\1b738399cd0fae6164df67a40dd9a6da
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\22\2281e3feca63bbe700b4b6e0214ed8e2
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\22\2281e3feca63bbe700b4b6e0214ed8e2
-    projectPath: Library\Artifacts\22\2281e3feca63bbe700b4b6e0214ed8e2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\25\2569501869d4a0c854a9375eb00cd4d0
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\25\2569501869d4a0c854a9375eb00cd4d0
-    projectPath: Library\Artifacts\25\2569501869d4a0c854a9375eb00cd4d0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\25\25c1edeeac24f4dddb4041079c9d6be9
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\25\25c1edeeac24f4dddb4041079c9d6be9
-    projectPath: Library\Artifacts\25\25c1edeeac24f4dddb4041079c9d6be9
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\26\263cad71777f43890d1a630791642868
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\26\263cad71777f43890d1a630791642868
-    projectPath: Library\Artifacts\26\263cad71777f43890d1a630791642868
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\2c\2cd52bdc810ef679b611cefabc895d1c
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\2c\2cd52bdc810ef679b611cefabc895d1c
-    projectPath: Library\Artifacts\2c\2cd52bdc810ef679b611cefabc895d1c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\2e\2ec4af1fa27c63b600e8e2027ddd76db
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\2e\2ec4af1fa27c63b600e8e2027ddd76db
-    projectPath: Library\Artifacts\2e\2ec4af1fa27c63b600e8e2027ddd76db
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\32\320fd5b7de8e42e399553130cb6053ac
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\32\320fd5b7de8e42e399553130cb6053ac
-    projectPath: Library\Artifacts\32\320fd5b7de8e42e399553130cb6053ac
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\34\3442211f26ec02d2de188dad001abd15
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\34\3442211f26ec02d2de188dad001abd15
-    projectPath: Library\Artifacts\34\3442211f26ec02d2de188dad001abd15
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\35\3510b1d9dcb02c6994624823dcf7cc8a
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\35\3510b1d9dcb02c6994624823dcf7cc8a
-    projectPath: Library\Artifacts\35\3510b1d9dcb02c6994624823dcf7cc8a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\35\35edf28f49a252f51b4ec72b88458703
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\35\35edf28f49a252f51b4ec72b88458703
-    projectPath: Library\Artifacts\35\35edf28f49a252f51b4ec72b88458703
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\37\3790ae7dd808826ce5fd4285ad30a695
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\37\3790ae7dd808826ce5fd4285ad30a695
-    projectPath: Library\Artifacts\37\3790ae7dd808826ce5fd4285ad30a695
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\38\381be0a3488adcb4ea4088d87ba630f6
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\38\381be0a3488adcb4ea4088d87ba630f6
-    projectPath: Library\Artifacts\38\381be0a3488adcb4ea4088d87ba630f6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\3e\3eae862e4805a0a9e43f52bf09bfa2e8
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\3e\3eae862e4805a0a9e43f52bf09bfa2e8
-    projectPath: Library\Artifacts\3e\3eae862e4805a0a9e43f52bf09bfa2e8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\3f\3f335061869f68d3e346ba0cbf858b07
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\3f\3f335061869f68d3e346ba0cbf858b07
-    projectPath: Library\Artifacts\3f\3f335061869f68d3e346ba0cbf858b07
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\40\40ff9ddaee309d0451fd7a08a3546fcb
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\40\40ff9ddaee309d0451fd7a08a3546fcb
-    projectPath: Library\Artifacts\40\40ff9ddaee309d0451fd7a08a3546fcb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\42\42395298ea9c51b1994abbf605dcbee5
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\42\42395298ea9c51b1994abbf605dcbee5
-    projectPath: Library\Artifacts\42\42395298ea9c51b1994abbf605dcbee5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\42\4267ba896c084532437128bdfe845735
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\42\4267ba896c084532437128bdfe845735
-    projectPath: Library\Artifacts\42\4267ba896c084532437128bdfe845735
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\45\4587ab8253c6252445886dc71b88b5aa
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\45\4587ab8253c6252445886dc71b88b5aa
-    projectPath: Library\Artifacts\45\4587ab8253c6252445886dc71b88b5aa
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\47\4751314fe04fb50f61376ea6b8a3c920
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\47\4751314fe04fb50f61376ea6b8a3c920
-    projectPath: Library\Artifacts\47\4751314fe04fb50f61376ea6b8a3c920
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\50\50c095d871a5453ba1099e4da37aacef
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\50\50c095d871a5453ba1099e4da37aacef
-    projectPath: Library\Artifacts\50\50c095d871a5453ba1099e4da37aacef
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\52\52361646038e84c89572109d9d75c08a
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\52\52361646038e84c89572109d9d75c08a
-    projectPath: Library\Artifacts\52\52361646038e84c89572109d9d75c08a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\53\53461b24319e808e980f4154e3885517
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\53\53461b24319e808e980f4154e3885517
-    projectPath: Library\Artifacts\53\53461b24319e808e980f4154e3885517
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\54\54c2bb6cec91aecb09052a9b07a5fbb4
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\54\54c2bb6cec91aecb09052a9b07a5fbb4
-    projectPath: Library\Artifacts\54\54c2bb6cec91aecb09052a9b07a5fbb4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\54\54daf31d20a41efade1bf0ffb9d5a983
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\54\54daf31d20a41efade1bf0ffb9d5a983
-    projectPath: Library\Artifacts\54\54daf31d20a41efade1bf0ffb9d5a983
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\5a\5aa61b815574bdd1f0152fa9d82901d6
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\5a\5aa61b815574bdd1f0152fa9d82901d6
-    projectPath: Library\Artifacts\5a\5aa61b815574bdd1f0152fa9d82901d6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\5f\5f9b9b534f4dde272c69020ed551c91a
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\5f\5f9b9b534f4dde272c69020ed551c91a
-    projectPath: Library\Artifacts\5f\5f9b9b534f4dde272c69020ed551c91a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\61\614347d0ae2d6a809468793dface63de
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\61\614347d0ae2d6a809468793dface63de
-    projectPath: Library\Artifacts\61\614347d0ae2d6a809468793dface63de
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\65\656011f13dd5024a1dab211b40b77445
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\65\656011f13dd5024a1dab211b40b77445
-    projectPath: Library\Artifacts\65\656011f13dd5024a1dab211b40b77445
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\6a\6a4be5149fd19914871b1c1c01f16261
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\6a\6a4be5149fd19914871b1c1c01f16261
-    projectPath: Library\Artifacts\6a\6a4be5149fd19914871b1c1c01f16261
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\6a\6a993316003832078809159bce60dc8a
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\6a\6a993316003832078809159bce60dc8a
-    projectPath: Library\Artifacts\6a\6a993316003832078809159bce60dc8a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\6c\6c44b22bd851733f8f1e0dd76be5f3c2
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\6c\6c44b22bd851733f8f1e0dd76be5f3c2
-    projectPath: Library\Artifacts\6c\6c44b22bd851733f8f1e0dd76be5f3c2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\6e\6e5da6011788384edb08dddef39bdff5
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\6e\6e5da6011788384edb08dddef39bdff5
-    projectPath: Library\Artifacts\6e\6e5da6011788384edb08dddef39bdff5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\76\76840b5ca0e36e9a3321c00b11d978ff
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\76\76840b5ca0e36e9a3321c00b11d978ff
-    projectPath: Library\Artifacts\76\76840b5ca0e36e9a3321c00b11d978ff
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\78\7848515dc294093e107cd53925415072
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\78\7848515dc294093e107cd53925415072
-    projectPath: Library\Artifacts\78\7848515dc294093e107cd53925415072
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\85\85b4a495c48c337d83db746fa11e086c
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\85\85b4a495c48c337d83db746fa11e086c
-    projectPath: Library\Artifacts\85\85b4a495c48c337d83db746fa11e086c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\88\88cfe9bb055d6f811685826ef7043c0a
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\88\88cfe9bb055d6f811685826ef7043c0a
-    projectPath: Library\Artifacts\88\88cfe9bb055d6f811685826ef7043c0a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\94\94dd2a1919af2be21d4cd6943af8f6df
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\94\94dd2a1919af2be21d4cd6943af8f6df
-    projectPath: Library\Artifacts\94\94dd2a1919af2be21d4cd6943af8f6df
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\95\9574ec8d46d66e68e7ea2ed1bcd76ffc
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\95\9574ec8d46d66e68e7ea2ed1bcd76ffc
-    projectPath: Library\Artifacts\95\9574ec8d46d66e68e7ea2ed1bcd76ffc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\97\979cbeb10a4f60f8cb2622a99178282d
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\97\979cbeb10a4f60f8cb2622a99178282d
-    projectPath: Library\Artifacts\97\979cbeb10a4f60f8cb2622a99178282d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\9e\9e866e87030cb7c225b1be2f72c6c875
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\9e\9e866e87030cb7c225b1be2f72c6c875
-    projectPath: Library\Artifacts\9e\9e866e87030cb7c225b1be2f72c6c875
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\9f\9fe1510c8d8c42243a09028ff3c10309
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\9f\9fe1510c8d8c42243a09028ff3c10309
-    projectPath: Library\Artifacts\9f\9fe1510c8d8c42243a09028ff3c10309
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\a4\a4864508a1f8585d0973f9258d6bb996
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\a4\a4864508a1f8585d0973f9258d6bb996
-    projectPath: Library\Artifacts\a4\a4864508a1f8585d0973f9258d6bb996
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\a5\a5c931c352dcdda1c5163014b7c4ab0d
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\a5\a5c931c352dcdda1c5163014b7c4ab0d
-    projectPath: Library\Artifacts\a5\a5c931c352dcdda1c5163014b7c4ab0d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\ab\ab500be36c80dc6da25227286e798f63
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\ab\ab500be36c80dc6da25227286e798f63
-    projectPath: Library\Artifacts\ab\ab500be36c80dc6da25227286e798f63
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\ac\ac469f6d4f3efeba79928b79255d5a75
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\ac\ac469f6d4f3efeba79928b79255d5a75
-    projectPath: Library\Artifacts\ac\ac469f6d4f3efeba79928b79255d5a75
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\ad\ad6bf7fd0721117014152443a98cf08f
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\ad\ad6bf7fd0721117014152443a98cf08f
-    projectPath: Library\Artifacts\ad\ad6bf7fd0721117014152443a98cf08f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\ad\ad85c10a71c0ae6f841da546887e7901
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\ad\ad85c10a71c0ae6f841da546887e7901
-    projectPath: Library\Artifacts\ad\ad85c10a71c0ae6f841da546887e7901
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\ad\adf9f599d31417087b787d66f6dd9092
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\ad\adf9f599d31417087b787d66f6dd9092
-    projectPath: Library\Artifacts\ad\adf9f599d31417087b787d66f6dd9092
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\b1\b138612692ab47e93b05c82f24af79b3
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\b1\b138612692ab47e93b05c82f24af79b3
-    projectPath: Library\Artifacts\b1\b138612692ab47e93b05c82f24af79b3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\b1\b1f27d9e9dac9b4370c56d4957f58596
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\b1\b1f27d9e9dac9b4370c56d4957f58596
-    projectPath: Library\Artifacts\b1\b1f27d9e9dac9b4370c56d4957f58596
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\b3\b3dd2dc99dc9d8508a851bef9ad312da
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\b3\b3dd2dc99dc9d8508a851bef9ad312da
-    projectPath: Library\Artifacts\b3\b3dd2dc99dc9d8508a851bef9ad312da
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\b4\b4a1b789d10f17016cbb106053da1357
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\b4\b4a1b789d10f17016cbb106053da1357
-    projectPath: Library\Artifacts\b4\b4a1b789d10f17016cbb106053da1357
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\b4\b4a5e3107d95dac303705b2a533b1e34
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\b4\b4a5e3107d95dac303705b2a533b1e34
-    projectPath: Library\Artifacts\b4\b4a5e3107d95dac303705b2a533b1e34
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\b6\b6aec367aa2aeafbc81d91c953fadbf5
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\b6\b6aec367aa2aeafbc81d91c953fadbf5
-    projectPath: Library\Artifacts\b6\b6aec367aa2aeafbc81d91c953fadbf5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\ba\bad834ed92d51a537e485d6eea05048c
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\ba\bad834ed92d51a537e485d6eea05048c
-    projectPath: Library\Artifacts\ba\bad834ed92d51a537e485d6eea05048c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\bc\bc2c366188f5d64b34f4706c616c5164
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\bc\bc2c366188f5d64b34f4706c616c5164
-    projectPath: Library\Artifacts\bc\bc2c366188f5d64b34f4706c616c5164
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\bc\bcb110e91478d90078b514af55e53f98
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\bc\bcb110e91478d90078b514af55e53f98
-    projectPath: Library\Artifacts\bc\bcb110e91478d90078b514af55e53f98
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\bd\bd79757dce9d5c5f999b1ba80d6eea0a
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\bd\bd79757dce9d5c5f999b1ba80d6eea0a
-    projectPath: Library\Artifacts\bd\bd79757dce9d5c5f999b1ba80d6eea0a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\c1\c11df71d18322f2e5ee422e5895e427e
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\c1\c11df71d18322f2e5ee422e5895e427e
-    projectPath: Library\Artifacts\c1\c11df71d18322f2e5ee422e5895e427e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\c3\c35ccadf9fed57647821734510cf9ecd
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\c3\c35ccadf9fed57647821734510cf9ecd
-    projectPath: Library\Artifacts\c3\c35ccadf9fed57647821734510cf9ecd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\ca\ca72943fcd1f314e073cc4c0dbf96901
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\ca\ca72943fcd1f314e073cc4c0dbf96901
-    projectPath: Library\Artifacts\ca\ca72943fcd1f314e073cc4c0dbf96901
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\cb\cbb80028e34bb9c3f285ad38428c2496
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\cb\cbb80028e34bb9c3f285ad38428c2496
-    projectPath: Library\Artifacts\cb\cbb80028e34bb9c3f285ad38428c2496
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\cb\cbe58c330829b0e1514d0b0b992f1ce8
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\cb\cbe58c330829b0e1514d0b0b992f1ce8
-    projectPath: Library\Artifacts\cb\cbe58c330829b0e1514d0b0b992f1ce8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\d3\d39bbda2c7381ac42a50299296d97d8c
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\d3\d39bbda2c7381ac42a50299296d97d8c
-    projectPath: Library\Artifacts\d3\d39bbda2c7381ac42a50299296d97d8c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\d3\d3b56af5301a61441a35eed82db0465e
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\d3\d3b56af5301a61441a35eed82db0465e
-    projectPath: Library\Artifacts\d3\d3b56af5301a61441a35eed82db0465e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\d5\d5d481493b2566f8fda3aa4450027493
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\d5\d5d481493b2566f8fda3aa4450027493
-    projectPath: Library\Artifacts\d5\d5d481493b2566f8fda3aa4450027493
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\d6\d69b06cb9e218ac01ae80e432ec60e09
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\d6\d69b06cb9e218ac01ae80e432ec60e09
-    projectPath: Library\Artifacts\d6\d69b06cb9e218ac01ae80e432ec60e09
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\d8\d87d1b92d57d123d5986d8f4eae157ad
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\d8\d87d1b92d57d123d5986d8f4eae157ad
-    projectPath: Library\Artifacts\d8\d87d1b92d57d123d5986d8f4eae157ad
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\db\db1fad6e1babc6e69f1e0b464cb32d3b
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\db\db1fad6e1babc6e69f1e0b464cb32d3b
-    projectPath: Library\Artifacts\db\db1fad6e1babc6e69f1e0b464cb32d3b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\e0\e0495c4c4bd44bf09365d111dd2536c6
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\e0\e0495c4c4bd44bf09365d111dd2536c6
-    projectPath: Library\Artifacts\e0\e0495c4c4bd44bf09365d111dd2536c6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\e3\e3939e6c158b04e51553818a8b3fb232
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\e3\e3939e6c158b04e51553818a8b3fb232
-    projectPath: Library\Artifacts\e3\e3939e6c158b04e51553818a8b3fb232
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\e3\e3eca39a44acf52b0f1e2bf364a7f4fc
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\e3\e3eca39a44acf52b0f1e2bf364a7f4fc
-    projectPath: Library\Artifacts\e3\e3eca39a44acf52b0f1e2bf364a7f4fc
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\e6\e615c23cc3b0986d29156ec663a3a403
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\e6\e615c23cc3b0986d29156ec663a3a403
-    projectPath: Library\Artifacts\e6\e615c23cc3b0986d29156ec663a3a403
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\e8\e8b3b7fb96cae29e20dbb9367e30e729
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\e8\e8b3b7fb96cae29e20dbb9367e30e729
-    projectPath: Library\Artifacts\e8\e8b3b7fb96cae29e20dbb9367e30e729
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\ea\ea9bc90f75db2b100efff3f4d54022dd
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\ea\ea9bc90f75db2b100efff3f4d54022dd
-    projectPath: Library\Artifacts\ea\ea9bc90f75db2b100efff3f4d54022dd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\ea\eaec15d93b23abd14425c6fc39de9459
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\ea\eaec15d93b23abd14425c6fc39de9459
-    projectPath: Library\Artifacts\ea\eaec15d93b23abd14425c6fc39de9459
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\ec\ecff194e5c7d53decb194f61fec3645d
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\ec\ecff194e5c7d53decb194f61fec3645d
-    projectPath: Library\Artifacts\ec\ecff194e5c7d53decb194f61fec3645d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\f4\f48a1aa711d46fe0c375d6813b7477b8
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\f4\f48a1aa711d46fe0c375d6813b7477b8
-    projectPath: Library\Artifacts\f4\f48a1aa711d46fe0c375d6813b7477b8
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\f6\f651448d436c74512c2eb6c631780de4
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\f6\f651448d436c74512c2eb6c631780de4
-    projectPath: Library\Artifacts\f6\f651448d436c74512c2eb6c631780de4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\f8\f8e80da1457a5bf0878e16524d6b4a43
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\f8\f8e80da1457a5bf0878e16524d6b4a43
-    projectPath: Library\Artifacts\f8\f8e80da1457a5bf0878e16524d6b4a43
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\fb\fb51190ad071eba510d45492537754ba
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\fb\fb51190ad071eba510d45492537754ba
-    projectPath: Library\Artifacts\fb\fb51190ad071eba510d45492537754ba
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\fc\fcdd31c5e91071e5a3139a623452df08
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\fc\fcdd31c5e91071e5a3139a623452df08
-    projectPath: Library\Artifacts\fc\fcdd31c5e91071e5a3139a623452df08
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\Artifacts\ff\ff140470236587eb4f441bbfa239762e
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\Artifacts\ff\ff140470236587eb4f441bbfa239762e
-    projectPath: Library\Artifacts\ff\ff140470236587eb4f441bbfa239762e
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Ecosystem Simulator\Library\CurrentLayout-default.dwlt
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -713,15 +83,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\gfu\cache\gituser.yaml
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Ecosystem Simulator\Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator\Library\InspectorExpandedItems.asset
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -735,53 +105,11 @@ MonoBehaviour:
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.pdb
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.pdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe4.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe5.log
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe5.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe6.log
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe6.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -803,15 +131,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+  - path: Ecosystem Simulator\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -821,45 +143,51 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-0728b32c4d6a74547bec6ce4944cdf59
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-0728b32c4d6a74547bec6ce4944cdf59
-    projectPath: Temp\UnityTempFile-0728b32c4d6a74547bec6ce4944cdf59
+  - path: Ecosystem Simulator\Temp\UnityTempFile-1fd59f6b43a299e4b97cf0192d1c9a32
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-1fd59f6b43a299e4b97cf0192d1c9a32
+    projectPath: Temp\UnityTempFile-1fd59f6b43a299e4b97cf0192d1c9a32
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-4a8cc32d8a6d39849add6dc7c5bcfbc7
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-4a8cc32d8a6d39849add6dc7c5bcfbc7
-    projectPath: Temp\UnityTempFile-4a8cc32d8a6d39849add6dc7c5bcfbc7
+  - path: Ecosystem Simulator\Temp\UnityTempFile-23a43b0eea8f2104f84152f7180d3e2f
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-23a43b0eea8f2104f84152f7180d3e2f
+    projectPath: Temp\UnityTempFile-23a43b0eea8f2104f84152f7180d3e2f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-8dfeab032dff0924e91d9e06e72d51bd
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-8dfeab032dff0924e91d9e06e72d51bd
-    projectPath: Temp\UnityTempFile-8dfeab032dff0924e91d9e06e72d51bd
+  - path: Ecosystem Simulator\Temp\UnityTempFile-2ad67e0c2db45aa4a932f64f875a3c9f
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-2ad67e0c2db45aa4a932f64f875a3c9f
+    projectPath: Temp\UnityTempFile-2ad67e0c2db45aa4a932f64f875a3c9f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-9094210f2df6e5849a36b73bb39c8b65
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-9094210f2df6e5849a36b73bb39c8b65
-    projectPath: Temp\UnityTempFile-9094210f2df6e5849a36b73bb39c8b65
+  - path: Ecosystem Simulator\Temp\UnityTempFile-2b181ecd6694efa48ba43026ded7f492
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-2b181ecd6694efa48ba43026ded7f492
+    projectPath: Temp\UnityTempFile-2b181ecd6694efa48ba43026ded7f492
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-9aeacfe5cd87c2b45bc6101bf0c9b542
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-9aeacfe5cd87c2b45bc6101bf0c9b542
-    projectPath: Temp\UnityTempFile-9aeacfe5cd87c2b45bc6101bf0c9b542
+  - path: Ecosystem Simulator\Temp\UnityTempFile-3a40383f001679a4d8e74fba10f06313
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-3a40383f001679a4d8e74fba10f06313
+    projectPath: Temp\UnityTempFile-3a40383f001679a4d8e74fba10f06313
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-a40919eefb0391a41a12b7a37e911e88
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-a40919eefb0391a41a12b7a37e911e88
-    projectPath: Temp\UnityTempFile-a40919eefb0391a41a12b7a37e911e88
+  - path: Ecosystem Simulator\Temp\UnityTempFile-934b8a9a2a2d44c45bf62a5f83430bd9
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-934b8a9a2a2d44c45bf62a5f83430bd9
+    projectPath: Temp\UnityTempFile-934b8a9a2a2d44c45bf62a5f83430bd9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-c60c6c10d813d984d84b0530a606fc25
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-c60c6c10d813d984d84b0530a606fc25
-    projectPath: Temp\UnityTempFile-c60c6c10d813d984d84b0530a606fc25
+  - path: Ecosystem Simulator\Temp\UnityTempFile-a03b87bbe7134cd44a802472604c3cab
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-a03b87bbe7134cd44a802472604c3cab
+    projectPath: Temp\UnityTempFile-a03b87bbe7134cd44a802472604c3cab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator\Temp\UnityTempFile-b3c900f6645be1549aac301d34dec84b
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-b3c900f6645be1549aac301d34dec84b
+    projectPath: Temp\UnityTempFile-b3c900f6645be1549aac301d34dec84b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
