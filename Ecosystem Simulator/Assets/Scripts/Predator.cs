@@ -2,9 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// A class of fauna that gather nutrients from other fauna
-public class Predator : Fauna
+// Predators are organisms that consume flora and other prey/predators for nutrients
+public class Predator : MonoBehaviour
 {
-    private int lethality; // Effectiveness at killing other fauna
-    private bool consumeFlora;
+    int nutrientLevel;
+    int waterLevel;
+
+    int maxHealth;
+    int currentHealth;
+
+    int nutrientValue;
+
+    float reproductiveRate;
+
+    double movementSpeed;
+    int lethality;
+    bool consumeFlora;
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }

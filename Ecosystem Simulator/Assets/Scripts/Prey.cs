@@ -2,9 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// A class of fauna that obtain nutrients only from the environment, not other fauna.
-public class Prey : Fauna
+// Prey are organisms that gain nutrients from flora.
+public class Prey : MonoBehaviour
 {
-    private bool consumeFlora = true;
+    int nutrientLevel;
+    int waterLevel;
 
+    int maxHealth;
+    int currentHealth;
+
+    int nutrientValue;
+
+    float reproductiveRate;
+
+    double movementSpeed;
+    bool consumeFlora;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
 }
