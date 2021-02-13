@@ -1,6 +1,8 @@
 # Program Organization
 
 # - Context Diagram
+The system context diagram provides a starting point, showing how the unity environment will interact with the world around it.
+
 ![alt tag](https://i.postimg.cc/DwtTHKjK/ES-Context-Diagram.png "Context Diagram")
 
 # - Container Diagram
