@@ -5,7 +5,7 @@ using UnityEngine;
 // Flora are imobile organisms that serve as food sources for predators/prey
 public class Flora : MonoBehaviour
 {
-    public double waterLevel = 1;
+    public double waterLevel = 10;
 
     int maxHealth;
     int currentHealth;
@@ -20,26 +20,42 @@ public class Flora : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        waterLevel = 50;
+        waterLevel = Random.Range(25, 75);
+        maxHealth = 100;
+        currentHealth = 100;
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Check if there is a water source within 20 units
+        // Check if this thing should be alive lol
+        if (waterLevel <= 0)
+            kill();
+        if (currentHealth <= 0)
+            kill();
+
         waterLevel -= .1;
+        // Check nearby water sources and other flora
+        bool nearbyWater = false;
+        int nearbyFlora = 0;
+
         Collider[] hits = Physics.OverlapSphere(transform.position, 20);
         for (int i = 0; i < hits.Length; i++)
         {
             if (hits[i].gameObject.GetComponent("WaterSource") != null)
-                if (waterLevel < 100)
-                    waterLevel += .2;
-                else;
-            
-
+            {
+                nearbyWater = true;
+            }
+            if (hits[i].gameObject.GetComponent("Flora") != null)
+            {
+                nearbyFlora++;
+            }
         }
+        Debug.Log(nearbyFlora + " nearby flora!");
+        if (nearbyWater && waterLevel < 100)
+            waterLevel += .2 - (.01 * nearbyFlora);
 
-        if (waterLevel >= 100)
+        if (nearbyWater && waterLevel >= 100)
             reproduce();
     }
 
@@ -58,5 +74,12 @@ public class Flora : MonoBehaviour
             Instantiate(flora, new Vector3(x, y, z), Quaternion.identity);
         waterLevel = 50;
         return n;
+    }
+
+    // Kills this organism
+    private void kill()
+    {
+        Debug.Log("Organism has died!");
+        Destroy(gameObject);
     }
 }
