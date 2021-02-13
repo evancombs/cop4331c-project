@@ -16,8 +16,9 @@ The components diagram zooms into the indovidual containers and defines the comp
 ![alt tag](https://i.postimg.cc/g2p5ZkTj/ES-Component-Diagram.png "Component Diagram")
 
 # Code Design
+The UML class diagram is used to have a zoomed in look into individual componenets and look at how that componenet is implemented.
 
-You should have your UML Class diagram and any other useful UML diagrams in this section. Each diagram should be accompanied by a brief description explaining what the elements are and why they are in the diagram. For your class diagram, you must also include a table that relates each class to one or more user stories. 
+![alt tag](https://i.postimg.cc/rp421Y9F/COP4331-Script-Structure.png "UML Diagram")
 
 See Code Complete, Chapter 3 and https://c4model.com/
 
