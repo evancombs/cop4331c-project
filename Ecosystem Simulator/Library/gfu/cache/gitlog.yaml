@@ -13,9 +13,299 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-02-12T21:28:47.133-05:00
-  initializedAtString: 2021-02-12T19:30:15.925-05:00
+  lastUpdatedAtString: 2021-02-14T20:46:30.657-05:00
+  initializedAtString: 2021-02-14T20:43:15.121-05:00
   log:
+  - commitID: bf950374f3763eeb65fafade449b3aeb7f548345
+    mergeA: 
+    mergeB: 
+    authorName: Evan Combs
+    authorEmail: evan@combs-family.com
+    commitEmail: evan@combs-family.com
+    commitName: Evan Combs
+    summary: Updated burndown chart for Sprint 2 and combine velocity and burndown
+      charts into one document
+    description: 
+    timeString: 2021-02-14T20:40:51.000-05:00
+    commitTimeString: 2021-02-14T20:40:51.000-05:00
+    changes:
+    - path: README.md
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: d76f880e88eb099244dd38817bef0b11ef35930e
+    mergeA: 
+    mergeB: 
+    authorName: parker1097
+    authorEmail: 67029132+parker1097@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update architecture.md
+    description: 
+    timeString: 2021-02-13T15:34:59.000-05:00
+    commitTimeString: 2021-02-13T15:34:59.000-05:00
+    changes:
+    - path: artifacts\architecture.md
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\artifacts\architecture.md
+      projectPath: ..\artifacts\architecture.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: c2e2da0b9633dc528d87fd85458c07a9b1e1b7e7
+    mergeA: 
+    mergeB: 
+    authorName: parker1097
+    authorEmail: 67029132+parker1097@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update architecture.md
+    description: 
+    timeString: 2021-02-13T15:32:33.000-05:00
+    commitTimeString: 2021-02-13T15:32:33.000-05:00
+    changes:
+    - path: artifacts\architecture.md
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\artifacts\architecture.md
+      projectPath: ..\artifacts\architecture.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 1f655569fbfd8343282631e9c61f1588b6d919f9
+    mergeA: 
+    mergeB: 
+    authorName: parker1097
+    authorEmail: 67029132+parker1097@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update architecture.md
+    description: 
+    timeString: 2021-02-13T15:31:40.000-05:00
+    commitTimeString: 2021-02-13T15:31:40.000-05:00
+    changes:
+    - path: artifacts\architecture.md
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\artifacts\architecture.md
+      projectPath: ..\artifacts\architecture.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 040980ef739bc63d4da3df2318025fed0a69028c
+    mergeA: 
+    mergeB: 
+    authorName: parker1097
+    authorEmail: 67029132+parker1097@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update architecture.md
+    description: 
+    timeString: 2021-02-13T15:19:52.000-05:00
+    commitTimeString: 2021-02-13T15:19:52.000-05:00
+    changes:
+    - path: artifacts\architecture.md
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\artifacts\architecture.md
+      projectPath: ..\artifacts\architecture.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: aadfd498f48a05e42928f437d9ce0fe8e3861239
+    mergeA: 
+    mergeB: 
+    authorName: parker1097
+    authorEmail: 67029132+parker1097@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update architecture.md
+    description: 
+    timeString: 2021-02-13T15:15:20.000-05:00
+    commitTimeString: 2021-02-13T15:15:20.000-05:00
+    changes:
+    - path: artifacts\architecture.md
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\artifacts\architecture.md
+      projectPath: ..\artifacts\architecture.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 895bdf8378ba23ac188844e604523bc249af5a8d
+    mergeA: 
+    mergeB: 
+    authorName: parker1097
+    authorEmail: 67029132+parker1097@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update architecture.md
+    description: 
+    timeString: 2021-02-13T15:11:23.000-05:00
+    commitTimeString: 2021-02-13T15:11:23.000-05:00
+    changes:
+    - path: artifacts\architecture.md
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\artifacts\architecture.md
+      projectPath: ..\artifacts\architecture.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 14abe71c508fb1a534b74d289ac3edce8132c4c0
+    mergeA: 
+    mergeB: 
+    authorName: parker1097
+    authorEmail: 67029132+parker1097@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update architecture.md
+    description: 
+    timeString: 2021-02-13T15:07:07.000-05:00
+    commitTimeString: 2021-02-13T15:07:07.000-05:00
+    changes:
+    - path: artifacts\architecture.md
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\artifacts\architecture.md
+      projectPath: ..\artifacts\architecture.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 01678cff6c1ffe032893789654bf5d6e2143a7af
+    mergeA: 
+    mergeB: 
+    authorName: parker1097
+    authorEmail: 67029132+parker1097@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Update architecture.md
+    description: 
+    timeString: 2021-02-13T15:06:18.000-05:00
+    commitTimeString: 2021-02-13T15:06:18.000-05:00
+    changes:
+    - path: artifacts\architecture.md
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\artifacts\architecture.md
+      projectPath: ..\artifacts\architecture.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: ce7367a866f4e22b02ceb4f749ffb97a1d3ecdcf
+    mergeA: 
+    mergeB: 
+    authorName: parker1097
+    authorEmail: 67029132+parker1097@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Create architecture.md
+    description: General architecture for our ecosystem simulator.
+    timeString: 2021-02-13T14:59:10.000-05:00
+    commitTimeString: 2021-02-13T14:59:10.000-05:00
+    changes:
+    - path: artifacts\architecture.md
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\artifacts\architecture.md
+      projectPath: ..\artifacts\architecture.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: f2b0b405539ed9783554a642cbb5b8efdb49c1b4
+    mergeA: 
+    mergeB: 
+    authorName: Evan Combs
+    authorEmail: evan@combs-family.com
+    commitEmail: evan@combs-family.com
+    commitName: Evan Combs
+    summary: Flora growth is now limited by number of nearby flora in the area
+    description: 
+    timeString: 2021-02-12T21:32:58.000-05:00
+    commitTimeString: 2021-02-12T21:32:58.000-05:00
+    changes:
+    - path: Ecosystem Simulator\.vs\Ecosystem Simulator\v16\.suo
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\.vs\Ecosystem
+        Simulator\v16\.suo
+      projectPath: .vs\Ecosystem Simulator\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scripts\Flora.cs
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Flora.cs
+      projectPath: Assets\Scripts\Flora.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\ArtifactDB
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\LastSceneManagerSetup.txt
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\SourceAssetDB
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\StateCache\SceneView\cc039f-mainStage.json
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\StateCache\SceneView\cc039f-mainStage.json
+      projectPath: Library\StateCache\SceneView\cc039f-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe11.log
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe11.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe11.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe8.log
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe8.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe8.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 70d53f54f9653e02ef5db919ec9d8feadace2ce6
     mergeA: 
     mergeB: 

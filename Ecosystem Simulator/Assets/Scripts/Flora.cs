@@ -12,6 +12,8 @@ public class Flora : MonoBehaviour
 
     int nutrientValue;
 
+    float waterRetention = 1.5f;
+
     float reproductiveRate = 2.0f;
 
     public GameObject flora;
@@ -34,7 +36,7 @@ public class Flora : MonoBehaviour
         if (currentHealth <= 0)
             kill();
 
-        waterLevel -= .1;
+        waterLevel -= .3;
         // Check nearby water sources and other flora
         bool nearbyWater = false;
         int nearbyFlora = 0;
@@ -53,7 +55,7 @@ public class Flora : MonoBehaviour
         }
         Debug.Log(nearbyFlora + " nearby flora!");
         if (nearbyWater && waterLevel < 100)
-            waterLevel += .2 - (.01 * nearbyFlora);
+            waterLevel += (.6 - (.01 * nearbyFlora));
 
         if (nearbyWater && waterLevel >= 100)
             reproduce();
