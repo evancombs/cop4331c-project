@@ -10,4 +10,16 @@ public class Organism
     double reproductiveChance;
     int reproductiveRate;
 
+    double awareness;
+
+    public Organism()
+    {
+        // Default Value
+        this.waterLevel = 50;
+        this.nutrientValue = 10;
+        this.reproductiveChance = 1;
+        this.reproductiveRate = 1;
+        this.awareness = 10.0;
+    }
+
 }

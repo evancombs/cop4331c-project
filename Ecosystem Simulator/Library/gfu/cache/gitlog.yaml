@@ -13,9 +13,166 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-02-19T13:34:44.987-05:00
-  initializedAtString: 2021-02-19T12:38:22.730-05:00
+  lastUpdatedAtString: 2021-02-19T13:43:59.208-05:00
+  initializedAtString: 2021-02-19T13:36:32.318-05:00
   log:
+  - commitID: 1ad1647bc33b9efdd6121b8d0beaa1f7545932fe
+    mergeA: 
+    mergeB: 
+    authorName: Evan Combs
+    authorEmail: evan@combs-family.com
+    commitEmail: evan@combs-family.com
+    commitName: Evan Combs
+    summary: Completely reworked class structure
+    description: 'Changed organism structure to be more object oriented
+
+      Switched
+      to organism driver system
+
+      Removed old water, prey, flora, predator
+      scripts'
+    timeString: 2021-02-19T13:35:01.000-05:00
+    commitTimeString: 2021-02-19T13:35:01.000-05:00
+    changes:
+    - path: Ecosystem Simulator\.vs\Ecosystem Simulator\v16\.suo
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\.vs\Ecosystem
+        Simulator\v16\.suo
+      projectPath: .vs\Ecosystem Simulator\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assembly-CSharp.csproj
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scripts\Fauna.cs
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Fauna.cs
+      projectPath: Assets\Scripts\Fauna.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scripts\Fauna.cs.meta
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Fauna.cs.meta
+      projectPath: Assets\Scripts\Fauna.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scripts\Flora.cs
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Flora.cs
+      projectPath: Assets\Scripts\Flora.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scripts\Organism.cs
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Organism.cs
+      projectPath: Assets\Scripts\Organism.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scripts\Organism.cs.meta
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Organism.cs.meta
+      projectPath: Assets\Scripts\Organism.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scripts\OrganismDriver.cs
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\OrganismDriver.cs
+      projectPath: Assets\Scripts\OrganismDriver.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scripts\OrganismDriver.cs.meta
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\OrganismDriver.cs.meta
+      projectPath: Assets\Scripts\OrganismDriver.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scripts\Predator.cs
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Predator.cs
+      projectPath: Assets\Scripts\Predator.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Assets\Scripts\Prey.cs
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Scripts\Prey.cs
+      projectPath: Assets\Scripts\Prey.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\ArtifactDB
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\CurrentLayout-default.dwlt
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\SceneVisibilityState.asset
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\SourceAssetDB
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: a325c9b2a45a00fd6c4ff5c697fda76fc2ef69ff
     mergeA: 
     mergeB: 

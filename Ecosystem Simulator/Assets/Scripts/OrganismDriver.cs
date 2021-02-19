@@ -9,7 +9,7 @@ public class OrganismDriver : MonoBehaviour
 
     void Start()
     {
-        
+        organism = new Prey();
     }
 
     // Update is called once per frame
