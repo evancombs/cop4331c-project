@@ -13,6 +13,9 @@ Group project for COP4331C, Ecosystem simulation in Unity
 ## Trello Board
 https://trello.com/b/XcVEDUUZ/ecosystem-simulator
 
+## Architecture Documents
+https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architecture.md
+
 ## Sprint 1
 *  Product Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
 *  Sprint Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
