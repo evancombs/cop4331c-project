@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Predator : Flora
+public class Predator : Fauna
 {
     double lethality;
 }

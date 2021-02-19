@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Prey : Flora
+public class Prey : Fauna
 {
     bool consumeFlora;
 

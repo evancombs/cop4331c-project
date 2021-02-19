@@ -13,14 +13,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-02-05T11:59:44.417-05:00
-  initializedAtString: 2021-02-05T11:59:44.404-05:00
+  lastUpdatedAtString: 2021-02-19T14:11:54.937-05:00
+  initializedAtString: 2021-02-19T13:46:49.010-05:00
   localBranches:
   - name: master
-    tracking: 
-  remoteBranches: []
+    tracking: ecosystem/master
+  - name: testing
+    tracking: ecosystem/testing
+  remoteBranches:
+  - name: ecosystem/main
+    tracking: '[None]'
+  - name: ecosystem/master
+    tracking: '[None]'
+  - name: ecosystem/testing
+    tracking: '[None]'
   remotes:
-  - name: origin
+  - name: ecosystem
     url: https://github.com/evancombs/cop4331c-project
     login: 
     user: 
@@ -30,19 +38,46 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
+    - testing
     values:
     - name: master
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: ecosystem
+        url: https://github.com/evancombs/cop4331c-project
+      trackingBranch: master
+    - name: testing
+      remote:
+        name: ecosystem
+        url: https://github.com/evancombs/cop4331c-project
+      trackingBranch: testing
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - ecosystem
+    subKeys:
+    - Values:
+      - main
+      - master
+      - testing
+    subKeyValues:
+    - Values:
+      - name: main
+        remote:
+          name: ecosystem
+          url: https://github.com/evancombs/cop4331c-project
+        trackingBranch: 
+      - name: master
+        remote:
+          name: ecosystem
+          url: https://github.com/evancombs/cop4331c-project
+        trackingBranch: 
+      - name: testing
+        remote:
+          name: ecosystem
+          url: https://github.com/evancombs/cop4331c-project
+        trackingBranch: 
   configRemotes:
     keys:
-    - origin
+    - ecosystem
     values:
-    - name: origin
+    - name: ecosystem
       url: https://github.com/evancombs/cop4331c-project
