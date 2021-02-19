@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Ecosystem : MonoBehaviour
 {
@@ -8,13 +6,14 @@ public class Ecosystem : MonoBehaviour
     public GameObject predatorSpecies;
     public GameObject floraSpecies;
     public GameObject waterSource;
-    
+
 
     public int xSize = 200;
     public int zSize = 200;
 
     void Start()
     {
+        // preySpecies.GetComponent<PredatorDriver>().xSize = xSize;
 
         // Populate the system with some organisms
         int numPrey = 10;
@@ -32,10 +31,10 @@ public class Ecosystem : MonoBehaviour
             Instantiate(waterSource, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
     }
 
-    
+
     void Update()
     {
-        
+
     }
     private void OnDrawGizmos()
     {

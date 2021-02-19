@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class FloraDriver : MonoBehaviour
 {
+    public int xSize;
+    public int zSize;
     // Start is called before the first frame update
     void Start()
     {
+        Flora flora = new Flora();
         
     }
 

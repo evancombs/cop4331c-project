@@ -495,6 +495,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Predator
       objectReference: {fileID: 0}
+    - target: {fileID: 5472772274356279363, guid: 9b741b1da8ab21940a2418e94b928512,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8746402127960898481, guid: 9b741b1da8ab21940a2418e94b928512,
         type: 3}
       propertyPath: m_RootOrder
@@ -563,6 +568,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Flora
+      objectReference: {fileID: 0}
+    - target: {fileID: 3933785714729122396, guid: 99e771c161c19d04da925b246292e66e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6751270057918820260, guid: 99e771c161c19d04da925b246292e66e,
         type: 3}
@@ -761,6 +771,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Prey
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940695874020953591, guid: ea61d90a0696e6046972a3c411f5136b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea61d90a0696e6046972a3c411f5136b, type: 3}
