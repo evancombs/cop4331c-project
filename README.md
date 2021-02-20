@@ -36,4 +36,4 @@ https://trello.com/b/XcVEDUUZ/ecosystem-simulator
 * [System Architecture](https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architecture.md)
 * Source Code
 * Automated Tests
-* Product Demonstration
+* [Product Demonstration](https://www.youtube.com/watch?v=pz487Nl2l78&feature=youtu.be)
