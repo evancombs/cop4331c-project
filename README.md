@@ -15,25 +15,25 @@ Group project for COP4331C, Ecosystem simulation in Unity
 https://trello.com/b/XcVEDUUZ/ecosystem-simulator
 
 ## Sprint 1
-*  [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
-*  Velocity and Burndown Charts: https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml
+* [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
+* [Velocity and Burndown Charts](https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml)
 * System Architecture
 * Source Code
 * Automated Tests
 * Product Demonstration
 
 ## Sprint 2
-*  Trello Board (Backlog and Requirements): https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Velocity and Burndown Charts: https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml
-* System Architecture : https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architecture.md
+* [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
+* [Velocity and Burndown Charts](https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml)
+* [System Architecture](https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architecture.md)
 * Source Code
 * Automated Tests
-* Product Demonstration : https://www.youtube.com/watch?v=VdEKc7bXGfs&feature=youtu.be
+* [Product Demonstration](https://www.youtube.com/watch?v=VdEKc7bXGfs&feature=youtu.be)
 
 ## Sprint 3
-*  Trello Board (Backlog and Requirements): https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Velocity and Burndown Charts: https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml
-* System Architecture : https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architecture.md
+* [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
+* [Velocity and Burndown Charts](https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml)
+* [System Architecture](https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architecture.md)
 * Source Code
 * Automated Tests
 * Product Demonstration
