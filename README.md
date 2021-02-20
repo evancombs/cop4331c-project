@@ -1,4 +1,4 @@
-## Testing Branch
+### Testing Branch
 # cop4331c-project
 Group project for COP4331C, Ecosystem simulation in Unity
 ## Group members:
@@ -15,16 +15,25 @@ Group project for COP4331C, Ecosystem simulation in Unity
 https://trello.com/b/XcVEDUUZ/ecosystem-simulator
 
 ## Sprint 1
-*  Product Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Sprint Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Requirements: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Trello Board: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
+*  Trello Board (Backlog and Requirements): https://trello.com/b/XcVEDUUZ/ecosystem-simulator
 *  Velocity and Burndown Charts: https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml
+* System Architecture
+* Source Code
+* Automated Tests
+* Product Demonstration
 
 ## Sprint 2
-* Product Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Sprint Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Requirements: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Trello Board: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
+*  Trello Board (Backlog and Requirements): https://trello.com/b/XcVEDUUZ/ecosystem-simulator
 *  Velocity and Burndown Charts: https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml
-* Project Demonstration (2/14/21) : https://www.youtube.com/watch?v=VdEKc7bXGfs&feature=youtu.be
+* System Architecture : https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architecture.md
+* Source Code
+* Automated Tests
+* Product Demonstration : https://www.youtube.com/watch?v=VdEKc7bXGfs&feature=youtu.be
+
+## Sprint 3
+*  Trello Board (Backlog and Requirements): https://trello.com/b/XcVEDUUZ/ecosystem-simulator
+*  Velocity and Burndown Charts: https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml
+* System Architecture : https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architecture.md
+* Source Code
+* Automated Tests
+* Product Demonstration
