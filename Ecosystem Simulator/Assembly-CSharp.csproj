@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Animal.cs" />
+    <Compile Include="Assets\Scripts\Dog.cs" />
     <Compile Include="Assets\Scripts\Ecosystem.cs" />
     <Compile Include="Assets\Scripts\Fauna.cs" />
     <Compile Include="Assets\Scripts\Flora.cs" />

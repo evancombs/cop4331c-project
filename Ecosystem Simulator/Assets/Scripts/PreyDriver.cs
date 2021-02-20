@@ -11,13 +11,13 @@ public class PreyDriver : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        preyInstance = new Prey();
-        preyInstance.setMovementSpeed(5f);
+        // preyInstance = new Prey();
+        // preyInstance.setMovementSpeed(5f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        gameObject.transform.Translate(preyInstance.move() * new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f)) * Time.deltaTime);
+        // gameObject.transform.Translate(preyInstance.move() * new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f)) * Time.deltaTime);
     }
 }

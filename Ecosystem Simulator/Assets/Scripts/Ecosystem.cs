@@ -22,13 +22,25 @@ public class Ecosystem : MonoBehaviour
         int numWater = 3;
 
         for (int i = 0; i < numPrey; i++)
-            Instantiate(preySpecies, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
+        {
+            GameObject prey = Instantiate(preySpecies, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
+            prey.transform.parent = gameObject.transform;
+        }
         for (int i = 0; i < numPredator; i++)
-            Instantiate(predatorSpecies, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
+        {
+            GameObject predator = Instantiate(predatorSpecies, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
+            predator.transform.parent = gameObject.transform;
+        }
         for (int i = 0; i < numFlora; i++)
-            Instantiate(floraSpecies, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
+        {
+            GameObject flora = Instantiate(floraSpecies, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
+            flora.transform.parent = gameObject.transform;
+        }
         for (int i = 0; i < numWater; i++)
-            Instantiate(waterSource, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
+        {
+            GameObject water = Instantiate(waterSource, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
+            water.transform.parent = gameObject.transform;
+        }
     }
 
 
