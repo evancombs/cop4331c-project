@@ -1,0 +1,3 @@
+Step 0:		Click play in Unity editor. Ecosystem script places assigned prefabs throughout bounds. 
+
+Step 1:		Click on any Flora(Clone) object on
