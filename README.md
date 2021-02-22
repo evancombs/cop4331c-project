@@ -14,27 +14,64 @@ Group project for COP4331C, Ecosystem simulation in Unity
 https://trello.com/b/XcVEDUUZ/ecosystem-simulator
 
 ## Architecture Documents
-https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architecture.md
+https://github.com/evancombs/cop4331c-project/blob/master/artifacts/architecture.md
 
 ## Sprint 1
-*  Product Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Sprint Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Requirements: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Trello Board: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Velocity and Burndown Charts: https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml
+* [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
+* [Velocity and Burndown Charts](https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml)
+* System Architecture
+* Source Code
+* Automated Tests
+* Product Demonstration
+*
+## Task Allocation
+Evan Combs- GitHub creation and intial commit, Trello board creation, User story creation  
+Parker Doughty - User story creation  
+Nathan Manierre - User story creation  
+William Cross - User story creation  
+Patrick Caughey - User story creation  
 
 ## Sprint 2
-* Product Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Sprint Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Requirements: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Trello Board: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-*  Velocity and Burndown Charts: https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml
-* Project Demonstration (2/14/21) : https://www.youtube.com/watch?v=VdEKc7bXGfs&feature=youtu.be
+* [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
+* [Velocity and Burndown Charts](https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml)
+* [System Architecture](https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architecture.md)
+* Source Code
+* Automated Tests
+* [Product Demonstration](https://www.youtube.com/watch?v=VdEKc7bXGfs&feature=youtu.be)
+
+## Task Allocation
+Evan Combs - UML and class structure design  
+Parker Doughty - Architecture document design  
+Nathan Manierre - User story and requirement creation  
+William Cross - User story and requirement creation  
+Patrick Caughey - User story and requirement creation  
 
 ## Sprint 3
-* Product Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-* Sprint Backlog: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-* Requirements: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-* Trello Board: https://trello.com/b/XcVEDUUZ/ecosystem-simulator
-* Velocity and Burndown Charts: 
-* Project Demonstration
+* [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
+* [Velocity and Burndown Charts](https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml)
+* [System Architecture](https://github.com/evancombs/cop4331c-project/blob/master/artifacts/architecture.md)
+* [Source Code](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Scripts)
+* Automated Tests
+* [Product Demonstration](https://www.youtube.com/watch?v=pz487Nl2l78&feature=youtu.be)
+
+## Task Allocation
+Evan Combs - UML and class structure revision, structure implementation  
+Parker Doughty - Unity Automated testing  
+Nathan Manierre - User story and requirement revision  
+William Cross  
+Patrick Caughey  
+
+## Sprint 4
+* [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
+* [Velocity and Burndown Charts](https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml)
+* [System Architecture](https://github.com/evancombs/cop4331c-project/blob/master/artifacts/architecture.md)
+* [Source Code](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Scripts)
+* Automated Tests
+* [Product Demonstration]()
+
+## Task Allocation
+Evan Combs
+Parker Doughty
+Nathan Manierre
+William Cross
+Patrick Caughey

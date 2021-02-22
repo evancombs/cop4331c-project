@@ -1,5 +1,10 @@
 # Program Organization
 
+# Code Design
+The UML class diagram is used to have a zoomed in look into individual componenets and provides a look at how these componenets are implemented.
+
+![alt tag](https://i.imgur.com/p6lJmlW.png)
+
 # - Context Diagram
 The system context diagram provides a starting point, showing how the unity environment will interact with the world around it.
 
@@ -15,8 +20,5 @@ The components diagram zooms into the individual containers and defines the comp
 
 ![alt tag](https://i.postimg.cc/g2p5ZkTj/ES-Component-Diagram.png "Component Diagram")
 
-# Code Design
-The UML class diagram is used to have a zoomed in look into individual componenets and provides a look at how these componenets are implemented.
 
-![alt tag](https://i.postimg.cc/rp421Y9F/COP4331-Script-Structure.png "UML Diagram")
 
