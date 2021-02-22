@@ -1,3 +1,7 @@
 Step 0:		Click play in Unity editor. Ecosystem script places assigned prefabs throughout bounds. 
 
-Step 1:		Click on any Flora(Clone) object on
+Step 1:		Click on any Flora(Clone) GameObject on left inspector. Entity in scene editor should be higlighted on screen.
+		Inspector on right displays information about object:
+			* GameObject has script component "Prey" on it
+			* GameObject is "Cube" with dimensions .25, 3, .25
+			* GameObject has material "Green" assigned to renderer.
