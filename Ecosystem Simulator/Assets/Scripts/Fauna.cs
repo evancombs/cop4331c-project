@@ -17,26 +17,27 @@ public class Fauna : Organism
     }
     private void Update()
     {
+        
+        move();
+    }
+
+    private void move()
+    {
         directionDuration -= Time.deltaTime;
 
-        // Debug.Log
-
+        
+        // Generate a random direction
         if (directionDuration <= 0)
         {
             directionVector = new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f));
             directionDuration = 5f;
         }
-        move(directionVector);
-    }
-
-    private void move(Vector3 direction)
-    {
-        //Vector3 currentPosition = gameObject.transform.position;
-        Vector3 moveVector = (direction * Time.deltaTime * movementSpeed);
+        directionVector.Normalize();
+        
+        Vector3 moveVector = (directionVector * Time.deltaTime * movementSpeed);
         Vector3 nextPosition = (transform.position + moveVector);
-        // Debug.Log
-        Debug.Log("Next position is: " + nextPosition);
-
+        
+        // Debug.Log("Next position is: " + nextPosition);
 
         if (nextPosition.x >= transform.parent.gameObject.GetComponent<Ecosystem>().xSize
             || nextPosition.x <= 0)
@@ -44,13 +45,14 @@ public class Fauna : Organism
             moveVector *= -5;
             Debug.Log("X BOUNCE");
         }
-        else if (nextPosition.z >= transform.parent.gameObject.GetComponent<Ecosystem>().zSize
+        if (nextPosition.z >= transform.parent.gameObject.GetComponent<Ecosystem>().zSize
             || nextPosition.z <= 0)
         {
             moveVector *= -5;
             Debug.Log("Z BOUNCE");
         }
-        
+
+        // Debug.Log("Translating to: " + moveVector);
         // Debug.Log("Translating to " + direction * Time.deltaTime * movementSpeed);
         transform.Translate(moveVector);
     }
