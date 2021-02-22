@@ -25,7 +25,7 @@ https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architectur
 * Product Demonstration
 *
 ## Task Allocation
-Evan Combs- GitHub creature and intial commit, User story creation  
+Evan Combs- GitHub creation and intial commit, Trello board creation, User story creation  
 Parker Doughty - User story creation  
 Nathan Manierre - User story creation  
 William Cross - User story creation  
