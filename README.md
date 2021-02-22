@@ -70,8 +70,8 @@ Patrick Caughey
 * [Product Demonstration]()
 
 ## Task Allocation
-Evan Combs - 
-Parker Doughty - 
-Nathan Manierre - 
-William Cross  
-Patrick Caughey  
+Evan Combs
+Parker Doughty
+Nathan Manierre
+William Cross
+Patrick Caughey
