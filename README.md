@@ -23,6 +23,13 @@ https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architectur
 * Source Code
 * Automated Tests
 * Product Demonstration
+*
+## Task Allocation
+Evan Combs- GitHub creature and intial commit, User story creation
+Parker Doughty - User story creation
+Nathan Manierre - User story creation
+William Cross - User story creation
+Patrick Caughey - User story creation
 
 ## Sprint 2
 * [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
@@ -32,6 +39,13 @@ https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architectur
 * Automated Tests
 * [Product Demonstration](https://www.youtube.com/watch?v=VdEKc7bXGfs&feature=youtu.be)
 
+## Task Allocation
+Evan Combs - UML and class structure design
+Parker Doughty - Architecture document design
+Nathan Manierre - User story and requirement creation
+William Cross - User story and requirement creation
+Patrick Caughey - User story and requirement creation
+
 ## Sprint 3
 * [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
 * [Velocity and Burndown Charts](https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml)
@@ -39,3 +53,10 @@ https://github.com/evancombs/cop4331c-project/blob/testing/artifacts/architectur
 * Source Code
 * Automated Tests
 * [Product Demonstration](https://www.youtube.com/watch?v=pz487Nl2l78&feature=youtu.be)
+
+## Task Allocation
+Evan Combs - UML and class structure revision, structure implementation
+Parker Doughty - Unity Automated testing
+Nathan Manierre - User story and requirement revision
+William Cross
+Patrick Caughey
