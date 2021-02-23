@@ -1,0 +1,8 @@
+Step N: Press the play button 
+
+Step N + 1: 10 prey species, 10 predator species, 10 flora species, and 10 water sources 	
+            shall be seen on the screen. 
+
+Step N + 2: The prey species, and the predator species shall appear to be moving randomly around the environment. 
+
+ 
