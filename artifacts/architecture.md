@@ -18,7 +18,7 @@ The container diagram zooms into the scope of what unity will encounter, showing
 # - Components Diagram
 The components diagram zooms into the individual containers and defines the components(conditions and functionalities) that each possesses. 
 
-![alt tag](https://i.postimg.cc/g2p5ZkTj/ES-Component-Diagram.png "Component Diagram")
+![alt tag](https://i.postimg.cc/RFv4WL8Q/ES-Component-Diagram-2.png "Component Diagram")
 
 
 
