@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Organism : MonoBehaviour
 {
-    int waterLevel;
+    public int waterLevel;
     int nutrientValue;
 
     double reproductiveChance;

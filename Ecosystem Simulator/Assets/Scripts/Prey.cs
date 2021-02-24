@@ -6,4 +6,5 @@ public class Prey : Fauna
 {
     bool consumeFlora;
 
+
 }

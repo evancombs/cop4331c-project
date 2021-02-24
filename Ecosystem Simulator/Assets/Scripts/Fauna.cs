@@ -10,10 +10,13 @@ public class Fauna : Organism
     float directionDuration;
     private Vector3 directionVector;
 
+    int hasHitBarrier = 0;
+
     private void Start()
     {
         directionVector = new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f));
         directionDuration = Random.Range(0, 5f);
+        waterLevel = 50;
     }
     private void Update()
     {
@@ -26,6 +29,14 @@ public class Fauna : Organism
             directionVector = new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f));
             directionDuration = 5f;
         }
+
+        if(hasHitBarrier == 1)
+        {
+            directionVector = new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f));
+            directionDuration = 5f;
+            hasHitBarrier = 0;
+        }
+
         move(directionVector);
     }
 
@@ -41,14 +52,16 @@ public class Fauna : Organism
         if (nextPosition.x >= transform.parent.gameObject.GetComponent<Ecosystem>().xSize
             || nextPosition.x <= 0)
         {
-            moveVector *= -5;
+            moveVector *= -1;
             Debug.Log("X BOUNCE");
+            hasHitBarrier = 1;
         }
         else if (nextPosition.z >= transform.parent.gameObject.GetComponent<Ecosystem>().zSize
             || nextPosition.z <= 0)
         {
-            moveVector *= -5;
+            moveVector *= -1;
             Debug.Log("Z BOUNCE");
+            hasHitBarrier = 1;
         }
         
         // Debug.Log("Translating to " + direction * Time.deltaTime * movementSpeed);
