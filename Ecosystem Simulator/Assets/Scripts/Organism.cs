@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Organism : MonoBehaviour
 {
-    int waterLevel;
+    public float waterLevel;
     int nutrientValue;
 
     double reproductiveChance;
@@ -12,4 +12,9 @@ public class Organism : MonoBehaviour
 
     double awareness;
 
+
+    public void kill()
+    {
+        
+    }
 }

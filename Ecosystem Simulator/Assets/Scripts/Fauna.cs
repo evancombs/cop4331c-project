@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Fauna : Organism
 {
+    private GameObject fauna;
     int hasHitEdge = 0;
 
     float movementSpeed = 5f;
@@ -16,10 +17,13 @@ public class Fauna : Organism
     {
         directionVector = new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f));
         directionDuration = Random.Range(0, 5f);
+        waterLevel = 50.0f;
     }
     private void Update()
     {
-        
+        waterLevel -= 0.01f;
+
+
         move();
     }
 
