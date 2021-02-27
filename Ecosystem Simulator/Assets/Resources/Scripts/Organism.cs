@@ -10,7 +10,7 @@ public class Organism : MonoBehaviour
     double reproductiveChance;
     int reproductiveRate;
 
-    double awareness;
+    double awareness = 10;
 
 
     public void kill()
@@ -24,4 +24,44 @@ public class Organism : MonoBehaviour
         Destroy(gameObject);
 
     }
+
+    public void Update()
+    {
+        // the Update() in organism should call all functions that organisms might need to do, even 
+        // if not all organism will use it; this is so classes that DO need these functions can override them,
+        // instead of overriding Update();
+
+
+        // Functions implemented here that all Organisms need:
+        UpdateWater();
+        if (waterLevel <= 0f)
+            kill();
+
+      
+        // Functions that some Organisms need:
+        move();
+
+    }
+
+    public void UpdateWater()
+    {
+        waterLevel -= 0.1f;
+        Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
+        for (int i = 0; i < nearby.Length; i++)
+        {
+            if (nearby[i].gameObject.GetComponent("WaterSource"))
+            {
+                if (waterLevel <= 100f)
+                    waterLevel += .2f;
+                break;
+            }
+        }
+    }
+
+    // The base organism has no movement functionality; Fauna, however, does.
+    public virtual void move()
+    {
+
+    }
+
 }

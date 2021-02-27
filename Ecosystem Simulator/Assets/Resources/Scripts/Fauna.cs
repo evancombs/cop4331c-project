@@ -19,17 +19,8 @@ public class Fauna : Organism
         directionDuration = Random.Range(0, 5f);
         waterLevel = 50.0f;
     }
-    private void Update()
-    {
-        waterLevel -= 0.01f;
 
-        if (waterLevel <= 0f)
-            kill();
-        
-        move();
-    }
-
-    private void move()
+    public override void move()
     {
         directionDuration -= Time.deltaTime;
 

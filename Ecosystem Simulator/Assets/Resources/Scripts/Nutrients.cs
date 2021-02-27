@@ -10,4 +10,5 @@ public class Nutrients : MonoBehaviour
     {
     nutrientValue = value;
     }
+
 }
