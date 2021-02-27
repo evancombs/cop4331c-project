@@ -19,6 +19,9 @@ public class Organism : MonoBehaviour
         GameObject nutrients = Instantiate(Resources.Load("Prefabs/Nutrients") as GameObject, transform.position, Quaternion.identity);
         nutrients.GetComponent<Nutrients>().Init(nutrientValue);
         nutrients.transform.parent = transform.parent;
+
         // Then destroy the organism
+        Destroy(gameObject);
+
     }
 }

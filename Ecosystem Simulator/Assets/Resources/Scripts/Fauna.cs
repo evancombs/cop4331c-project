@@ -23,6 +23,8 @@ public class Fauna : Organism
     {
         waterLevel -= 0.01f;
 
+        if (waterLevel <= 0f)
+            kill();
         
         move();
     }
