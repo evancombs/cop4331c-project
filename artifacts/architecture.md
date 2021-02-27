@@ -24,7 +24,8 @@ The UML class diagram is used to have a zoomed in look into individual componene
 # Business Rules
   The primary influence on our program design is following the methods learned in class and described in videos, textbooks and additional supplementary material. We are following an Agile/ Scrum development process, tracking user stories and requirements, and designing our architectures using C4 and Code Complete guidelines.
 # User Interface Design
-  TODO: ADD UI DESIGN
+  A rough breakdown of the user interface design is as follows.
+  ![alt tag](https://i.imgur.com/lPO57b5.png)
 # Resource Management
   By nature of our project, the complexity/ resource usage of the program will scale directly with the size of the simulation; therefore, it is difficult to define requirements, but users will be able to scale the simulation with paramters and scope to adjust to the available resources of their system.
 # Security
