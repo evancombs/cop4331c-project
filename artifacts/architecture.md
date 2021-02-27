@@ -19,35 +19,36 @@ The UML class diagram is used to have a zoomed in look into individual componene
 ![alt tag](https://i.imgur.com/p6lJmlW.png)
 
 # Data Design
-
+  
 # Business Rules
-
+  The primary influence on our program design is following the methods learned in class and described in videos, textbooks and additional supplementary material. We are following an Agile/ Scrum development process, tracking user stories and requirements, and designing our architectures using C4 and Code Complete guidelines.
 # User Interface Design
-
+  TODO: ADD UI DESIGN
 # Resource Management
 
 # Security
-
+  Security is not much of a
 # Performance
-
+  Ideally, the program will run in realtime on most computers; this is most likely unachievable, and we will first priotize functionality over optimizations. Since one area of interest in the project is the results (compared to the process), it is not extremely detrimental to 
 # Interoperability
-
+  Our project is intended to primarily a standalone system. With our current design, the most open ended method of interoperability is in the loading of potentially externally created species or environment parameters.
 # Internalization/ Localization
-
+  Our project is based on basic concepts within an ecosystem, and is primarily intended for a research audience. Because of this, relatively few changes will have to be made for internationzalization as scientific terms are generally well-defined and often do not even have localized counterparts.
 # Input/ Output
-
+  The majority of IO operations will consist of saving/ loading user created resources/ generated resources that describe ecosystems or species within an ecosystem.
 # Error Processing
   We will follow a passive corrective error processing approach, when possible. Given that the core of our system depends on interactions between many objects, a relatively low impact option is always to remove a problem-causing object; with sufficiently large numbers, the system is relatively unnafected.
 # Fault Tolerance
-
+  In general, the goal of our fault tolerance will be to minimize the problem in a way that will maintain the overall function of the ecosystem, potentially at the cost of small-scale unexpected behavior. This is based on the premise that the project focusses on the interactions of the ecosystem as a whole, rather than every interaction of individuals.
+  For example, a majority of faults will likely result from positional mismatches or data exchange between entities, specifically in small value/ floating point value data errors. When a situation like this is encountered, the first attempt is to rectify the problem by rounding. This may result in a less optimal small-scale user experience, but the overall functionality would be accurately preserved. 
 # Architectural Feasibility
-
+  
 # Overengineering
-
+  Given that the nature of our project is interested in the interactions between many types of entities, each entity's functionality should be very robust. Although our architecture intends for all interactions to be well defined, it is expected that we will have at least several important edge cases that may need to be accounted for and specific functionality added for.
 # Build-vs-Buy Decisions
-
+  We will build most of the assets for use in the main functionality of our project, i.e. We are considering using external resources for certain auxilliary functions, such as data saving and loading, UI, and potentially graphics assets. Given that the key area of interest is the functionality of the software, this is what we will put the most effort into building to specification.
 # Reuse
-
+  We will attempt to reuse as much code as we can, if it is feasible. One major way in which we will do this is with the use of OOP concepts to elimination repetition of code. As far as Reuse of previous works/ assets, we have not worked together as a group before and have not developed anything that can be used for such a purpose.
 # Change Strategy
   When it becomes apparent that change may be necesary, we will meet early and often to discuss if the change is needed. Should we determine that yes, it is, we will first update our project architecture, stories, and requirements, then attempt to implement the change as early as possible.
 
