@@ -1,14 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-    
+
 public class Fauna : Organism
 {
     private GameObject fauna;
     int hasHitEdge = 0;
 
     float movementSpeed = 5f;
-    int nutritionLevel;
 
     float directionDuration;
     private Vector3 directionVector;
@@ -18,13 +17,14 @@ public class Fauna : Organism
         directionVector = new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f));
         directionDuration = Random.Range(0, 5f);
         waterLevel = 50.0f;
+				nutrientLevel = 50;
     }
 
     public override void move()
     {
         directionDuration -= Time.deltaTime;
 
-        
+
         // Generate a random direction
         if (directionDuration <= 0)
         {
@@ -40,10 +40,10 @@ public class Fauna : Organism
         }
 
         directionVector.Normalize();
-        
+
         Vector3 moveVector = (directionVector * Time.deltaTime * movementSpeed);
         Vector3 nextPosition = (transform.position + moveVector);
-        
+
         // Debug.Log("Next position is: " + nextPosition);
 
         if (nextPosition.x >= transform.parent.gameObject.GetComponent<Ecosystem>().xSize
@@ -69,6 +69,12 @@ public class Fauna : Organism
     public override void checkWater()
     {
         if (waterLevel <= 0f)
-            kill(); 
+            kill();
     }
+
+		public override void checkNutrients()
+		{
+				if (nutrientLevel <= 0f && waterLevel <= 20f)
+					kill();
+		}
 }
