@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-02-27T11:38:27.609-05:00
-  initializedAtString: 2021-02-27T11:36:51.089-05:00
+  lastUpdatedAtString: 2021-02-28T16:18:35.318-05:00
+  initializedAtString: 2021-02-28T16:06:34.636-05:00
   entries:
   - path: Ecosystem Simulator\Assembly-CSharp.csproj
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
@@ -51,13 +51,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\APIUpdater\project-dependencies.graph
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\APIUpdater\project-dependencies.graph
-    projectPath: Library\APIUpdater\project-dependencies.graph
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Ecosystem Simulator\Library\ArtifactDB
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
       Simulator\Library\ArtifactDB
@@ -72,13 +65,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Library\EditorSnapSettings.asset
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\EditorSnapSettings.asset
-    projectPath: Library\EditorSnapSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Ecosystem Simulator\Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
       Simulator\Library\gfu\cache\gitlocks.yaml
@@ -104,13 +90,6 @@ MonoBehaviour:
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
       Simulator\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\SceneVisibilityState.asset
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -142,160 +121,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.Timeline.dll
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.Timeline.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.Timeline.pdb
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.Timeline.pdb
-    projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\UnityEditor.UI.dll
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\UnityEditor.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\UnityEditor.UI.pdb
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\UnityEditor.UI.pdb
-    projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\UnityEngine.UI.dll
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\UnityEngine.UI.dll
-    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\UnityEngine.UI.pdb
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Library\ScriptAssemblies\UnityEngine.UI.pdb
-    projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
       Simulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
@@ -352,13 +177,20 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\Packages\packages-lock.json
+  - path: Ecosystem Simulator\Library\StateCache\SceneView\cc039f-mainStage.json
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Packages\packages-lock.json
-    projectPath: Packages\packages-lock.json
+      Simulator\Library\StateCache\SceneView\cc039f-mainStage.json
+    projectPath: Library\StateCache\SceneView\cc039f-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Ecosystem Simulator\Temp\__Backupscenes\0.backup
+    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
+      Simulator\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Ecosystem Simulator\Temp\UnityLockfile
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
       Simulator\Temp\UnityLockfile
@@ -366,297 +198,164 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-028ad733c197fe64f8ed3eda32e5f250
+  - path: Ecosystem Simulator\Temp\UnityTempFile-08008b9698642fd4588339a8da07f452
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-028ad733c197fe64f8ed3eda32e5f250
-    projectPath: Temp\UnityTempFile-028ad733c197fe64f8ed3eda32e5f250
+      Simulator\Temp\UnityTempFile-08008b9698642fd4588339a8da07f452
+    projectPath: Temp\UnityTempFile-08008b9698642fd4588339a8da07f452
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-0357af7cf936b124e9ea7543b01eca93
+  - path: Ecosystem Simulator\Temp\UnityTempFile-1fdd049824321544bbb2bf1e172fda9d
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-0357af7cf936b124e9ea7543b01eca93
-    projectPath: Temp\UnityTempFile-0357af7cf936b124e9ea7543b01eca93
+      Simulator\Temp\UnityTempFile-1fdd049824321544bbb2bf1e172fda9d
+    projectPath: Temp\UnityTempFile-1fdd049824321544bbb2bf1e172fda9d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-0b24d2ac4bebf7c43ba47d4add47984c
+  - path: Ecosystem Simulator\Temp\UnityTempFile-23ae2de585d30c049bc225224fe45dc9
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-0b24d2ac4bebf7c43ba47d4add47984c
-    projectPath: Temp\UnityTempFile-0b24d2ac4bebf7c43ba47d4add47984c
+      Simulator\Temp\UnityTempFile-23ae2de585d30c049bc225224fe45dc9
+    projectPath: Temp\UnityTempFile-23ae2de585d30c049bc225224fe45dc9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-0d5717e5818a0b94db73ca09d6c19a69
+  - path: Ecosystem Simulator\Temp\UnityTempFile-2afae4ee4d2aaa54c85e2d03a3e1969f
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-0d5717e5818a0b94db73ca09d6c19a69
-    projectPath: Temp\UnityTempFile-0d5717e5818a0b94db73ca09d6c19a69
+      Simulator\Temp\UnityTempFile-2afae4ee4d2aaa54c85e2d03a3e1969f
+    projectPath: Temp\UnityTempFile-2afae4ee4d2aaa54c85e2d03a3e1969f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-109f0c93f474e914aaea68232e9f609d
+  - path: Ecosystem Simulator\Temp\UnityTempFile-3f3efc76d7c417c40aa171d0548c4f21
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-109f0c93f474e914aaea68232e9f609d
-    projectPath: Temp\UnityTempFile-109f0c93f474e914aaea68232e9f609d
+      Simulator\Temp\UnityTempFile-3f3efc76d7c417c40aa171d0548c4f21
+    projectPath: Temp\UnityTempFile-3f3efc76d7c417c40aa171d0548c4f21
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-14ccb67ae64cf314ba3104d2a82decb4
+  - path: Ecosystem Simulator\Temp\UnityTempFile-4b4875b7360c2f842a2f2c1cfd1bcd63
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-14ccb67ae64cf314ba3104d2a82decb4
-    projectPath: Temp\UnityTempFile-14ccb67ae64cf314ba3104d2a82decb4
+      Simulator\Temp\UnityTempFile-4b4875b7360c2f842a2f2c1cfd1bcd63
+    projectPath: Temp\UnityTempFile-4b4875b7360c2f842a2f2c1cfd1bcd63
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-1bbfd9c2fce6afd43a7fcb38c61e4780
+  - path: Ecosystem Simulator\Temp\UnityTempFile-60d81628d198d784ea5ef7c446875776
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-1bbfd9c2fce6afd43a7fcb38c61e4780
-    projectPath: Temp\UnityTempFile-1bbfd9c2fce6afd43a7fcb38c61e4780
+      Simulator\Temp\UnityTempFile-60d81628d198d784ea5ef7c446875776
+    projectPath: Temp\UnityTempFile-60d81628d198d784ea5ef7c446875776
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-1c0a0e889ccc096478b4a461044bfda4
+  - path: Ecosystem Simulator\Temp\UnityTempFile-66610ad2f18d1a048b51566f174e2494
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-1c0a0e889ccc096478b4a461044bfda4
-    projectPath: Temp\UnityTempFile-1c0a0e889ccc096478b4a461044bfda4
+      Simulator\Temp\UnityTempFile-66610ad2f18d1a048b51566f174e2494
+    projectPath: Temp\UnityTempFile-66610ad2f18d1a048b51566f174e2494
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-1f5c256ff4c697e4b9b704ba792aeb90
+  - path: Ecosystem Simulator\Temp\UnityTempFile-7053b4dd56e67ec4fabc152fef0d57b6
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-1f5c256ff4c697e4b9b704ba792aeb90
-    projectPath: Temp\UnityTempFile-1f5c256ff4c697e4b9b704ba792aeb90
+      Simulator\Temp\UnityTempFile-7053b4dd56e67ec4fabc152fef0d57b6
+    projectPath: Temp\UnityTempFile-7053b4dd56e67ec4fabc152fef0d57b6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-200c9ebbefcba3d44a83e4af5d3d5c4c
+  - path: Ecosystem Simulator\Temp\UnityTempFile-71f163d81d94c3645bc2f0002e50f9db
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-200c9ebbefcba3d44a83e4af5d3d5c4c
-    projectPath: Temp\UnityTempFile-200c9ebbefcba3d44a83e4af5d3d5c4c
+      Simulator\Temp\UnityTempFile-71f163d81d94c3645bc2f0002e50f9db
+    projectPath: Temp\UnityTempFile-71f163d81d94c3645bc2f0002e50f9db
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-21f4d914d0fef3a49a134f3494235aba
+  - path: Ecosystem Simulator\Temp\UnityTempFile-76c6ae29fd4ce0b4e9b53b11e7ca7359
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-21f4d914d0fef3a49a134f3494235aba
-    projectPath: Temp\UnityTempFile-21f4d914d0fef3a49a134f3494235aba
+      Simulator\Temp\UnityTempFile-76c6ae29fd4ce0b4e9b53b11e7ca7359
+    projectPath: Temp\UnityTempFile-76c6ae29fd4ce0b4e9b53b11e7ca7359
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-266b5b0dfba3ed04f8676541a0f03c20
+  - path: Ecosystem Simulator\Temp\UnityTempFile-778563739f302ee419179a7a9f699dbc
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-266b5b0dfba3ed04f8676541a0f03c20
-    projectPath: Temp\UnityTempFile-266b5b0dfba3ed04f8676541a0f03c20
+      Simulator\Temp\UnityTempFile-778563739f302ee419179a7a9f699dbc
+    projectPath: Temp\UnityTempFile-778563739f302ee419179a7a9f699dbc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-4175d249a9b21b14da0a031c20d6f2f1
+  - path: Ecosystem Simulator\Temp\UnityTempFile-79ef16d17f24d634c8ca4cbf16aac93d
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-4175d249a9b21b14da0a031c20d6f2f1
-    projectPath: Temp\UnityTempFile-4175d249a9b21b14da0a031c20d6f2f1
+      Simulator\Temp\UnityTempFile-79ef16d17f24d634c8ca4cbf16aac93d
+    projectPath: Temp\UnityTempFile-79ef16d17f24d634c8ca4cbf16aac93d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-422c49b7231d3544ebbd60c34602d44f
+  - path: Ecosystem Simulator\Temp\UnityTempFile-7a2715d6b5a082746a5385d39ee8ac46
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-422c49b7231d3544ebbd60c34602d44f
-    projectPath: Temp\UnityTempFile-422c49b7231d3544ebbd60c34602d44f
+      Simulator\Temp\UnityTempFile-7a2715d6b5a082746a5385d39ee8ac46
+    projectPath: Temp\UnityTempFile-7a2715d6b5a082746a5385d39ee8ac46
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-526a33b8475b91e42b25ca087db0caf0
+  - path: Ecosystem Simulator\Temp\UnityTempFile-7fb1b2a15f6933f4ebcce009452900d3
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-526a33b8475b91e42b25ca087db0caf0
-    projectPath: Temp\UnityTempFile-526a33b8475b91e42b25ca087db0caf0
+      Simulator\Temp\UnityTempFile-7fb1b2a15f6933f4ebcce009452900d3
+    projectPath: Temp\UnityTempFile-7fb1b2a15f6933f4ebcce009452900d3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-546cad82ec7f8ba49b918b16074131c3
+  - path: Ecosystem Simulator\Temp\UnityTempFile-898d1d9a5cea2de419678c624f1bcbc2
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-546cad82ec7f8ba49b918b16074131c3
-    projectPath: Temp\UnityTempFile-546cad82ec7f8ba49b918b16074131c3
+      Simulator\Temp\UnityTempFile-898d1d9a5cea2de419678c624f1bcbc2
+    projectPath: Temp\UnityTempFile-898d1d9a5cea2de419678c624f1bcbc2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-55323db509f32c543978526cd4137ddf
+  - path: Ecosystem Simulator\Temp\UnityTempFile-aa6f2e716414157488580c4e23468a57
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-55323db509f32c543978526cd4137ddf
-    projectPath: Temp\UnityTempFile-55323db509f32c543978526cd4137ddf
+      Simulator\Temp\UnityTempFile-aa6f2e716414157488580c4e23468a57
+    projectPath: Temp\UnityTempFile-aa6f2e716414157488580c4e23468a57
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-559e0942b24c9e244ad0b176637d6ea2
+  - path: Ecosystem Simulator\Temp\UnityTempFile-b76c43dc5be1083488073b597a19d61f
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-559e0942b24c9e244ad0b176637d6ea2
-    projectPath: Temp\UnityTempFile-559e0942b24c9e244ad0b176637d6ea2
+      Simulator\Temp\UnityTempFile-b76c43dc5be1083488073b597a19d61f
+    projectPath: Temp\UnityTempFile-b76c43dc5be1083488073b597a19d61f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-5a5cdc47eab33894abea82d0a67d909d
+  - path: Ecosystem Simulator\Temp\UnityTempFile-d09201dea8ce5924088ae988f3c6efcc
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-5a5cdc47eab33894abea82d0a67d909d
-    projectPath: Temp\UnityTempFile-5a5cdc47eab33894abea82d0a67d909d
+      Simulator\Temp\UnityTempFile-d09201dea8ce5924088ae988f3c6efcc
+    projectPath: Temp\UnityTempFile-d09201dea8ce5924088ae988f3c6efcc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-5b07901f92da6344c8514cc157ea6dcd
+  - path: Ecosystem Simulator\Temp\UnityTempFile-d9bee97fb52c8054abe7a07ed0938e7f
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-5b07901f92da6344c8514cc157ea6dcd
-    projectPath: Temp\UnityTempFile-5b07901f92da6344c8514cc157ea6dcd
+      Simulator\Temp\UnityTempFile-d9bee97fb52c8054abe7a07ed0938e7f
+    projectPath: Temp\UnityTempFile-d9bee97fb52c8054abe7a07ed0938e7f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-5c24f2bfb9c0a874db579536f82bcc48
+  - path: Ecosystem Simulator\Temp\UnityTempFile-dee0257ea9404ac4cb5772f9ba1ed8ce
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-5c24f2bfb9c0a874db579536f82bcc48
-    projectPath: Temp\UnityTempFile-5c24f2bfb9c0a874db579536f82bcc48
+      Simulator\Temp\UnityTempFile-dee0257ea9404ac4cb5772f9ba1ed8ce
+    projectPath: Temp\UnityTempFile-dee0257ea9404ac4cb5772f9ba1ed8ce
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-63f1541d83a025b4b82216e4af5f4979
+  - path: Ecosystem Simulator\Temp\UnityTempFile-ec7dc7ec87b9f7c4f8a8507b35b283c7
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-63f1541d83a025b4b82216e4af5f4979
-    projectPath: Temp\UnityTempFile-63f1541d83a025b4b82216e4af5f4979
+      Simulator\Temp\UnityTempFile-ec7dc7ec87b9f7c4f8a8507b35b283c7
+    projectPath: Temp\UnityTempFile-ec7dc7ec87b9f7c4f8a8507b35b283c7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-6b44e83696db6c349818590c2dd22821
+  - path: Ecosystem Simulator\Temp\UnityTempFile-ffafa7cc7aff0c3439d7dd8fa8062998
     fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-6b44e83696db6c349818590c2dd22821
-    projectPath: Temp\UnityTempFile-6b44e83696db6c349818590c2dd22821
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-79ab293cf28db6a4eb5b8226a50e6e37
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-79ab293cf28db6a4eb5b8226a50e6e37
-    projectPath: Temp\UnityTempFile-79ab293cf28db6a4eb5b8226a50e6e37
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-7cdcee4bba494f3458b0347d8cf47ffe
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-7cdcee4bba494f3458b0347d8cf47ffe
-    projectPath: Temp\UnityTempFile-7cdcee4bba494f3458b0347d8cf47ffe
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-92487618ec6d72f4f80a1c517f990a51
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-92487618ec6d72f4f80a1c517f990a51
-    projectPath: Temp\UnityTempFile-92487618ec6d72f4f80a1c517f990a51
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-9c4b25f9dca728a408f7d10cdb278cfb
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-9c4b25f9dca728a408f7d10cdb278cfb
-    projectPath: Temp\UnityTempFile-9c4b25f9dca728a408f7d10cdb278cfb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-9cacbc1dcdf7af643858c3d1b596838a
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-9cacbc1dcdf7af643858c3d1b596838a
-    projectPath: Temp\UnityTempFile-9cacbc1dcdf7af643858c3d1b596838a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-a097dac250a787b4881437d254f7624c
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-a097dac250a787b4881437d254f7624c
-    projectPath: Temp\UnityTempFile-a097dac250a787b4881437d254f7624c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-a6113ac25eb1d0e46b1e0496321fff05
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-a6113ac25eb1d0e46b1e0496321fff05
-    projectPath: Temp\UnityTempFile-a6113ac25eb1d0e46b1e0496321fff05
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-a9cff20c8fcdf574a8a10d04dce870dc
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-a9cff20c8fcdf574a8a10d04dce870dc
-    projectPath: Temp\UnityTempFile-a9cff20c8fcdf574a8a10d04dce870dc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-af5c6907e31cebe479bf72d8fa6879c6
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-af5c6907e31cebe479bf72d8fa6879c6
-    projectPath: Temp\UnityTempFile-af5c6907e31cebe479bf72d8fa6879c6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-b04ec5525c047b442b77b3321eaa4ac9
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-b04ec5525c047b442b77b3321eaa4ac9
-    projectPath: Temp\UnityTempFile-b04ec5525c047b442b77b3321eaa4ac9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-b84305b29a3124048bc9b1f527057164
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-b84305b29a3124048bc9b1f527057164
-    projectPath: Temp\UnityTempFile-b84305b29a3124048bc9b1f527057164
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-b867c860595a7114da7191125565c257
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-b867c860595a7114da7191125565c257
-    projectPath: Temp\UnityTempFile-b867c860595a7114da7191125565c257
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-c182c7d17d3188f4482eaf2efaa488b8
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-c182c7d17d3188f4482eaf2efaa488b8
-    projectPath: Temp\UnityTempFile-c182c7d17d3188f4482eaf2efaa488b8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-ecf8bb4fa7dd5794a9151e23cd77d799
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-ecf8bb4fa7dd5794a9151e23cd77d799
-    projectPath: Temp\UnityTempFile-ecf8bb4fa7dd5794a9151e23cd77d799
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-ee9ee20dca5ed39498c01cb6b1316bc8
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-ee9ee20dca5ed39498c01cb6b1316bc8
-    projectPath: Temp\UnityTempFile-ee9ee20dca5ed39498c01cb6b1316bc8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-f508471fbdcaefc429f44cf14da87345
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-f508471fbdcaefc429f44cf14da87345
-    projectPath: Temp\UnityTempFile-f508471fbdcaefc429f44cf14da87345
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-f7591083ad21cda4cb8241791dcf4a22
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-f7591083ad21cda4cb8241791dcf4a22
-    projectPath: Temp\UnityTempFile-f7591083ad21cda4cb8241791dcf4a22
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-f9fce6bf9fb35164eb5201bff1960be1
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-f9fce6bf9fb35164eb5201bff1960be1
-    projectPath: Temp\UnityTempFile-f9fce6bf9fb35164eb5201bff1960be1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-ff854af6c65d83544a717f659963446f
-    fullPath: C:\Users\Parker\Desktop\School\POOP\Project\ES\cop4331c-project\Ecosystem
-      Simulator\Temp\UnityTempFile-ff854af6c65d83544a717f659963446f
-    projectPath: Temp\UnityTempFile-ff854af6c65d83544a717f659963446f
+      Simulator\Temp\UnityTempFile-ffafa7cc7aff0c3439d7dd8fa8062998
+    projectPath: Temp\UnityTempFile-ffafa7cc7aff0c3439d7dd8fa8062998
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

@@ -16,9 +16,10 @@ public class Organism : MonoBehaviour
     public void kill()
     {
         // Create nutrients
-        GameObject nutrients = Instantiate(Resources.Load("Prefabs/Nutrients") as GameObject, transform.position, Quaternion.identity);
+        GameObject nutrients = Instantiate(Resources.Load("Prefabs/Nutrient") as GameObject, transform.position, Quaternion.identity);
         nutrients.GetComponent<Nutrients>().Init(nutrientValue);
         nutrients.transform.parent = transform.parent;
+       
 
         // Then destroy the organism
         Destroy(gameObject);
@@ -34,12 +35,12 @@ public class Organism : MonoBehaviour
 
         // Functions implemented here that all Organisms need:
         UpdateWater();
-        if (waterLevel <= 0f)
-            kill();
+        
 
       
         // Functions that some Organisms need:
         move();
+        checkWater();
 
     }
 
@@ -60,6 +61,12 @@ public class Organism : MonoBehaviour
 
     // The base organism has no movement functionality; Fauna, however, does.
     public virtual void move()
+    {
+
+    }
+
+    // The base organism has no ability to check water, but fauna does. 
+    public virtual void checkWater()
     {
 
     }

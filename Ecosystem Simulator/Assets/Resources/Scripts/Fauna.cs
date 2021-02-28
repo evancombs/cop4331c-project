@@ -65,4 +65,10 @@ public class Fauna : Organism
         // Debug.Log("Translating to " + direction * Time.deltaTime * movementSpeed);
         transform.Translate(moveVector);
     }
+
+    public override void checkWater()
+    {
+        if (waterLevel <= 0f)
+            kill(); 
+    }
 }
