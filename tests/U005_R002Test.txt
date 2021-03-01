@@ -1,0 +1,14 @@
+Step 0:		Open Flora Prefab. "Flora" Script has waterLevel and nutrientLevel fields
+Step 1:		Click play in Unity Editor
+Step 2:		Click on Prey(Clone) GameObject on left panel. Object should display waterLevel and nutrientLevel, 
+		which is currently changing
+Step 3:		While within 10 units of a WaterSource object(blue discs), waterLevel of Prey(Clone) should be constantly increasing
+		each time step (frame).
+Step 4: 	While within 10 units of a Nutrient object(brown cubes), nutrientLevel of Prey(Clone) should be constantly increasing.
+		each time step (frame).
+Step 5:		Click on Predator(Clone) GameObject on left panel. Object should display waterLevel and nutrientLevel, 
+		which is currently changing
+Step 6:		While within 10 units of a WaterSource object(blue discs), waterLevel of Predator(Clone) should be constantly increasing
+		each time step (frame).
+Step 7: 	While within 10 units of a Nutrient object(brown cubes), nutrientLevel of Predator(Clone) should be constantly increasing.
+		each time step (frame).
