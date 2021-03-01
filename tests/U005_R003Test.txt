@@ -1,0 +1,16 @@
+Step 0: 	Click play in Unity Editor
+
+Step 1: 	Click on any Flora(Clone) Object in left panel.
+Step 2: 	Using position arrow cross, move object to ensure it is not nearby(within 10 units) to a 
+		WaterSource Object. Observe that the waterLevel of the object consistently decreases.
+Step 3:		Set waterLevel of object to 0f. Object disapears from scene and is unselected. 
+
+Step 4: 	Click on any Predator(Clone) Object in left panel.
+Step 5: 	Using position arrow cross, move object to ensure it is not nearby(within 10 units) to a 
+		WaterSource Object. Observe that the waterLevel of the object consistently decreases.
+Step 6:		Set waterLevel of object to 0f. Object disapears from scene and is unselected. 
+
+Step 7: 	Click on any Prey(Clone) Object in left panel.
+Step 8: 	Using position arrow cross, move object to ensure it is not nearby(within 10 units) to a 
+		WaterSource Object. Observe that the waterLevel of the object consistently decreases.
+Step 9:		Set waterLevel of object to 0f. Object disapears from scene and is unselected. 
