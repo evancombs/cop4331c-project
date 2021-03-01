@@ -70,7 +70,7 @@ Patrick Caughey
 * [Product Demonstration](https://www.youtube.com/watch?v=MsrJ7zlNoA0&feature=youtu.be)
 
 ## Task Allocation
-Evan Combs - Architecture document revision, UI revision, code review  
+Evan Combs - Architecture document revision, UI revision, code review, manual test creation, water dynamics
 Parker Doughty - Nutrient dynamics, water dynamics, proximity increase  
 Nathan Manierre - Nutrient dynamics, increase/decrease functionality  
 William Cross - User story/ requirement creation  
