@@ -1,0 +1,7 @@
+Step 0:		Click play in Unity editor. Ecosystem script places assigned prefabs throughout bounds. 
+
+Step 1:		Click on any Prey(Clone) GameObject on left inspector. Entity in scene editor should be higlighted on screen.
+		Inspector on right displays information about object:
+			* GameObject has script component "Prey" on it
+			* GameObject is "Cube" with dimensions 1, 1, 1
+			* GameObject has material "Orange" assigned to renderer.
