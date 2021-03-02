@@ -50,7 +50,7 @@ Patrick Caughey - User story and requirement creation
 * [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
 * [Velocity and Burndown Charts](https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml)
 * [System Architecture](https://github.com/evancombs/cop4331c-project/blob/master/artifacts/architecture.md)
-* [Source Code](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Scripts)
+* [Source Code](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Resources/Scripts)
 * Automated Tests
 * [Product Demonstration](https://www.youtube.com/watch?v=pz487Nl2l78&feature=youtu.be)
 
@@ -65,7 +65,7 @@ Patrick Caughey
 * [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
 * [Velocity and Burndown Charts](https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml)
 * [System Architecture](https://github.com/evancombs/cop4331c-project/blob/master/artifacts/architecture.md)
-* [Source Code](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Scripts)
+* [Source Code](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Resources/Scripts)
 * [Manual Tests](https://github.com/evancombs/cop4331c-project/tree/master/tests)
 * [Product Demonstration](https://www.youtube.com/watch?v=MsrJ7zlNoA0&feature=youtu.be)
 
