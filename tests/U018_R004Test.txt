@@ -1,0 +1,5 @@
+Step 0:		Click play in Unity Editor. Click on any Flora(Clone) Object on left panel. Take
+		note of nutrientValue of script.
+Step 1:		Set waterLevel to 0 in right side inspector. Flora(Clone) is deselected and destroyed.
+		A FloraNutrient object is instantiated in its exact position. 
+Step 2: 	The remainingNutrient is equal to the nutrientValue of the late Flora.
