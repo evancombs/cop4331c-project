@@ -6,15 +6,15 @@ public class Organism : MonoBehaviour
 {
     public float waterLevel;
     public float nutrientValue;
-		public float nutrientLevel;
+	public float nutrientLevel;
 
     double reproductiveChance;
     int reproductiveRate;
 
-    double awareness = 10;
+    public double awareness = 10;
 
 
-    public void kill()
+    public virtual void kill()
     {
         // Create nutrients
         GameObject nutrients = Instantiate(Resources.Load("Prefabs/Nutrient") as GameObject, transform.position, Quaternion.identity);
@@ -36,14 +36,13 @@ public class Organism : MonoBehaviour
 
         // Functions implemented here that all Organisms need:
         UpdateWater();
-
-				UpdateNutrients();
+		UpdateNutrients();
 
         // Functions that some Organisms need:
         move();
         checkWater();
-				checkNutrients();
-
+        checkNutrients();
+        searchNutrients();
     }
 
     public void UpdateWater()
@@ -61,22 +60,22 @@ public class Organism : MonoBehaviour
         }
     }
 
-		public void UpdateNutrients()
+	public void UpdateNutrients()
+	{
+		nutrientLevel -= 0.01f;
+		Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
+		for (int i = 0; i < nearby.Length; i++)
 		{
-			nutrientLevel -= 0.01f;
-			Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
-			for (int i = 0; i < nearby.Length; i++)
-			{
-					if (nearby[i].gameObject.GetComponent("Nutrients"))
-					{
-							if (nutrientLevel <= 100f)
-									// this will be changed to get the specific value from the game object
-									nutrientLevel += .2f;
-							
-							break;
-					}
-			}
+				if (nearby[i].gameObject.GetComponent("Nutrients"))
+				{
+						if (nutrientLevel <= 100f)
+								// this will be changed to get the specific value from the game object
+								nutrientLevel += .2f;
+						
+						break;
+				}
 		}
+	}
 
     // The base organism has no movement functionality; Fauna, however, does.
     public virtual void move()
@@ -90,7 +89,12 @@ public class Organism : MonoBehaviour
 
     }
 
-		public virtual void checkNutrients()
+	public virtual void checkNutrients()
+    {
+
+    }
+
+    public virtual void searchNutrients()
     {
 
     }

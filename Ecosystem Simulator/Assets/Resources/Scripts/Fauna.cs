@@ -8,6 +8,7 @@ public class Fauna : Organism
     int hasHitEdge = 0;
 
     float movementSpeed = 5f;
+    public float consumptionRate = 1f;
 
     float directionDuration;
     private Vector3 directionVector;
@@ -72,9 +73,28 @@ public class Fauna : Organism
             kill();
     }
 
-		public override void checkNutrients()
-		{
-				if (nutrientLevel <= 0f && waterLevel <= 20f)
-					kill();
-		}
+	public override void checkNutrients()
+	{
+		if (nutrientLevel <= 0f && waterLevel <= 20f)
+			kill();
+	}
+
+    public override void kill()
+    {
+        // Create nutrients
+        GameObject nutrients = Instantiate(Resources.Load("Prefabs/FaunaNutrient") as GameObject, transform.position, Quaternion.identity);
+        nutrients.GetComponent<Nutrients>().Init(nutrientValue);
+        nutrients.transform.parent = transform.parent;
+
+
+        // Then destroy the organism
+        Destroy(gameObject);
+    }
+
+    
+    
+        
+
+
+
 }

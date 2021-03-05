@@ -4,11 +4,35 @@ using UnityEngine;
   
 public class Nutrients : MonoBehaviour
 {
-    private double nutrientValue;
+    public float remainingNutrients;
 
-    public void Init(double value)
+    public void Init(float value)
     {
-    nutrientValue = value;
+        remainingNutrients = value;
     }
+
+    private void Update()
+    {
+        UpdateSize();
+
+        if (remainingNutrients <= 0)
+            Destroy(gameObject);
+    }
+
+    // Removes amountConsumed from the remainingNutrients of this Nutrient
+    public void consumeNutrients(float amountConsumed)
+    {
+        remainingNutrients -= amountConsumed;
+    }
+
+    public void UpdateSize()
+    {
+        // Maps the remainingNutrients [0, 100] range to a size range of [.25, 1.0]
+        float modelSize = (remainingNutrients * .0075f) + .25f;
+
+        Vector3 size = new Vector3(modelSize, modelSize, modelSize);
+        gameObject.transform.localScale = size;
+    }
+
 
 }

@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-02-28T16:25:40.311-05:00
-  initializedAtString: 2021-02-28T16:25:40.311-05:00
+  lastUpdatedAtString: 2021-03-05T12:36:01.972-05:00
+  initializedAtString: 2021-03-05T12:36:01.972-05:00
   currentGitRemote:
-    name: origin
-    url: https://github.com/evancombs/cop4331c-project.git
+    name: ecosystem
+    url: https://github.com/evancombs/cop4331c-project
     login: 
     user: 
     host: 
@@ -25,14 +25,14 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: master
-    tracking: origin/master
+    tracking: ecosystem/master
   currentConfigBranch:
     name: master
     remote:
-      name: origin
-      url: https://github.com/evancombs/cop4331c-project.git
+      name: ecosystem
+      url: https://github.com/evancombs/cop4331c-project
     trackingBranch: master
   currentConfigRemote:
-    name: origin
-    url: https://github.com/evancombs/cop4331c-project.git
+    name: ecosystem
+    url: https://github.com/evancombs/cop4331c-project
   currentHead: 

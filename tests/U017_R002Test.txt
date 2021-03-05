@@ -1,0 +1,12 @@
+Step 0:		Check prefabs folder in Unity Editor. There is a prefab named "FloraNutrient", consisting of
+		a cube with a light green color. The prefab has the FloraNutrient Script attached.
+Step 1:		Open FloraNutrient scipt. FloraNutrient inherits from Nutrient.
+Step 2:		Click play in Unity Editor. The size of a FloraNutrient varies depending on its remainingNutrient
+		value, visible in the inspector on the right. 
+Step 3:		Change remainingNutrient to 100 in inspector. The size of the object changes to 1.0 x 1.0 x 1.0 scale
+		in the inspector.
+Step 4: 	Change remainingNutrient to 1 in inspector. The size of the object changes to .2575 x .2575 x .2575 scale
+		in the inspector.
+Step 5:		Change remainingNutrient to 50 in inspector. The size of the object changes to .625 x .625 x .625 scale
+		in the inspector.
+		

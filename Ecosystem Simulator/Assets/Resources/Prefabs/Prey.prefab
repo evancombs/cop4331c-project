@@ -94,6 +94,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waterLevel: 0
+  nutrientValue: 50
+  nutrientLevel: 0
 --- !u!65 &8080651585631150173
 BoxCollider:
   m_ObjectHideFlags: 0
