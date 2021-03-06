@@ -33,29 +33,41 @@ public class Fauna : Organism
             directionDuration = 5f;
         }
 
-        if(hasHitEdge == 1)
+        if (hasHitEdge == 1)
         {
             directionVector = new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f));
             directionDuration = 5f;
             hasHitEdge = 0;
         }
 
+
         directionVector.Normalize();
 
+        
         Vector3 moveVector = (directionVector * Time.deltaTime * movementSpeed);
         Vector3 nextPosition = (transform.position + moveVector);
 
-        // Debug.Log("Next position is: " + nextPosition);
 
-        if (nextPosition.x >= transform.parent.gameObject.GetComponent<Ecosystem>().xSize
-            || nextPosition.x <= 0)
+        // Debug.Log("Next position is: " + nextPosition);
+        if (nextPosition.x >= transform.parent.gameObject.GetComponent<Ecosystem>().xSize)
         {
             moveVector *= -1;
             Debug.Log("X BOUNCE");
             hasHitEdge = 1;
         }
-        if (nextPosition.z >= transform.parent.gameObject.GetComponent<Ecosystem>().zSize
-            || nextPosition.z <= 0)
+        if(nextPosition.x <= 0)
+        {
+            moveVector *= -1;
+            Debug.Log("X BOUNCE");
+            hasHitEdge = 1;
+        }
+        if (nextPosition.z >= transform.parent.gameObject.GetComponent<Ecosystem>().zSize)
+        {
+            moveVector *= -1;
+            Debug.Log("Z BOUNCE");
+            hasHitEdge = 1;
+        }
+        if(nextPosition.z <= 0)
         {
             moveVector *= -1;
             Debug.Log("Z BOUNCE");
@@ -64,7 +76,38 @@ public class Fauna : Organism
 
         // Debug.Log("Translating to: " + moveVector);
         // Debug.Log("Translating to " + direction * Time.deltaTime * movementSpeed);
-        transform.Translate(moveVector);
+        if (waterLevel >= 25)
+        {
+            transform.Translate(moveVector);
+        } else
+        {
+            GameObject closest = null; ;
+            float minDist = Mathf.Infinity;
+            Vector3 curPos = transform.position;
+            Transform tMin = null;
+            foreach (GameObject gameObj in GameObject.FindObjectsOfType<GameObject>())
+            {
+                if (gameObj.name == "WaterSource(Clone)")
+                {
+                    float dist = Vector3.Distance(gameObj.transform.position, curPos);
+                    if(dist < minDist)
+                    {
+                        tMin = gameObj.transform;
+                        minDist = dist;
+                        closest = gameObj;
+                    }
+                }
+            }
+            if (minDist > awareness)
+            {
+                transform.Translate(moveVector);
+            }
+            else
+            {
+                transform.LookAt(closest.transform);
+                transform.position += transform.forward * Time.deltaTime * movementSpeed;
+            }
+        }
     }
 
     public override void checkWater()
