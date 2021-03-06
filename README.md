@@ -75,3 +75,19 @@ Parker Doughty - Nutrient dynamics, water dynamics, proximity increase
 Nathan Manierre - Nutrient dynamics, increase/decrease functionality  
 William Cross - User story/ requirement creation  
 Patrick Caughey - Nutrient dynamics, transitions from living to dying  
+
+
+## Sprint 5
+* [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
+* [Velocity and Burndown Charts](https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml)
+* [System Architecture](https://github.com/evancombs/cop4331c-project/blob/master/artifacts/architecture.md)
+* [Source Code](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Resources/Scripts)
+* [Tests]
+* [Product Demonstration]
+
+## Task Allocation
+Evan Combs - 
+Parker Doughty - 
+Nathan Manierre - 
+William Cross - 
+Patrick Caughey - 
