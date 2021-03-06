@@ -6,7 +6,6 @@ public class Organism : MonoBehaviour
 {
     public float waterLevel;
     public float nutrientValue;
-	public float nutrientLevel;
 
     double reproductiveChance;
     int reproductiveRate;
@@ -45,39 +44,22 @@ public class Organism : MonoBehaviour
         searchNutrients();
     }
 
-    public void UpdateWater()
+    public virtual void UpdateWater()
     {
-        waterLevel -= 0.1f;
-        Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
-        for (int i = 0; i < nearby.Length; i++)
+      waterLevel -= 0.1f * Time.deltaTime;
+      Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
+      for (int i = 0; i < nearby.Length; i++)
+      {
+        if (nearby[i].gameObject.GetComponent("WaterSource"))
         {
-            if (nearby[i].gameObject.GetComponent("WaterSource"))
-            {
-                if (waterLevel <= 100f)
-                    waterLevel += .2f;
-                break;
-            }
+          if (waterLevel <= 100f)
+            waterLevel += .2f * Time.deltaTime;
+          break;
         }
+      }
     }
 
-	public void UpdateNutrients()
-	{
-		if (nutrientLevel > 0)
-			nutrientLevel -= 0.01f;
-
-		Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
-		for (int i = 0; i < nearby.Length; i++)
-		{
-				if (nearby[i].gameObject.GetComponent("Nutrients"))
-				{
-						if (nutrientLevel <= 100f)
-								// this will be changed to get the specific value from the game object
-								nutrientLevel += .2f;
-
-						break;
-				}
-		}
-	}
+	  
 
     // The base organism has no movement functionality; Fauna, however, does.
     public virtual void move()
@@ -96,7 +78,12 @@ public class Organism : MonoBehaviour
 
     }
 
-    public virtual void searchNutrients()
+  public virtual void UpdateNutrients()
+  {
+
+  }
+
+  public virtual void searchNutrients()
     {
 
     }

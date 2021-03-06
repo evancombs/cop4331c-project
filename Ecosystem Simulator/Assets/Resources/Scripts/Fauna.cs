@@ -8,17 +8,22 @@ public class Fauna : Organism
     int hasHitEdge = 0;
 
     float movementSpeed = 5f;
-    public float consumptionRate = 1f;
+    float controlSpeed = 1f;
 
-    float directionDuration;
+    public float consumptionRate = 1f; // Flat water consumption
+    public float movementConsumptionRate = 1f; // Dynamic nutrient consumption
+    public float nutrientLevel;
+
+  float directionDuration;
     private Vector3 directionVector;
 
     private void Start()
     {
         directionVector = new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f));
         directionDuration = Random.Range(0, 5f);
+        controlSpeed = Random.Range(0f, 1f);
         waterLevel = 50.0f;
-				nutrientLevel = 50;
+				nutrientLevel = 50f;
     }
 
     public override void move()
@@ -31,12 +36,14 @@ public class Fauna : Organism
         {
             directionVector = new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f));
             directionDuration = 5f;
+            controlSpeed = Random.Range(0f, 1f);
         }
 
         if (hasHitEdge == 1)
         {
             directionVector = new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f));
             directionDuration = 5f;
+            controlSpeed = Random.Range(0f, 1f);
             hasHitEdge = 0;
         }
 
@@ -44,7 +51,7 @@ public class Fauna : Organism
         directionVector.Normalize();
 
         
-        Vector3 moveVector = (directionVector * Time.deltaTime * movementSpeed);
+        Vector3 moveVector = (directionVector * Time.deltaTime * movementSpeed * controlSpeed);
         Vector3 nextPosition = (transform.position + moveVector);
 
 
@@ -110,7 +117,42 @@ public class Fauna : Organism
         }
     }
 
-    public override void checkWater()
+    public override void UpdateNutrients()
+    {
+      if (nutrientLevel > 0)
+        nutrientLevel -= movementConsumptionRate * controlSpeed * Time.deltaTime;
+
+      Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
+      for (int i = 0; i < nearby.Length; i++)
+      {
+        if (nearby[i].gameObject.GetComponent("Nutrients"))
+        {
+          if (nutrientLevel <= 100f)
+            // this will be changed to get the specific value from the game object
+            nutrientLevel += .2f * Time.deltaTime;
+
+          break;
+        }
+      }
+    }
+
+  public override void UpdateWater()
+  {
+    waterLevel -= consumptionRate * Time.deltaTime;
+    Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
+    for (int i = 0; i < nearby.Length; i++)
+    {
+      if (nearby[i].gameObject.GetComponent("WaterSource"))
+      {
+        if (waterLevel <= 100f)
+          // Number "5" arbitrary, corresponds with spending 1/4 of their lifespan drinking water
+          waterLevel += 5f * Time.deltaTime; 
+        break;
+      }
+    }
+  }
+
+  public override void checkWater()
     {
         if (waterLevel <= 0f)
             kill();
