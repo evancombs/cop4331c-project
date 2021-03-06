@@ -36,7 +36,7 @@ public class Organism : MonoBehaviour
 
         // Functions implemented here that all Organisms need:
         UpdateWater();
-		UpdateNutrients();
+				UpdateNutrients();
 
         // Functions that some Organisms need:
         move();
@@ -62,7 +62,9 @@ public class Organism : MonoBehaviour
 
 	public void UpdateNutrients()
 	{
-		nutrientLevel -= 0.01f;
+		if (nutrientLevel > 0)
+			nutrientLevel -= 0.01f;
+
 		Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
 		for (int i = 0; i < nearby.Length; i++)
 		{
@@ -71,7 +73,7 @@ public class Organism : MonoBehaviour
 						if (nutrientLevel <= 100f)
 								// this will be changed to get the specific value from the game object
 								nutrientLevel += .2f;
-						
+
 						break;
 				}
 		}

@@ -13,21 +13,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
+<<<<<<< HEAD
   lastUpdatedAtString: 2021-03-06T02:39:15.503-05:00
   initializedAtString: 2021-03-06T02:35:49.969-05:00
   entries:
   - path: Ecosystem Simulator\Assembly-CSharp.csproj
     fullPath: C:\Users\willi\Documents\Unity Projects\Test\Ecosystem Simulator\Assembly-CSharp.csproj
+=======
+  lastUpdatedAtString: 2021-03-06T01:35:49.182-05:00
+  initializedAtString: 2021-03-06T01:24:45.655-05:00
+  entries:
+  - path: Ecosystem Simulator/Assembly-CSharp.csproj
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Assembly-CSharp.csproj
+>>>>>>> e7abf6a609715d1e9dc90e8d0a4b67616b8eb611
     projectPath: Assembly-CSharp.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+<<<<<<< HEAD
   - path: Ecosystem Simulator\Assembly-CSharp-Editor.csproj
     fullPath: C:\Users\willi\Documents\Unity Projects\Test\Ecosystem Simulator\Assembly-CSharp-Editor.csproj
+=======
+  - path: Ecosystem Simulator/Assembly-CSharp-Editor.csproj
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Assembly-CSharp-Editor.csproj
+>>>>>>> e7abf6a609715d1e9dc90e8d0a4b67616b8eb611
     projectPath: Assembly-CSharp-Editor.csproj
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+<<<<<<< HEAD
   - path: Ecosystem Simulator\Assets\Resources\Scripts\Fauna.cs
     fullPath: C:\Users\willi\Documents\Unity Projects\Test\Ecosystem Simulator\Assets\Resources\Scripts\Fauna.cs
     projectPath: Assets\Resources\Scripts\Fauna.cs
@@ -7785,6 +7799,420 @@ MonoBehaviour:
   - path: Ecosystem Simulator\Temp\UnityTempFile-8d235c45e9787dd4ea27cb054b2334a0
     fullPath: C:\Users\willi\Documents\Unity Projects\Test\Ecosystem Simulator\Temp\UnityTempFile-8d235c45e9787dd4ea27cb054b2334a0
     projectPath: Temp\UnityTempFile-8d235c45e9787dd4ea27cb054b2334a0
+=======
+  - path: Ecosystem Simulator/Assets/Resources/Scripts/Organism.cs
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Assets/Resources/Scripts/Organism.cs
+    projectPath: Assets/Resources/Scripts/Organism.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Ecosystem Simulator.sln
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Ecosystem
+      Simulator.sln
+    projectPath: Ecosystem Simulator.sln
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/APIUpdater/project-dependencies.graph
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/APIUpdater/project-dependencies.graph
+    projectPath: Library/APIUpdater/project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ArtifactDB
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ArtifactDB
+    projectPath: Library/ArtifactDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ArtifactDB-lock
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ArtifactDB-lock
+    projectPath: Library/ArtifactDB-lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/CurrentLayout-default.dwlt
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/CurrentLayout-default.dwlt
+    projectPath: Library/CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/EditorInstance.json
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Library/EditorUserBuildSettings.asset
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/EditorUserBuildSettings.asset
+    projectPath: Library/EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/gfu/cache/branches.yaml
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Assembly-CSharp.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Assembly-CSharp.pdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.Rider.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+    projectPath: Library/ScriptAssemblies/Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.Timeline.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.Timeline.dll
+    projectPath: Library/ScriptAssemblies/Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.Timeline.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.Timeline.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.Timeline.pdb
+    projectPath: Library/ScriptAssemblies/Unity.Timeline.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+    projectPath: Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+    projectPath: Library/ScriptAssemblies/Unity.VSCode.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    projectPath: Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+    projectPath: Library/ScriptAssemblies/UnityEditor.TestRunner.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/UnityEditor.UI.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/UnityEditor.UI.dll
+    projectPath: Library/ScriptAssemblies/UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/UnityEditor.UI.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/UnityEditor.UI.pdb
+    projectPath: Library/ScriptAssemblies/UnityEditor.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    projectPath: Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+    projectPath: Library/ScriptAssemblies/UnityEngine.TestRunner.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/UnityEngine.UI.dll
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/UnityEngine.UI.dll
+    projectPath: Library/ScriptAssemblies/UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/ScriptAssemblies/UnityEngine.UI.pdb
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/UnityEngine.UI.pdb
+    projectPath: Library/ScriptAssemblies/UnityEngine.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler1.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler1.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler10.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler10.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler10.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler11.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler11.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler11.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler2.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler2.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler3.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler3.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler4.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler4.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler5.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler5.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler5.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler6.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler6.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler6.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler7.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler7.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler7.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler8.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler8.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler8.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler9.log
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/shadercompiler-UnityShaderCompiler9.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler9.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/SourceAssetDB
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/SourceAssetDB
+    projectPath: Library/SourceAssetDB
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/SourceAssetDB-lock
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/SourceAssetDB-lock
+    projectPath: Library/SourceAssetDB-lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/StateCache/Hierarchy/46d18f-mainStage.json
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/StateCache/Hierarchy/46d18f-mainStage.json
+    projectPath: Library/StateCache/Hierarchy/46d18f-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Library/StateCache/SceneView/cc039f-mainStage.json
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Library/StateCache/SceneView/cc039f-mainStage.json
+    projectPath: Library/StateCache/SceneView/cc039f-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Ecosystem Simulator/Temp/__Backupscenes/0.backup
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Temp/UnityLockfile
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Temp/UnityLockfile
+    projectPath: Temp/UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Temp/UnityTempFile-24a61d7e3e9a241d785c3d2217648b07
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Temp/UnityTempFile-24a61d7e3e9a241d785c3d2217648b07
+    projectPath: Temp/UnityTempFile-24a61d7e3e9a241d785c3d2217648b07
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Temp/UnityTempFile-30f6dda6ad7d749249dd934e01a9fb5c
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Temp/UnityTempFile-30f6dda6ad7d749249dd934e01a9fb5c
+    projectPath: Temp/UnityTempFile-30f6dda6ad7d749249dd934e01a9fb5c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Temp/UnityTempFile-6d0cf2828f3eb4e1f83670b3006ac42b
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Temp/UnityTempFile-6d0cf2828f3eb4e1f83670b3006ac42b
+    projectPath: Temp/UnityTempFile-6d0cf2828f3eb4e1f83670b3006ac42b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Temp/UnityTempFile-a4923c46e72b748aba49dff14f0606d2
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Temp/UnityTempFile-a4923c46e72b748aba49dff14f0606d2
+    projectPath: Temp/UnityTempFile-a4923c46e72b748aba49dff14f0606d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Temp/UnityTempFile-b823daf03b90b44879cb4d22d9bb2c61
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Temp/UnityTempFile-b823daf03b90b44879cb4d22d9bb2c61
+    projectPath: Temp/UnityTempFile-b823daf03b90b44879cb4d22d9bb2c61
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Temp/UnityTempFile-e6aef46674191499a9ee9358875bec04
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Temp/UnityTempFile-e6aef46674191499a9ee9358875bec04
+    projectPath: Temp/UnityTempFile-e6aef46674191499a9ee9358875bec04
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Temp/UnityTempFile-eee63433e98a14e49b9c9bbfce511211
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Temp/UnityTempFile-eee63433e98a14e49b9c9bbfce511211
+    projectPath: Temp/UnityTempFile-eee63433e98a14e49b9c9bbfce511211
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Ecosystem Simulator/Temp/UnityTempFile-fee1310e8d8174be7b9d9a7f6fb680ee
+    fullPath: /Users/nathan/Documents/cop4331c-project/Ecosystem Simulator/Temp/UnityTempFile-fee1310e8d8174be7b9d9a7f6fb680ee
+    projectPath: Temp/UnityTempFile-fee1310e8d8174be7b9d9a7f6fb680ee
+>>>>>>> e7abf6a609715d1e9dc90e8d0a4b67616b8eb611
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
