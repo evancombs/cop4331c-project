@@ -87,7 +87,7 @@ Patrick Caughey - Nutrient dynamics, transitions from living to dying
 
 ## Task Allocation
 Evan Combs - 
-Parker Doughty - 
+Parker Doughty - Automated testing
 Nathan Manierre - 
 William Cross - 
 Patrick Caughey - 
