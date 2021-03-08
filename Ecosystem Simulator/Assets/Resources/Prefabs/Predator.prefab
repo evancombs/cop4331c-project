@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 93342220257524196}
   m_Layer: 0
   m_Name: Predator
-  m_TagString: Untagged
+  m_TagString: predator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,4 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waterLevel: 0
   nutrientValue: 50
+  awareness: 10
+  consumptionRate: 1
+  movementConsumptionRate: 1
   nutrientLevel: 0

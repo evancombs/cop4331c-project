@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5768455830847370034}
   m_Layer: 0
   m_Name: Flora
-  m_TagString: Untagged
+  m_TagString: flora
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,4 +108,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waterLevel: 0
   nutrientValue: 50
-  nutrientLevel: 0
+  awareness: 10

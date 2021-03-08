@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8080651585631150173}
   m_Layer: 0
   m_Name: Prey
-  m_TagString: Untagged
+  m_TagString: prey
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,6 +95,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waterLevel: 0
   nutrientValue: 50
+  awareness: 10
+  consumptionRate: 1
+  movementConsumptionRate: 1
   nutrientLevel: 0
 --- !u!65 &8080651585631150173
 BoxCollider:
