@@ -82,12 +82,13 @@ Patrick Caughey - Nutrient dynamics, transitions from living to dying
 * [Velocity and Burndown Charts](https://docs.google.com/spreadsheets/d/e/2PACX-1vTWv59felb5VjRtzS7UCFbkThuE2Kudxh2kNLSrGbeKQ8T4SR0ta61bIFMW9M0_Hsvi4_lUGInJ21a8/pubhtml)
 * [System Architecture](https://github.com/evancombs/cop4331c-project/blob/master/artifacts/architecture.md)
 * [Source Code](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Resources/Scripts)
-* [Tests]
-* [Product Demonstration]
+* [Manual Tests](https://github.com/evancombs/cop4331c-project/tree/master/tests)
+* [Automated Tests]()
+* [Product Demonstration](https://www.youtube.com/watch?v=bN9UdHLKu8s)
 
 ## Task Allocation
-Evan Combs - 
-Parker Doughty - Automated testing
-Nathan Manierre - 
-William Cross - 
-Patrick Caughey - 
+Evan Combs - Nutrient Distinction, consumption/ formation, product demonstration  
+Parker Doughty - Automated testing implementation  
+Nathan Manierre - Water and nutrient pathing, user story/ requirement creation  
+William Cross - Water and nutrient pathing, user story/ requirement creation      
+Patrick Caughey - Water and nutrient pathing, user story/ requirement creation    
