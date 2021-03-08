@@ -83,7 +83,7 @@ Patrick Caughey - Nutrient dynamics, transitions from living to dying
 * [System Architecture](https://github.com/evancombs/cop4331c-project/blob/master/artifacts/architecture.md)
 * [Source Code](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Resources/Scripts)
 * [Manual Tests](https://github.com/evancombs/cop4331c-project/tree/master/tests)
-* [Automated Tests]()
+* [Automated Tests](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Resources/Tests)
 * [Product Demonstration](https://www.youtube.com/watch?v=bN9UdHLKu8s)
 
 ## Task Allocation
