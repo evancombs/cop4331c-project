@@ -9,10 +9,8 @@ namespace Tests
 {
     public class Tests : Ecosystem
     {
-        public GameObject spawnedPredator;
-    
-
         
+        // A unit test that checks if the spawned Predator is using the correct prefab. 
         [UnityTest]
         public IEnumerator _Predator_Spawning_Test_From_Prefab()
         {
@@ -30,7 +28,8 @@ namespace Tests
                 
             
         }
-
+        
+        // A unit test that checks if the spawned prey are using the correct prefab.
         [UnityTest]
         public IEnumerator _Prey_Spawning_Test_From_Prefab()
         {
@@ -49,7 +48,8 @@ namespace Tests
 
 
         }
-
+        
+        // A unit test that checks if the spawned flora are using the correct prefab.
         [UnityTest]
         public IEnumerator _Flora_Spawning_Test_From_Prefab()
         {
@@ -65,7 +65,8 @@ namespace Tests
                 Assert.AreEqual(floraPrefab, prefabOfSpawnedFlora);
             }
         }
-
+        
+        // A unit test that checks if the spawned FloraNutrients are using the correct prefab.
         [UnityTest]
         public IEnumerator _FloraNutrients_Spawning_Test_From_Prefab()
         {
@@ -81,7 +82,8 @@ namespace Tests
                 Assert.AreEqual(floraNutrientPrefab, prefabOfSpawnedFloraNutrient);
             }
         }
-
+        
+        // A unit test that checks if the spawned FaunaNutrients are using the correct prefab.
         [UnityTest]
         public IEnumerator _FaunaNutrients_Spawning_Test_From_Prefab()
         {
