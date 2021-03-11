@@ -252,22 +252,22 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="GitHub.Api.45">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Assets/Resources/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Assets/Resources/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
  </Reference>
  <Reference Include="GitHub.Logging">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Assets/Resources/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Assets/Resources/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
  </Reference>
  <Reference Include="GitHub.Unity.45">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Assets/Resources/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Assets/Resources/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
  </Reference>
  <Reference Include="GitHub.UnityShim">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Assets/Resources/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Assets/Resources/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
  </Reference>
  <Reference Include="sfw.net">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Assets/Resources/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Assets/Resources/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -624,37 +624,37 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Parker/Desktop/School/POOP/Project/ES/cop4331c-project/Ecosystem Simulator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/willi/Documents/Unity Projects/Test/Ecosystem Simulator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

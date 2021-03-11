@@ -83,10 +83,7 @@ public class Fauna : Organism
 
         // Debug.Log("Translating to: " + moveVector);
         // Debug.Log("Translating to " + direction * Time.deltaTime * movementSpeed);
-        if (waterLevel >= 25)
-        {
-            transform.Translate(moveVector);
-        } else
+        if (waterLevel <= 25)
         {
             GameObject closest = null; ;
             float minDist = Mathf.Infinity;
@@ -97,7 +94,7 @@ public class Fauna : Organism
                 if (gameObj.name == "WaterSource(Clone)")
                 {
                     float dist = Vector3.Distance(gameObj.transform.position, curPos);
-                    if(dist < minDist)
+                    if (dist < minDist)
                     {
                         tMin = gameObj.transform;
                         minDist = dist;
@@ -114,6 +111,39 @@ public class Fauna : Organism
                 transform.LookAt(closest.transform);
                 transform.position += transform.forward * Time.deltaTime * movementSpeed;
             }
+        }
+        else if (nutrientLevel <= 25)
+        {
+            GameObject closest = null; ;
+            float minDist = Mathf.Infinity;
+            Vector3 curPos = transform.position;
+            Transform tMin = null;
+            foreach (GameObject gameObj in GameObject.FindObjectsOfType<GameObject>())
+            {
+                if (gameObj.name == "FloraNutrient(Clone)" || gameObj.name == "FuanaNutrient(Clone)" || gameObj.name == "Flora(Clone)")
+                {
+                    float dist = Vector3.Distance(gameObj.transform.position, curPos);
+                    if (dist < minDist)
+                    {
+                        tMin = gameObj.transform;
+                        minDist = dist;
+                        closest = gameObj;
+                    }
+                }
+            }
+            if (minDist > awareness)
+            {
+                transform.Translate(moveVector);
+            }
+            else
+            {
+                transform.LookAt(closest.transform);
+                transform.position += transform.forward * Time.deltaTime * movementSpeed;
+            }
+        }
+        else
+        {
+            transform.Translate(moveVector);
         }
     }
 
