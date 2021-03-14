@@ -92,3 +92,20 @@ Parker Doughty - Automated testing implementation
 Nathan Manierre - Water and nutrient pathing, user story/ requirement creation  
 William Cross - Water and nutrient pathing, user story/ requirement creation      
 Patrick Caughey - Water and nutrient pathing, user story/ requirement creation    
+
+
+## Sprint 6
+* [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
+* [Velocity and Burndown Charts]
+* [System Architecture](https://github.com/evancombs/cop4331c-project/blob/master/artifacts/architecture.md)
+* [Source Code](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Resources/Scripts)
+* [Manual Tests](https://github.com/evancombs/cop4331c-project/tree/master/tests)
+* [Automated Tests](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Resources/Tests)
+* [Product Demonstration]
+
+## Task Allocation
+Evan Combs - 
+Parker Doughty - 
+Nathan Manierre - 
+William Cross - 
+Patrick Caughey -  
