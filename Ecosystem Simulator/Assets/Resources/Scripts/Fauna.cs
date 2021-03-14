@@ -23,7 +23,7 @@ public class Fauna : Organism
         directionDuration = Random.Range(0, 5f);
         controlSpeed = Random.Range(0f, 1f);
         waterLevel = 50.0f;
-				nutrientLevel = 50f;
+		nutrientLevel = 50f;
     }
 
     public override void move()
@@ -190,7 +190,7 @@ public class Fauna : Organism
 
 	public override void checkNutrients()
 	{
-		if (nutrientLevel <= 0f && waterLevel <= 20f)
+		if (nutrientLevel <= 0f)
 			kill();
 	}
 
@@ -206,9 +206,62 @@ public class Fauna : Organism
         Destroy(gameObject);
     }
 
-    
-    
-        
+    public override void checkReproduce()
+    {
+        Debug.Log("Checking reproductive ability!");
+        bool waterSatisfied = false;
+        bool nutrientSatisfied = true;
+
+        if (waterLevel >= 25f)
+            waterSatisfied = true;
+        if (nutrientLevel >= nutrientValue)
+            nutrientSatisfied = true;
+
+        if (nutrientSatisfied && waterSatisfied)
+            reproduce();
+    }
+
+    public override int reproduce()
+    {
+        Debug.Log("Ready to try to reproduce!");
+        float chanceToReproduce = Random.Range(0, 1);
+
+        // If the chance fails, we instantly return 0
+        if (chanceToReproduce >= reproductiveChance)
+            return 0;
+
+        // If we get here, reproduction has been succesful, so we must create
+        // reproductiveRate new organisms.
+        // We attempt to produce UP TO
+        for (int i = 0; i < reproductiveRate; i++)
+        {
+            if ((nutrientLevel - nutrientValue) <= 0f)
+                return i;
+            if ((waterLevel - 25f) <= 0f)
+                return i;
+            // Random position within 10 units
+            Vector3 pos = new Vector3(gameObject.transform.position.x + Random.Range(-10, 10),
+                                      gameObject.transform.position.y,
+                                      gameObject.transform.position.z + Random.Range(-10, 10));
+
+            // GameObject.Instantiate(gameObject, pos, Quaternion.identity);
+
+            GameObject newChild = GameObject.Instantiate(gameObject, pos, Quaternion.identity);
+            //newChild.transform.parent = gameObject.transform.parent;
+            //newChild.transform.SetParent(transform.parent);
+            newChild.transform.parent = transform.parent;
+
+            // Update nutrient and water levels
+            nutrientLevel -= nutrientValue;
+            waterLevel -= 25f;
+        }
+
+        return reproductiveRate;
+    }
+
+
+
+
 
 
 

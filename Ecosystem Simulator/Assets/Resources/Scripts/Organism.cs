@@ -7,8 +7,8 @@ public class Organism : MonoBehaviour
     public float waterLevel;
     public float nutrientValue;
 
-    double reproductiveChance;
-    int reproductiveRate;
+    public double reproductiveChance;
+    public int reproductiveRate;
 
     public double awareness = 10;
 
@@ -35,7 +35,8 @@ public class Organism : MonoBehaviour
 
         // Functions implemented here that all Organisms need:
         UpdateWater();
-				UpdateNutrients();
+		UpdateNutrients();
+        checkReproduce();
 
         // Functions that some Organisms need:
         move();
@@ -59,6 +60,49 @@ public class Organism : MonoBehaviour
       }
     }
 
+    // Flora automatically try to reproduce and always have nutrients satisfied.
+    public virtual void checkReproduce()
+    {
+        // Debug.Log("Checking reproductive ability!");
+        bool waterSatisfied = false;
+        bool nutrientSatisfied = true;
+
+        if (waterLevel >= 25f)
+            waterSatisfied = true;
+
+        if (nutrientSatisfied && waterSatisfied)
+            reproduce();
+    }
+
+    public virtual int reproduce()
+    {
+        // Debug.Log("Ready to try to reproduce!");
+        float chanceToReproduce = Random.Range(0, 1);
+
+        // If the chance fails, we instantly return 0
+        if (chanceToReproduce >= reproductiveChance)
+            return 0;
+
+        // If we get here, reproduction has been succesful, so we must create
+        // reproductiveRate new organisms.
+        // We attempt to produce UP TO
+        for (int i = 0; i < reproductiveRate; i++)
+        {
+            if ((waterLevel -= 25f) <= 0)
+                break;
+            // Random position within 10 units
+            Vector3 pos = new Vector3(gameObject.transform.position.x + Random.Range(-10, 10),
+                                      gameObject.transform.position.y,
+                                      gameObject.transform.position.z + Random.Range(-10, 10));
+            GameObject newChild = GameObject.Instantiate(gameObject as GameObject, pos, Quaternion.identity);
+            // newChild.transform.parent = gameObject.transform.parent;
+            newChild.transform.SetParent(gameObject.transform.parent);
+            //Debug.Log(gameObject.transform.parent);
+            waterLevel -= 25f;
+        }
+
+        return reproductiveRate;
+    }
 	  
 
     // The base organism has no movement functionality; Fauna, however, does.
@@ -78,12 +122,12 @@ public class Organism : MonoBehaviour
 
     }
 
-  public virtual void UpdateNutrients()
-  {
+    public virtual void UpdateNutrients()
+    {
 
-  }
+    }
 
-  public virtual void searchNutrients()
+    public virtual void searchNutrients()
     {
 
     }
