@@ -21,6 +21,12 @@ public class Prey : Fauna
 
                 break;
             }
+            if (nearby[i].gameObject.GetComponent("Flora"))
+            {
+                if (nutrientLevel <= 10f)
+                    nearby[i].GetComponent<Flora>().kill();
+                break;
+            }
         }
     }
 

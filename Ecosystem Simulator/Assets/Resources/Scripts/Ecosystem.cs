@@ -17,9 +17,9 @@ public class Ecosystem : MonoBehaviour
         // preySpecies.GetComponent<PredatorDriver>().xSize = xSize;
 
         // Populate the system with some organisms
-        int numPrey = 10;
-        int numPredator = 10;
-        int numFlora = 10;
+        int numPrey = 16;
+        int numPredator = 4;
+        int numFlora = 64;
         int numWater = 3;
 
         for (int i = 0; i < numPrey; i++)
