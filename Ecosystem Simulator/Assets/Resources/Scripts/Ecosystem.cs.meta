@@ -3,7 +3,15 @@ guid: 4835d1f812be9494c91d81fda26ea7a9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - preySpecies: {fileID: 8272689723206739088, guid: ea61d90a0696e6046972a3c411f5136b,
+      type: 3}
+  - predatorSpecies: {fileID: 4197818435112066953, guid: 9b741b1da8ab21940a2418e94b928512,
+      type: 3}
+  - floraSpecies: {fileID: 1669479420023563448, guid: 99e771c161c19d04da925b246292e66e,
+      type: 3}
+  - waterSource: {fileID: 2696062169113004163, guid: 63e075aca1236bc4cb1739135e87e810,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

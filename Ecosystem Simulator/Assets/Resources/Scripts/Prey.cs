@@ -13,7 +13,7 @@ public class Prey : Fauna
         Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
         for (int i = 0; i < nearby.Length; i++)
         {
-            if (nearby[i].gameObject.GetComponent("FloraNutrients"))
+            if (nearby[i].gameObject.GetComponent("Nutrients"))
             {
                 if (nutrientLevel <= 100f)
                     // this will be changed to get the specific value from the game object
@@ -21,10 +21,11 @@ public class Prey : Fauna
 
                 break;
             }
-            if (nearby[i].gameObject.GetComponent("Flora"))
+            if (nearby[i].gameObject.GetComponent("Flora(Clone)"))
             {
-                if (nutrientLevel <= 10f)
-                    nearby[i].GetComponent<Flora>().kill();
+                if (nutrientLevel <= 100f)
+                    nutrientLevel += consume(nearby[i].gameObject);
+
                 break;
             }
         }

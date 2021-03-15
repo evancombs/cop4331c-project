@@ -4,7 +4,7 @@ using UnityEngine;
   
 public class Flora : Organism
 {
-
+    public float remainingNutrients;
 
     public override void kill()
     {
@@ -23,4 +23,8 @@ public class Flora : Organism
         if (waterLevel <= 0f)
             kill();
     }
+
+
+
+
 }

@@ -112,6 +112,7 @@ public class Fauna : Organism
                 transform.position += transform.forward * Time.deltaTime * movementSpeed;
             }
         }
+        
         else if (nutrientLevel <= 25)
         {
             GameObject closest = null; ;
@@ -120,7 +121,7 @@ public class Fauna : Organism
             Transform tMin = null;
             foreach (GameObject gameObj in GameObject.FindObjectsOfType<GameObject>())
             {
-                if (gameObj.name == "FloraNutrient(Clone)" || gameObj.name == "FuanaNutrient(Clone)" || gameObj.name == "Flora(Clone)")
+                if (gameObj.name == "Prey(Clone)")
                 {
                     float dist = Vector3.Distance(gameObj.transform.position, curPos);
                     if (dist < minDist)
@@ -130,7 +131,9 @@ public class Fauna : Organism
                         closest = gameObj;
                     }
                 }
+
             }
+
             if (minDist > awareness)
             {
                 transform.Translate(moveVector);
@@ -141,6 +144,7 @@ public class Fauna : Organism
                 transform.position += transform.forward * Time.deltaTime * movementSpeed;
             }
         }
+        
         else
         {
             transform.Translate(moveVector);
@@ -159,7 +163,7 @@ public class Fauna : Organism
         {
           if (nutrientLevel <= 100f)
             // this will be changed to get the specific value from the game object
-            nutrientLevel += .2f * Time.deltaTime;
+            //nutrientLevel += .2f * Time.deltaTime;
 
           break;
         }
