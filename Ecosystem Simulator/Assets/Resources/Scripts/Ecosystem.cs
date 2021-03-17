@@ -20,7 +20,7 @@ public class Ecosystem : MonoBehaviour
         int numPrey = 5;
         int numPredator = 4;
         int numFlora = 64;
-        int numWater = 3;
+        int numWater = 5;
 
         for (int i = 0; i < numPrey; i++)
         {

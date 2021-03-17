@@ -34,7 +34,7 @@ public class Prey : Fauna
     // Consumes some of the passed in nutrient object; returns the value consumed.
     public float consume(GameObject nutrient)
     {
-        nutrient.GetComponent<FloraNutrient>().consumeNutrients(consumptionRate);
+        nutrient.GetComponent<Nutrients>().consumeNutrients(consumptionRate);
 
         // Note: currently allows consumptionRate to still be added even if the consumption would reduce the nutrient to 0.
         return consumptionRate;

@@ -132,6 +132,5 @@ public class Organism : MonoBehaviour
 
     }
 
-    
 
 }

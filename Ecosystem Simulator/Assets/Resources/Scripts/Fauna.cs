@@ -14,7 +14,7 @@ public class Fauna : Organism
     public float movementConsumptionRate = 1f; // Dynamic nutrient consumption
     public float nutrientLevel;
 
-  float directionDuration;
+    float directionDuration;
     private Vector3 directionVector;
 
     private void Start()
@@ -39,6 +39,7 @@ public class Fauna : Organism
             controlSpeed = Random.Range(0f, 1f);
         }
 
+        // Checks to see if a fauna has hit the edge of the ecosystem.
         if (hasHitEdge == 1)
         {
             directionVector = new Vector3(Random.Range(-2f, 2f), 0, Random.Range(-2f, 2f));
@@ -94,7 +95,7 @@ public class Fauna : Organism
                 if (gameObj.name == "WaterSource(Clone)")
                 {
                     float dist = Vector3.Distance(gameObj.transform.position, curPos);
-                    if (dist < minDist)
+                    if (dist < minDist && dist > 1f)
                     {
                         tMin = gameObj.transform;
                         minDist = dist;
@@ -124,11 +125,22 @@ public class Fauna : Organism
                 if (gameObj.name == "Prey(Clone)")
                 {
                     float dist = Vector3.Distance(gameObj.transform.position, curPos);
-                    if (dist < minDist)
+                    if (dist < minDist && dist > 0.5f)
                     {
                         tMin = gameObj.transform;
                         minDist = dist;
                         closest = gameObj;
+                    }
+
+                    else
+                    {
+                        // Create nutrients
+                        GameObject nutrients = Instantiate(Resources.Load("Prefabs/FaunaNutrient") as GameObject, gameObj.transform.position, Quaternion.identity);
+                        nutrients.GetComponent<Nutrients>().Init(nutrientValue);
+                        nutrients.transform.parent = transform.parent;
+
+                        Destroy(gameObj);
+
                     }
                 }
 
@@ -209,6 +221,7 @@ public class Fauna : Organism
         // Then destroy the organism
         Destroy(gameObject);
     }
+
 
     public override void checkReproduce()
     {

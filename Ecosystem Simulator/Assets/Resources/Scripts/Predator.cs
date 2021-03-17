@@ -21,6 +21,7 @@ public class Predator : Fauna
             }
         }
     }
+
     public float consume(GameObject nutrient)
     {
         nutrient.GetComponent<Nutrients>().consumeNutrients(consumptionRate);

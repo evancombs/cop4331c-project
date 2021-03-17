@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-03-06T01:25:00.445-05:00
-  initializedAtString: 2021-03-06T01:25:00.437-05:00
+  lastUpdatedAtString: 2021-03-17T16:28:46.888-04:00
+  initializedAtString: 2021-03-17T16:28:45.916-04:00
   localBranches:
   - name: master
     tracking: origin/master
@@ -25,7 +25,7 @@ MonoBehaviour:
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/evancombs/cop4331c-project.git
+    url: https://github.com/evancombs/cop4331c-project
     login: 
     user: 
     host: 
@@ -38,7 +38,7 @@ MonoBehaviour:
     - name: master
       remote:
         name: origin
-        url: https://github.com/evancombs/cop4331c-project.git
+        url: https://github.com/evancombs/cop4331c-project
       trackingBranch: master
   remoteConfigBranches:
     keys:
@@ -52,16 +52,16 @@ MonoBehaviour:
       - name: HEAD
         remote:
           name: origin
-          url: https://github.com/evancombs/cop4331c-project.git
+          url: https://github.com/evancombs/cop4331c-project
         trackingBranch: 
       - name: master
         remote:
           name: origin
-          url: https://github.com/evancombs/cop4331c-project.git
+          url: https://github.com/evancombs/cop4331c-project
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/evancombs/cop4331c-project.git
+      url: https://github.com/evancombs/cop4331c-project

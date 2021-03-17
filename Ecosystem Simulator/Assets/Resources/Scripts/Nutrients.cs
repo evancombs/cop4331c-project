@@ -8,7 +8,7 @@ public class Nutrients : MonoBehaviour
 
     public void Init(float value)
     {
-        value = 5;
+        value = 20;
         remainingNutrients = value;
     }
 
@@ -29,7 +29,7 @@ public class Nutrients : MonoBehaviour
     public void UpdateSize()
     {
         // Maps the remainingNutrients [0, 100] range to a size range of [.25, 1.0]
-        float modelSize = (remainingNutrients * .075f) + .25f;
+        float modelSize = (remainingNutrients * .0175f) + .25f;
 
         Vector3 size = new Vector3(modelSize, modelSize, modelSize);
         gameObject.transform.localScale = size;
