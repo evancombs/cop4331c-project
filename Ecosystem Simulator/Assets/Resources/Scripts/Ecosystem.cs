@@ -27,24 +27,28 @@ public class Ecosystem : MonoBehaviour
             GameObject prey = Instantiate(preySpecies, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
             prey.transform.parent = gameObject.transform;
             prey.SetActive(true);
+            prey.name = preySpecies.name;
         }
         for (int i = 0; i < numPredator; i++)
         {
             GameObject predator = Instantiate(predatorSpecies, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
             predator.transform.parent = gameObject.transform;
             predator.SetActive(true);
+            predator.name = predatorSpecies.name;
     }
         for (int i = 0; i < numFlora; i++)
         {
             GameObject flora = Instantiate(floraSpecies, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
             flora.transform.parent = gameObject.transform;
             flora.SetActive(true);
+            flora.name = floraSpecies.name;
     }
         for (int i = 0; i < numWater; i++)
         {
             GameObject water = Instantiate(waterSource, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
             water.transform.parent = gameObject.transform;
             water.SetActive(true);
+            water.name = waterSource.name;
     }
     }
 
