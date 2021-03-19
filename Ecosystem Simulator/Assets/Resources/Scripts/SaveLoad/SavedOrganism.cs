@@ -11,6 +11,6 @@ public class SavedOrganism
     public double reproductiveChance;
     public int reproductiveRate;
 
-    public double awareness = 10;
+    public double awareness;
 
 }
