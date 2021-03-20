@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-  
+
 public class Ecosystem : MonoBehaviour
 {
     public GameObject preySpecies;
