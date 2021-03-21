@@ -6,3 +6,4 @@
       |  play button.      | unity GameObject  | 
       |                    | that represents a | 
       |                    |  flora species.   | 
+      | :----------------: | :---------------: | 
