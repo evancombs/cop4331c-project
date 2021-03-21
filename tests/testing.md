@@ -2,8 +2,7 @@
 
 |No.  | Steps to Reproduce | Expected Behavior |  
 | :-- | :----------------: | :---------------: | 
-| 1.  | Click on the unity 
-        play button.       | User should see a 
-                             unity GameObject 
-                             represents a flora 
-                             species.          |
+| 1.  | Click on the unity | User should see a |  
+      |  play button.      | unity GameObject  | 
+      |                    | that represents a | 
+      |                    |  flora species.   | 
