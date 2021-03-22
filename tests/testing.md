@@ -1,4 +1,4 @@
-## [U001]: As a user, I want to see a flora species in the ecosystem.
+# [U001]: As a user, I want to see a flora species in the ecosystem.
 |no.   |Steps to Reproduce   |Expected Behavior   |
 |---|---|---|
 | 1.  | Click play in Unity editor  | flora GameObjects should spawn on screen | 
@@ -41,15 +41,6 @@
 
 
 
-## [U006]: As a user, I want to see a distinction between consumable plant and animal nutrients, i.e. carnivore and Herbivore.
-| no.   | Steps to Reproduce  | Expected Behavior  |
-|---|---|---|
-| 1.  | Click on the play button in the unity editor | there should be plant nutrients(green), and animal nutrients(pink) |
-| 2.  | Click on a "FaunaNutrient" in the unity scene  | material should be pink, and the size should depend on the remaining nutrients.  |
-| 3.  | Click on a "FloraNutrient" in the unity scene  | material should be green, and the size should depend on the remaining nutrients. |
-
-
-
 ## [U012]: As a user, I want to see organisms capable of reproducing when in satisfactory conditions, to represent success/ reproductive health of a species.
 | no.  | Steps to Reproduce  | Expected Behavior  |
 |---|---|---|
@@ -63,4 +54,14 @@
 | 1.  | Click the play button in the unity editor  | predators and prey should move randomly |
 | 2.  | nutrientLevel <= 25  | If predators are near a prey species they will attempt to path towards them. |
 | 3.  | nutrientLevel <= 25, and predator is on top of prey | The predator should kill the prey and comsume the nutrients if needed. | 
+
+
+
+
+## [U018]: As a user, I want to see a distinction between consumable plant and animal nutrients, i.e. carnivore and Herbivore.
+| no.   | Steps to Reproduce  | Expected Behavior  |
+|---|---|---|
+| 1.  | Click on the play button in the unity editor | there should be plant nutrients(green), and animal nutrients(pink) |
+| 2.  | Click on a "FaunaNutrient" in the unity scene  | material should be pink, and the size should depend on the remaining nutrients.  |
+| 3.  | Click on a "FloraNutrient" in the unity scene  | material should be green, and the size should depend on the remaining nutrients. |
 
