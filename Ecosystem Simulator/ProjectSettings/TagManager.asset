@@ -9,6 +9,8 @@ TagManager:
   - flora
   - floraNutrient
   - faunaNutrient
+  - ecosystem
+  - waterSource
   layers:
   - Default
   - TransparentFX
