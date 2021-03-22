@@ -1,23 +1,23 @@
 ## [U001]: As a user, I want to see a flora species in the ecosystem.
 |no.   |Steps to Reproduce   |Expected Behavior   |
 |---|---|---|
-| 1.  | Click play in Unity editor  | flora GameObjects should spawn on screen, all should have a script component named "Flora," and the material should be green.  |
-
+| 1.  | Click play in Unity editor  | flora GameObjects should spawn on screen | 
+| 2.  | Click on a flora species in the unity scene | all flora objects should have a script component named "Flora", and the material should be green. |
 
 
 
 ## [U002]: As a user I want to be able to see an entity that represents a predator species.
 |no.  |Steps to Reproduce   |Expected Behavior   |
 |---|---|---|
-| 1.  |  Click play in unity editor  | predator GameObjects should spawn on screen, all should have a script componenet named "Predator," and the material should be red.  |
-
+| 1.  |  Click play in unity editor  | predator GameObjects should spawn on screen | 
+| 2.  |  Click on a predator species in the unity scene | all predator objects should have a script component named "Predator", and the material should be red. | 
 
 
 ## [U003]: As a user I want to be able to see an entity that represents a prey species. 
 |no.  |Steps to Reproduce   |Expected Behavior   |
 |---|---|---|
 | 1.  |  Click play in unity editor  | prey GameObjects should spawn on screen, all should have a script componenet named "Prey," and the material should be orange.  |
-
+| 2.  |  Click on a prey species in the unity scene | all prey species should have a script component named "Prey", and the material should be orange. | 
 
 
 ## [U004]: As a user, I want to see a need for food/nutrients by the fauna. 
