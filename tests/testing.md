@@ -1,4 +1,4 @@
-# [U001]: As a user, I want to see a flora species in the ecosystem.
+## [U001]: As a user, I want to see a flora species in the ecosystem.
 |no.   |Steps to Reproduce   |Expected Behavior   |
 |---|---|---|
 | 1.  | Click play in Unity editor  | flora GameObjects should spawn on screen | 
