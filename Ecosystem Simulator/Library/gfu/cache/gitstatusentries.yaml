@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-03-21T23:10:38.926-04:00
-  initializedAtString: 2021-03-21T22:43:23.018-04:00
+  lastUpdatedAtString: 2021-03-23T18:24:25.360-04:00
+  initializedAtString: 2021-03-23T18:05:35.327-04:00
   entries:
   - path: Ecosystem Simulator\.vs\Ecosystem Simulator\v16\.suo
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\.vs\Ecosystem
@@ -23,21 +23,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\Assembly-CSharp-Editor.csproj
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Assets\Resources\Prefabs\WaterSource.prefab
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Resources\Prefabs\WaterSource.prefab
-    projectPath: Assets\Resources\Prefabs\WaterSource.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Assets\Resources\Scripts\SaveLoad\SavedEcosystem.cs
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Resources\Scripts\SaveLoad\SavedEcosystem.cs
-    projectPath: Assets\Resources\Scripts\SaveLoad\SavedEcosystem.cs
+  - path: Ecosystem Simulator\Assets\Resources\Scripts\Ecosystem.cs
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Assets\Resources\Scripts\Ecosystem.cs
+    projectPath: Assets\Resources\Scripts\Ecosystem.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -47,22 +35,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\Ecosystem Simulator.sln
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Ecosystem
-      Simulator.sln
-    projectPath: Ecosystem Simulator.sln
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Ecosystem Simulator\Library\ArtifactDB
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ArtifactDB-lock
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ArtifactDB-lock
-    projectPath: Library\ArtifactDB-lock
+  - path: Ecosystem Simulator\Library\CurrentMaximizeLayout.dwlt
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\CurrentMaximizeLayout.dwlt
+    projectPath: Library\CurrentMaximizeLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -102,12 +83,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Ecosystem Simulator\Library\ScriptAssemblies\ScriptAssembly.dll
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ScriptAssemblies\ScriptAssembly.dll
     projectPath: Library\ScriptAssemblies\ScriptAssembly.dll
@@ -126,45 +101,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\ScriptAssemblies\Tests.pdb
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\ScriptAssemblies\Tests.pdb
-    projectPath: Library\ScriptAssemblies\Tests.pdb
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe1.log
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe1.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe3.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe4.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe5.log
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe5.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -180,12 +125,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe8.log
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe8.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe8.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe9.log
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\shadercompiler-UnityShaderCompiler.exe9.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe9.log
@@ -198,45 +137,21 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\Library\SourceAssetDB-lock
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\SourceAssetDB-lock
-    projectPath: Library\SourceAssetDB-lock
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Ecosystem Simulator\Library\StateCache\Hierarchy\4c969a-mainStage.json
     fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\StateCache\Hierarchy\4c969a-mainStage.json
     projectPath: Library\StateCache\Hierarchy\4c969a-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+  - path: Ecosystem Simulator\Library\StateCache\SceneView\cc2798-mainStage.json
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Library\StateCache\SceneView\cc2798-mainStage.json
+    projectPath: Library\StateCache\SceneView\cc2798-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Ecosystem Simulator\obj\Debug\ScriptAssembly.csprojAssemblyReference.cache
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\obj\Debug\ScriptAssembly.csprojAssemblyReference.cache
-    projectPath: obj\Debug\ScriptAssembly.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\obj\Debug\Tests.csprojAssemblyReference.cache
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\obj\Debug\Tests.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Tests.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\ProjectSettings\TagManager.asset
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\ProjectSettings\TagManager.asset
-    projectPath: ProjectSettings\TagManager.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Ecosystem Simulator\ScriptAssembly.csproj
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\ScriptAssembly.csproj
-    projectPath: ScriptAssembly.csproj
+  - path: Ecosystem Simulator\ProjectSettings\QualitySettings.asset
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -252,339 +167,57 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-0699f8774092f1d4d82f2c0a3578ae9e
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-0699f8774092f1d4d82f2c0a3578ae9e
-    projectPath: Temp\UnityTempFile-0699f8774092f1d4d82f2c0a3578ae9e
+  - path: Ecosystem Simulator\Temp\UnityTempFile-0efc947e9173bf549ac59d367dfd2aa8
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-0efc947e9173bf549ac59d367dfd2aa8
+    projectPath: Temp\UnityTempFile-0efc947e9173bf549ac59d367dfd2aa8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-0817059d1c0d16248819df2efcd1b6f5
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-0817059d1c0d16248819df2efcd1b6f5
-    projectPath: Temp\UnityTempFile-0817059d1c0d16248819df2efcd1b6f5
+  - path: Ecosystem Simulator\Temp\UnityTempFile-1bb16fdd54b1552418d1d3400f90eca6
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-1bb16fdd54b1552418d1d3400f90eca6
+    projectPath: Temp\UnityTempFile-1bb16fdd54b1552418d1d3400f90eca6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-08f10bb4bb26f364faae70d0b177f544
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-08f10bb4bb26f364faae70d0b177f544
-    projectPath: Temp\UnityTempFile-08f10bb4bb26f364faae70d0b177f544
+  - path: Ecosystem Simulator\Temp\UnityTempFile-53c890a3b7281bc448ed6460d87e4697
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-53c890a3b7281bc448ed6460d87e4697
+    projectPath: Temp\UnityTempFile-53c890a3b7281bc448ed6460d87e4697
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-15153927347e54c469a38daebf4a0ff7
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-15153927347e54c469a38daebf4a0ff7
-    projectPath: Temp\UnityTempFile-15153927347e54c469a38daebf4a0ff7
+  - path: Ecosystem Simulator\Temp\UnityTempFile-5a139d19eabcb89499539f1049f0a615
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-5a139d19eabcb89499539f1049f0a615
+    projectPath: Temp\UnityTempFile-5a139d19eabcb89499539f1049f0a615
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-1a3581191ebf39448b761269879ffe78
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-1a3581191ebf39448b761269879ffe78
-    projectPath: Temp\UnityTempFile-1a3581191ebf39448b761269879ffe78
+  - path: Ecosystem Simulator\Temp\UnityTempFile-8de54685b3e01bd4e80c6a925a2e78cc
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-8de54685b3e01bd4e80c6a925a2e78cc
+    projectPath: Temp\UnityTempFile-8de54685b3e01bd4e80c6a925a2e78cc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-1df5ed238fe362146940f775bd90da49
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-1df5ed238fe362146940f775bd90da49
-    projectPath: Temp\UnityTempFile-1df5ed238fe362146940f775bd90da49
+  - path: Ecosystem Simulator\Temp\UnityTempFile-a69ed0bfe6764b14189a568b2eb62b21
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-a69ed0bfe6764b14189a568b2eb62b21
+    projectPath: Temp\UnityTempFile-a69ed0bfe6764b14189a568b2eb62b21
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-1ee2fc2649b4b3947b05f27abd7bf584
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-1ee2fc2649b4b3947b05f27abd7bf584
-    projectPath: Temp\UnityTempFile-1ee2fc2649b4b3947b05f27abd7bf584
+  - path: Ecosystem Simulator\Temp\UnityTempFile-b24bafebdd3fc354b997ac2abcd5e65c
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-b24bafebdd3fc354b997ac2abcd5e65c
+    projectPath: Temp\UnityTempFile-b24bafebdd3fc354b997ac2abcd5e65c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-222b79705f4cc83408797fb6e468895d
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-222b79705f4cc83408797fb6e468895d
-    projectPath: Temp\UnityTempFile-222b79705f4cc83408797fb6e468895d
+  - path: Ecosystem Simulator\Temp\UnityTempFile-d820b0e7522ee9345bd2d282635f2f95
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-d820b0e7522ee9345bd2d282635f2f95
+    projectPath: Temp\UnityTempFile-d820b0e7522ee9345bd2d282635f2f95
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-27d5aecb559bfff49acb52869c89f22e
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-27d5aecb559bfff49acb52869c89f22e
-    projectPath: Temp\UnityTempFile-27d5aecb559bfff49acb52869c89f22e
+  - path: Ecosystem Simulator\Temp\UnityTempFile-fdacd55d4dd0c784cb14c3699dcb6880
+    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-fdacd55d4dd0c784cb14c3699dcb6880
+    projectPath: Temp\UnityTempFile-fdacd55d4dd0c784cb14c3699dcb6880
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-36466fa208db0124a8653d6e23725637
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-36466fa208db0124a8653d6e23725637
-    projectPath: Temp\UnityTempFile-36466fa208db0124a8653d6e23725637
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-39160369558110645ba29cffa8eacb94
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-39160369558110645ba29cffa8eacb94
-    projectPath: Temp\UnityTempFile-39160369558110645ba29cffa8eacb94
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-4a3d99c1b88a34240ba491e469e4dbe2
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-4a3d99c1b88a34240ba491e469e4dbe2
-    projectPath: Temp\UnityTempFile-4a3d99c1b88a34240ba491e469e4dbe2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-51d4840373145d4438dec62a367b7d33
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-51d4840373145d4438dec62a367b7d33
-    projectPath: Temp\UnityTempFile-51d4840373145d4438dec62a367b7d33
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-5232619ffd06f4f41b6885f39e83707b
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-5232619ffd06f4f41b6885f39e83707b
-    projectPath: Temp\UnityTempFile-5232619ffd06f4f41b6885f39e83707b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-52b45224e924d0f488a388f95952c9cb
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-52b45224e924d0f488a388f95952c9cb
-    projectPath: Temp\UnityTempFile-52b45224e924d0f488a388f95952c9cb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-53fc8ef98dbf18f48ac30edd7f6a80f9
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-53fc8ef98dbf18f48ac30edd7f6a80f9
-    projectPath: Temp\UnityTempFile-53fc8ef98dbf18f48ac30edd7f6a80f9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-5ff7935e173b29f42a3e740f8ad07842
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-5ff7935e173b29f42a3e740f8ad07842
-    projectPath: Temp\UnityTempFile-5ff7935e173b29f42a3e740f8ad07842
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-6046756df3d32ed48bf5a03a6daeb689
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-6046756df3d32ed48bf5a03a6daeb689
-    projectPath: Temp\UnityTempFile-6046756df3d32ed48bf5a03a6daeb689
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-60e6a65f1ed1fb546a188c04b6e0a322
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-60e6a65f1ed1fb546a188c04b6e0a322
-    projectPath: Temp\UnityTempFile-60e6a65f1ed1fb546a188c04b6e0a322
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-63b82d7d2056c6d44af7d25364d881f1
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-63b82d7d2056c6d44af7d25364d881f1
-    projectPath: Temp\UnityTempFile-63b82d7d2056c6d44af7d25364d881f1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-663276cbb5ea23744b2cca96c4a30a4e
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-663276cbb5ea23744b2cca96c4a30a4e
-    projectPath: Temp\UnityTempFile-663276cbb5ea23744b2cca96c4a30a4e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-6712d7f983614ec4383076e24c83abe9
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-6712d7f983614ec4383076e24c83abe9
-    projectPath: Temp\UnityTempFile-6712d7f983614ec4383076e24c83abe9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-6b9f132f10c17764da1d470ac8d3d8c2
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-6b9f132f10c17764da1d470ac8d3d8c2
-    projectPath: Temp\UnityTempFile-6b9f132f10c17764da1d470ac8d3d8c2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-771be64b78020284283d483daef7e18e
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-771be64b78020284283d483daef7e18e
-    projectPath: Temp\UnityTempFile-771be64b78020284283d483daef7e18e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-780c5d5bca5421d4cb0eb8e5e3f4f989
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-780c5d5bca5421d4cb0eb8e5e3f4f989
-    projectPath: Temp\UnityTempFile-780c5d5bca5421d4cb0eb8e5e3f4f989
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-78b02434beb412441b19db690959cda8
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-78b02434beb412441b19db690959cda8
-    projectPath: Temp\UnityTempFile-78b02434beb412441b19db690959cda8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-7fdd9f8cc73d97343b3341f441a258dd
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-7fdd9f8cc73d97343b3341f441a258dd
-    projectPath: Temp\UnityTempFile-7fdd9f8cc73d97343b3341f441a258dd
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-853c1a703ae9f4540adc64b879e6a23d
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-853c1a703ae9f4540adc64b879e6a23d
-    projectPath: Temp\UnityTempFile-853c1a703ae9f4540adc64b879e6a23d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-881b8a7e6d32ef34fb9a09d6f81deec8
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-881b8a7e6d32ef34fb9a09d6f81deec8
-    projectPath: Temp\UnityTempFile-881b8a7e6d32ef34fb9a09d6f81deec8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-957931e9134cc3f4cb6e0a6201a58b98
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-957931e9134cc3f4cb6e0a6201a58b98
-    projectPath: Temp\UnityTempFile-957931e9134cc3f4cb6e0a6201a58b98
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-95f20378d0f889449b38c09a4a378920
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-95f20378d0f889449b38c09a4a378920
-    projectPath: Temp\UnityTempFile-95f20378d0f889449b38c09a4a378920
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-9c34ab54dfe98f9448ec4e53ebea8271
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-9c34ab54dfe98f9448ec4e53ebea8271
-    projectPath: Temp\UnityTempFile-9c34ab54dfe98f9448ec4e53ebea8271
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-a99dde1672137ad4e96d7a1cf55839f1
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-a99dde1672137ad4e96d7a1cf55839f1
-    projectPath: Temp\UnityTempFile-a99dde1672137ad4e96d7a1cf55839f1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-aa7306d4da75a5444a4ec3e4f23a9051
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-aa7306d4da75a5444a4ec3e4f23a9051
-    projectPath: Temp\UnityTempFile-aa7306d4da75a5444a4ec3e4f23a9051
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-aeb903e888977af4c848fe31afca60f7
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-aeb903e888977af4c848fe31afca60f7
-    projectPath: Temp\UnityTempFile-aeb903e888977af4c848fe31afca60f7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-b4a15206a58d64e45bfeb73edb73b40c
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-b4a15206a58d64e45bfeb73edb73b40c
-    projectPath: Temp\UnityTempFile-b4a15206a58d64e45bfeb73edb73b40c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-baf52eb303ea0344dafaf37af902ff77
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-baf52eb303ea0344dafaf37af902ff77
-    projectPath: Temp\UnityTempFile-baf52eb303ea0344dafaf37af902ff77
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-bb1bf7c297236dc4ea4d524fc1e0bbfa
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-bb1bf7c297236dc4ea4d524fc1e0bbfa
-    projectPath: Temp\UnityTempFile-bb1bf7c297236dc4ea4d524fc1e0bbfa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-bca9f676a768f9b4da6a5a3ab3fd310c
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-bca9f676a768f9b4da6a5a3ab3fd310c
-    projectPath: Temp\UnityTempFile-bca9f676a768f9b4da6a5a3ab3fd310c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-be01930a0dbd6bc4081c511cf606d37b
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-be01930a0dbd6bc4081c511cf606d37b
-    projectPath: Temp\UnityTempFile-be01930a0dbd6bc4081c511cf606d37b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-c15dcb124bdc36a4cb57afc33e830db0
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-c15dcb124bdc36a4cb57afc33e830db0
-    projectPath: Temp\UnityTempFile-c15dcb124bdc36a4cb57afc33e830db0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-c86ba85da59458149ac73a4c4108d406
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-c86ba85da59458149ac73a4c4108d406
-    projectPath: Temp\UnityTempFile-c86ba85da59458149ac73a4c4108d406
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-cc00e62053cef34419334982fd32b7f6
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-cc00e62053cef34419334982fd32b7f6
-    projectPath: Temp\UnityTempFile-cc00e62053cef34419334982fd32b7f6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-d030d92d07f1de9438ae30dabe357a40
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-d030d92d07f1de9438ae30dabe357a40
-    projectPath: Temp\UnityTempFile-d030d92d07f1de9438ae30dabe357a40
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-d2f6bac72843f1d4cb6f018b893ee241
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-d2f6bac72843f1d4cb6f018b893ee241
-    projectPath: Temp\UnityTempFile-d2f6bac72843f1d4cb6f018b893ee241
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-d3a8cacf6dfa3ce46b8a80f108471d16
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-d3a8cacf6dfa3ce46b8a80f108471d16
-    projectPath: Temp\UnityTempFile-d3a8cacf6dfa3ce46b8a80f108471d16
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-dbe8f735cf648ed479d121c19322429d
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-dbe8f735cf648ed479d121c19322429d
-    projectPath: Temp\UnityTempFile-dbe8f735cf648ed479d121c19322429d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-dd5bf5a6c7637504799121bc8f3b72e6
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-dd5bf5a6c7637504799121bc8f3b72e6
-    projectPath: Temp\UnityTempFile-dd5bf5a6c7637504799121bc8f3b72e6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-e006019a470653b439e39bbc41c945db
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-e006019a470653b439e39bbc41c945db
-    projectPath: Temp\UnityTempFile-e006019a470653b439e39bbc41c945db
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-ee14948d6201eab46b0fe2cad04fe980
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-ee14948d6201eab46b0fe2cad04fe980
-    projectPath: Temp\UnityTempFile-ee14948d6201eab46b0fe2cad04fe980
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-ee70b0d207793f24a9223da3504c98b4
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-ee70b0d207793f24a9223da3504c98b4
-    projectPath: Temp\UnityTempFile-ee70b0d207793f24a9223da3504c98b4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-f132146575106424697ce86a918cd551
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-f132146575106424697ce86a918cd551
-    projectPath: Temp\UnityTempFile-f132146575106424697ce86a918cd551
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-f33327523478d1b459669c54bdd241f3
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-f33327523478d1b459669c54bdd241f3
-    projectPath: Temp\UnityTempFile-f33327523478d1b459669c54bdd241f3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-f6e4595a69604644791fc5f5e26b333a
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-f6e4595a69604644791fc5f5e26b333a
-    projectPath: Temp\UnityTempFile-f6e4595a69604644791fc5f5e26b333a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Temp\UnityTempFile-f8ada7400a4e85845b62ed8fd5e38ff7
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Temp\UnityTempFile-f8ada7400a4e85845b62ed8fd5e38ff7
-    projectPath: Temp\UnityTempFile-f8ada7400a4e85845b62ed8fd5e38ff7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Ecosystem Simulator\Tests.csproj
-    fullPath: C:\Users\evan\Documents\COP4331\EcosystemSimulator\Ecosystem Simulator\Tests.csproj
-    projectPath: Tests.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3

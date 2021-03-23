@@ -38,6 +38,7 @@ public class SaveLoadController : MonoBehaviour
 
     public static SavedEcosystem getCurrentEcosystem()
     {
+        Debug.Log("Preparing to profile...");
         SavedEcosystem save = new SavedEcosystem();
         GameObject ecoRef = GameObject.FindGameObjectWithTag("ecosystem");
         // Gather arrays of references to all ecosystem components
@@ -45,7 +46,7 @@ public class SaveLoadController : MonoBehaviour
         GameObject[] prey = GameObject.FindGameObjectsWithTag("prey");
         GameObject[] flora = GameObject.FindGameObjectsWithTag("flora");
         GameObject[] faunaNutrients = GameObject.FindGameObjectsWithTag("faunaNutrient");
-        GameObject[] floraNutrients = GameObject.FindGameObjectsWithTag("floraNutrients");
+        GameObject[] floraNutrients = GameObject.FindGameObjectsWithTag("floraNutrient");
         GameObject[] waterSources = GameObject.FindGameObjectsWithTag("waterSource");
 
         // Loop through each and add them to our save.
@@ -68,7 +69,7 @@ public class SaveLoadController : MonoBehaviour
         for (int i = 0; i < flora.Length; i++)
             save.addOrganism(flora[i]);
 
-
+        Debug.Log("Finished profile save! Returning to Save()");
         return save;
     }
 }

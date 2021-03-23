@@ -13,7 +13,7 @@ public class Ecosystem : MonoBehaviour
 
     void Start()
     {
-
+        
         // preySpecies.GetComponent<PredatorDriver>().xSize = xSize;
 
         // Populate the system with some organisms
@@ -49,7 +49,9 @@ public class Ecosystem : MonoBehaviour
             water.transform.parent = gameObject.transform;
             water.SetActive(true);
             water.name = waterSource.name;
-    }
+         }
+        // Testing SAVE LOAD
+        SaveLoadController.Save();
     }
 
 

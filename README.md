@@ -117,11 +117,11 @@ Patrick Caughey -  Predator lethality, Prey flora consumption
 * [Source Code](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Resources/Scripts)
 * [Manual Tests](https://github.com/evancombs/cop4331c-project/tree/master/tests)
 * [Automated Tests](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Resources/Tests)
-* [Product Demonstration]
+* [Product Demonstration](https://www.youtube.com/watch?v=0OPlO14ULtY)
 
 ## Task Allocation
-Evan Combs - 
-Parker Doughty - 
-Nathan Manierre -
-William Cross - 
-Patrick Caughey -
+Evan Combs - Data management, Saving, Loading, product demonstration
+Parker Doughty - Predator/ prey dynamics, User interface
+Nathan Manierre - Predator/ prey dynamics, User interface
+William Cross - Predator/ prey dynamics
+Patrick Caughey - Data tracking, simulation statistics
