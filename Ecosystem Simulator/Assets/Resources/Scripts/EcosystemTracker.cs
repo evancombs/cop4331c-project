@@ -5,6 +5,10 @@ using UnityEngine;
 public class EcosystemTracker : MonoBehaviour
 {
   public GameObject ecosystem;
+  public GameObject graph;
+
+  public float updateRate;
+  private float nextUpdate = 0;
 
   private Dictionary<string, int> data;
   
@@ -17,8 +21,22 @@ public class EcosystemTracker : MonoBehaviour
   // Update is called once per frame
   void Update()
   {
-    CountOrganisms();
-    Debug.Log(ToString());
+    if (nextUpdate < Time.time)
+    {
+      CountOrganisms();
+      GraphOrganisms();
+      nextUpdate = Time.time + updateRate;
+    }
+  }
+
+  void GraphOrganisms()
+  {
+    if (!graph)
+      return;
+    foreach (string key in data.Keys)
+    {
+      graph.GetComponent<GraphPanel>().AddNode(Time.time, data[key], key);
+    }
   }
 
   Dictionary<string, int> GetData()
@@ -37,7 +55,7 @@ public class EcosystemTracker : MonoBehaviour
       if (!(child.gameObject.GetComponent("Organism")))
         continue;
       // Get the organism's name
-      string child_name = child.gameObject.name;
+      string child_name = child.tag;
       int temp;
       // Increment the counter or add a new counter
       if (data.TryGetValue(child_name, out temp))
