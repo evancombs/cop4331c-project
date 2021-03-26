@@ -108,7 +108,7 @@ public class SaveLoadController : MonoBehaviour
         for (int i = 0; i < prey.Length; i++)
             save.addPrey(SavedPrey.savePrey(prey[i]));
         for (int i = 0; i < predators.Length; i++)
-            save.addPredator(SavedPredator.savePredator(prey[i]));
+            save.addPredator(SavedPredator.savePredator(predators[i]));
         for (int i = 0; i < flora.Length; i++)
             save.addFlora(SavedFlora.saveFlora(flora[i]));
 

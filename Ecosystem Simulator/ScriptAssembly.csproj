@@ -77,7 +77,10 @@
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SaveLoadTest.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedEcosystem.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedFauna.cs" />
+    <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedFaunaNutrient.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedFlora.cs" />
+    <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedFloraNutrient.cs" />
+    <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedNutrient.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedOrganism.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedPredator.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedPrey.cs" />
