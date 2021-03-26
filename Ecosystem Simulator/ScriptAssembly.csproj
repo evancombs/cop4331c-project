@@ -74,6 +74,7 @@
     <Compile Include="Assets\Resources\Scripts\Predator.cs" />
     <Compile Include="Assets\Resources\Scripts\Prey.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SaveLoadController.cs" />
+    <Compile Include="Assets\Resources\Scripts\SaveLoad\SaveLoadTest.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedEcosystem.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedFauna.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedFlora.cs" />
