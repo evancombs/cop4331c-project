@@ -63,11 +63,11 @@ public class SaveLoadController : MonoBehaviour
 
         // Organisms
         for (int i = 0; i < prey.Length; i++)
-            save.addOrganism(prey[i]);
+            save.addOrganism(SavedPrey.savePrey(prey[i]));
         for (int i = 0; i < predators.Length; i++)
-            save.addOrganism(prey[i]);
+            save.addOrganism(SavedPredator.savePredator(prey[i]));
         for (int i = 0; i < flora.Length; i++)
-            save.addOrganism(flora[i]);
+            save.addOrganism(SavedFlora.saveFlora(flora[i]));
 
         Debug.Log("Finished profile save! Returning to Save()");
         return save;
