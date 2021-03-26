@@ -8,20 +8,32 @@ public class SavedEcosystem
     public static SavedEcosystem current;
     // Static reference to current Ecosystem
 
-    List<SavedOrganism> organisms;
-    List<GameObject> waterSources;
-    List<GameObject> nutrients;
+    public List<SavedPrey> prey;
+    public List<SavedPredator> predators;
+    public List<SavedFlora> flora;
+    public List<GameObject> waterSources;
+    public List<GameObject> nutrients;
 
     public SavedEcosystem()
     {
-        organisms = new List<SavedOrganism>();
+        prey = new List<SavedPrey>();
+        predators = new List<SavedPredator>();
+        flora = new List<SavedFlora>();
         waterSources = new List<GameObject>();
         nutrients = new List<GameObject>();
     }
 
-    public void addOrganism(SavedOrganism organism)
+    public void addFlora(SavedFlora floraToAdd)
     {
-        organisms.Add(organism);
+        flora.Add(floraToAdd);
+    }
+    public void addPrey(SavedPrey preyToAdd)
+    {
+        prey.Add(preyToAdd);
+    }
+    public void addPredator(SavedPredator predatorToAdd)
+    {
+        predators.Add(predatorToAdd);
     }
 
     public void addNutrient(GameObject nutrient)

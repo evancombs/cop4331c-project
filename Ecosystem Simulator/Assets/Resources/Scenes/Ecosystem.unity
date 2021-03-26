@@ -590,7 +590,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 669746732}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &669746732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -638,6 +649,7 @@ GameObject:
   m_Component:
   - component: {fileID: 858112606}
   - component: {fileID: 858112607}
+  - component: {fileID: 858112608}
   m_Layer: 0
   m_Name: Ecosystem
   m_TagString: ecosystem
@@ -679,6 +691,20 @@ MonoBehaviour:
   waterSource: {fileID: 1257400944}
   xSize: 100
   zSize: 100
+--- !u!114 &858112608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858112605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 914d2d0ac623fc74aa9048f7d9d4df89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveButton: {fileID: 1789976728}
+  loadButton: {fileID: 2107780221}
 --- !u!1 &874148283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1185,7 +1211,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1789976729}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 914d2d0ac623fc74aa9048f7d9d4df89, type: 3}
+        m_MethodName: set_name
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Save
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1789976729
 MonoBehaviour:
   m_ObjectHideFlags: 0
