@@ -4,7 +4,7 @@ using UnityEngine;
   
 public class Predator : Fauna
 {
-    double lethality;
+    public double lethality;
     // Predators should only search for FaunaNutrients.
     public override void searchNutrients()
     {

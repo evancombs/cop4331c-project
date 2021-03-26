@@ -7,8 +7,8 @@ public class Fauna : Organism
     private GameObject fauna;
     int hasHitEdge = 0;
 
-    float movementSpeed = 5f;
-    float controlSpeed = 1f;
+    public float movementSpeed = 5f;
+    public float controlSpeed = 1f;
 
     public float consumptionRate = 1f; // Flat water consumption
     public float movementConsumptionRate = 1f; // Dynamic nutrient consumption

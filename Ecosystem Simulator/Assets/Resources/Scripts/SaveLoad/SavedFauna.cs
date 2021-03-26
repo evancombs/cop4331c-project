@@ -5,8 +5,8 @@ using UnityEngine;
 [System.Serializable]
 public class SavedFauna : SavedOrganism
 {
-    float movementSpeed;
-    float controlSpeed;
+    public float movementSpeed;
+    public float controlSpeed;
 
     public float consumptionRate;
     public float movementConsumptionRate;

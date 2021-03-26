@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
+<<<<<<< HEAD
   lastUpdatedAtString: 2021-03-26T13:21:39.609-04:00
   initializedAtString: 2021-03-26T13:21:39.609-04:00
+=======
+  lastUpdatedAtString: 2021-03-26T17:08:10.798-04:00
+  initializedAtString: 2021-03-26T17:08:10.798-04:00
+>>>>>>> f0a9a36b699f2021fc93c41ab78c5d2b60f11d43
   currentGitRemote:
     name: origin
     url: https://github.com/evancombs/cop4331c-project
