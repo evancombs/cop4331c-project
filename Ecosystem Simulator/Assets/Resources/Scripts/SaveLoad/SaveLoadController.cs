@@ -63,10 +63,13 @@ public class SaveLoadController : MonoBehaviour
         for (int i = 0; i < saveToLoad.flora.Count; i++)
             Instantiate(SavedFlora.loadFlora(saveToLoad.flora[i]));
 
-        for (int i = 0; i < saveToLoad.nutrients.Count; i++)
-            Instantiate(saveToLoad.nutrients[i]);
+        for (int i = 0; i < saveToLoad.floraNutrients.Count; i++)
+            Instantiate(SavedFloraNutrient.loadNutrient(saveToLoad.floraNutrients[i]));
+        for (int i = 0; i < saveToLoad.faunaNutrients.Count; i++)
+            Instantiate(SavedFaunaNutrient.loadNutrient(saveToLoad.faunaNutrients[i]));
+
         for (int i = 0; i < saveToLoad.waterSources.Count; i++)
-            Instantiate(saveToLoad.waterSources[i]);
+            Instantiate(Resources.Load("Prefab/WaterSource") as WaterSource, saveToLoad.waterSources[i]);
     }
 
     // Destroys all children of this Ecosystem
@@ -93,13 +96,13 @@ public class SaveLoadController : MonoBehaviour
 
         // Nutrients
         for (int i = 0; i < faunaNutrients.Length; i++)
-            save.addNutrient(faunaNutrients[i]);
+            save.addFaunaNutrient(SavedFaunaNutrient.SaveNutrient(faunaNutrients[i]));
         for (int i = 0; i < floraNutrients.Length; i++)
-            save.addNutrient(floraNutrients[i]);
+            save.addFloraNutrient(SavedFloraNutrient.SaveNutrient(floraNutrients[i]));
 
         // Water
         for (int i = 0; i < waterSources.Length; i++)
-            save.addWaterSource(waterSources[i]);
+            save.addWaterSource(waterSources[i].transform);
 
         // Organisms
         // Here we have "gathered" all of the organism GameObjects. We use

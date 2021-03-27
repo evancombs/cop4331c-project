@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SavedFaunaNutrient : SavedNutrient
 {
-     public static GameObject loadNutrient(SavedFaunaNutrient faunaNutrientSave)
+     public static GameObject loadNutrient(SavedFaunaNutrient nutrientSave)
     {
         GameObject loadedNutrient = GameObject.CreatePrimitive(PrimitiveType.Cube);
 
@@ -12,9 +12,9 @@ public class SavedFaunaNutrient : SavedNutrient
         loadedNutrient.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/FaunaNutrient", typeof(Material)) as Material);
 
         loadedNutrient.transform.localScale = new Vector3(1f, 1f, 1f);
-        loadedNutrient.transform.position = faunaNutrientSave.savedTransform.position;
+        loadedNutrient.transform.position = nutrientSave.savedTransform.position;
 
-        nutrientscriptRef.remainingNutrients = faunaNutrientSave.remainingNutrients;
+        nutrientscriptRef.remainingNutrients = nutrientSave.remainingNutrients;
 
         return loadedNutrient;
     }
@@ -24,11 +24,11 @@ public class SavedFaunaNutrient : SavedNutrient
         FaunaNutrient nutrientscriptRef = nutrientObject.GetComponent<FaunaNutrient>();
         SavedFaunaNutrient nutrientSave = new SavedFaunaNutrient();
 
-// loadedNutrient.transform.position = faunaNutrientSave.savedTransform.position;
+        nutrientSave.savedTransform = nutrientObject.transform;
 
-  //      nutrientscriptRef.remainingNutrients = faunaNutrientSave.remainingNutrients;
+        nutrientSave.remainingNutrients = nutrientscriptRef.remainingNutrients;
 
-        return null;
+        return nutrientSave;
     }
 
 }

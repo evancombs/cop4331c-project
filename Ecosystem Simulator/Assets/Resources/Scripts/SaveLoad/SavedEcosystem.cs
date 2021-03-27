@@ -11,16 +11,18 @@ public class SavedEcosystem
     public List<SavedPrey> prey;
     public List<SavedPredator> predators;
     public List<SavedFlora> flora;
-    public List<GameObject> waterSources;
-    public List<GameObject> nutrients;
+    public List<Transform> waterSources;
+    public List<SavedFaunaNutrient> faunaNutrients;
+    public List<SavedFloraNutrient> floraNutrients;
 
     public SavedEcosystem()
     {
         prey = new List<SavedPrey>();
         predators = new List<SavedPredator>();
         flora = new List<SavedFlora>();
-        waterSources = new List<GameObject>();
-        nutrients = new List<GameObject>();
+        waterSources = new List<Transform>();
+        faunaNutrients = new List<SavedFaunaNutrient>();
+        floraNutrients = new List<SavedFloraNutrient>();
     }
 
     public void addFlora(SavedFlora floraToAdd)
@@ -36,12 +38,16 @@ public class SavedEcosystem
         predators.Add(predatorToAdd);
     }
 
-    public void addNutrient(GameObject nutrient)
+    public void addFaunaNutrient(SavedFaunaNutrient nutrient)
     {
-        nutrients.Add(nutrient);
+        faunaNutrients.Add(nutrient);
+    }
+    public void addFloraNutrient(SavedFloraNutrient nutrient)
+    {
+        floraNutrients.Add(nutrient);
     }
 
-    public void addWaterSource(GameObject water)
+    public void addWaterSource(Transform water)
     {
         waterSources.Add(water);
     }
