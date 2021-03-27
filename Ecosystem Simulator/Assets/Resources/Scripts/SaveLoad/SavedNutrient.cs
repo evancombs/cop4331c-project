@@ -6,5 +6,5 @@ using UnityEngine;
 public class SavedNutrient
 {
     public float remainingNutrients;
-    public Transform savedTransform;
+    public float xCoord, yCoord, zCoord;
 }

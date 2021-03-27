@@ -18,7 +18,8 @@ public class SavedFlora : SavedOrganism
         loadedFlora.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/Green", typeof(Material)) as Material);
 
         loadedFlora.transform.localScale = new Vector3(.25f, 3f, .25f);
-        loadedFlora.transform.position = floraSave.savedTransform.position;
+        Vector3 pos = new Vector3(floraSave.xCoord, floraSave.yCoord, floraSave.zCoord);
+        loadedFlora.transform.position = pos;
 
         floraScriptRef.waterLevel = floraSave.waterLevel;
         floraScriptRef.nutrientValue = floraSave.nutrientValue;
@@ -26,7 +27,7 @@ public class SavedFlora : SavedOrganism
         floraScriptRef.reproductiveRate = floraSave.reproductiveRate;
         floraScriptRef.awareness = floraSave.awareness;
         floraScriptRef.remainingNutrients = floraSave.remainingNutrients;
-        floraScriptRef.transform.position = floraSave.savedTransform.position;
+        
 
         return loadedFlora;
     }
@@ -37,7 +38,9 @@ public class SavedFlora : SavedOrganism
         Flora floraScriptRef = floraObject.GetComponent<Flora>();
         SavedFlora floraSave = new SavedFlora();
 
-        floraSave.savedTransform = floraObject.transform;
+        floraSave.xCoord = floraObject.transform.position.x;
+        floraSave.yCoord = floraObject.transform.position.y;
+        floraSave.zCoord = floraObject.transform.position.z;
 
         floraSave.waterLevel = floraScriptRef.waterLevel;
         floraSave.nutrientValue = floraScriptRef.nutrientValue;

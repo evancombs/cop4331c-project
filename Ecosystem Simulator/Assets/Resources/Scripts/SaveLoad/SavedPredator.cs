@@ -17,7 +17,8 @@ public class SavedPredator : SavedFauna
         loadedPredator.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/Red", typeof(Material)) as Material);
 
         loadedPredator.transform.localScale = new Vector3(1f, 1f, 1f);
-        loadedPredator.transform.position = predatorSave.savedTransform.position;
+        Vector3 pos = new Vector3(predatorSave.xCoord, predatorSave.yCoord, predatorSave.zCoord);
+        loadedPredator.transform.position = pos;
 
         predScriptRef.waterLevel = predatorSave.waterLevel;
         predScriptRef.nutrientValue = predatorSave.nutrientValue;
@@ -25,7 +26,7 @@ public class SavedPredator : SavedFauna
         predScriptRef.reproductiveRate = predatorSave.reproductiveRate;
         predScriptRef.awareness = predatorSave.awareness;
         predScriptRef.lethality = predatorSave.lethality;
-        predScriptRef.transform.position = predatorSave.savedTransform.position;
+        
 
         predScriptRef.movementSpeed = predatorSave.movementSpeed;
         predScriptRef.controlSpeed = predatorSave.controlSpeed;
@@ -41,7 +42,9 @@ public class SavedPredator : SavedFauna
         Predator PredScriptRef = predatorObject.GetComponent<Predator>();
         SavedPredator predatorSave = new SavedPredator();
 
-        predatorSave.savedTransform = predatorObject.transform;
+        predatorSave.xCoord = predatorObject.transform.position.x;
+        predatorSave.yCoord = predatorObject.transform.position.y;
+        predatorSave.zCoord = predatorObject.transform.position.z;
 
         predatorSave.waterLevel = PredScriptRef.waterLevel;
         predatorSave.nutrientValue = PredScriptRef.nutrientValue;
@@ -49,7 +52,7 @@ public class SavedPredator : SavedFauna
         predatorSave.reproductiveRate = PredScriptRef.reproductiveRate;
         predatorSave.awareness = PredScriptRef.awareness;
         predatorSave.lethality = PredScriptRef.lethality;
-        predatorSave.savedTransform = PredScriptRef.transform;
+        
 
         predatorSave.movementSpeed = PredScriptRef.movementSpeed;
         predatorSave.controlSpeed = PredScriptRef.controlSpeed;

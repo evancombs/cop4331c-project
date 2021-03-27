@@ -15,14 +15,16 @@ public class SavedPrey : SavedFauna
         loadedPrey.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/Red", typeof(Material)) as Material);
 
         loadedPrey.transform.localScale = new Vector3(1f, 1f, 1f);
-        loadedPrey.transform.position = preySave.savedTransform.position;
+
+        Vector3 pos = new Vector3(preySave.xCoord, preySave.yCoord, preySave.zCoord);
+        loadedPrey.transform.position = pos;
 
         preyScriptRef.waterLevel = preySave.waterLevel;
         preyScriptRef.nutrientValue = preySave.nutrientValue;
         preyScriptRef.reproductiveChance = preySave.reproductiveChance;
         preyScriptRef.reproductiveRate = preySave.reproductiveRate;
         preyScriptRef.awareness = preySave.awareness;
-        preyScriptRef.transform.position = preySave.savedTransform.position;
+        
 
         preyScriptRef.movementSpeed = preySave.movementSpeed;
         preyScriptRef.controlSpeed = preySave.controlSpeed;
@@ -38,14 +40,15 @@ public class SavedPrey : SavedFauna
         Prey preyScriptRef = preyObject.GetComponent<Prey>();
         SavedPrey preySave = new SavedPrey();
 
-        preySave.savedTransform = preyObject.transform;
+        preySave.xCoord = preyObject.transform.position.x;
+        preySave.yCoord = preyObject.transform.position.y;
+        preySave.zCoord = preyObject.transform.position.z;
 
         preySave.waterLevel = preyScriptRef.waterLevel;
         preySave.nutrientValue = preyScriptRef.nutrientValue;
         preySave.reproductiveChance = preyScriptRef.reproductiveChance;
         preySave.reproductiveRate = preyScriptRef.reproductiveRate;
         preySave.awareness = preyScriptRef.awareness;
-        preySave.savedTransform = preyScriptRef.transform;
 
         preySave.movementSpeed = preyScriptRef.movementSpeed;
         preySave.controlSpeed = preyScriptRef.controlSpeed;

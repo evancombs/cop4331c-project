@@ -13,6 +13,6 @@ public class SavedOrganism
 
     public double awareness;
 
-    public Transform savedTransform;
+    public float xCoord,yCoord,zCoord;
 
 }

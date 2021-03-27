@@ -12,7 +12,10 @@ public class SavedFloraNutrient : SavedNutrient
         loadedNutrient.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/FaunaNutrient", typeof(Material)) as Material);
 
         loadedNutrient.transform.localScale = new Vector3(1f, 1f, 1f);
-        loadedNutrient.transform.position = nutrientSave.savedTransform.position;
+
+        Vector3 pos = new Vector3(nutrientSave.xCoord, nutrientSave.yCoord, nutrientSave.zCoord);
+        loadedNutrient.transform.position = pos;
+
 
         nutrientscriptRef.remainingNutrients = nutrientSave.remainingNutrients;
 
@@ -24,7 +27,9 @@ public class SavedFloraNutrient : SavedNutrient
         FloraNutrient nutrientscriptRef = nutrientObject.GetComponent<FloraNutrient>();
         SavedFloraNutrient nutrientSave = new SavedFloraNutrient();
 
-        nutrientSave.savedTransform = nutrientObject.transform;
+        nutrientSave.xCoord = nutrientObject.transform.position.x;
+        nutrientSave.yCoord = nutrientObject.transform.position.y;
+        nutrientSave.zCoord = nutrientObject.transform.position.z;
 
         nutrientSave.remainingNutrients = nutrientscriptRef.remainingNutrients;
 
