@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class SavedFaunaNutrient : SavedNutrient
 {
      public static GameObject loadNutrient(SavedFaunaNutrient nutrientSave)
@@ -10,6 +11,7 @@ public class SavedFaunaNutrient : SavedNutrient
 
         FaunaNutrient nutrientscriptRef = loadedNutrient.AddComponent<FaunaNutrient>();
         loadedNutrient.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/FaunaNutrient", typeof(Material)) as Material);
+        loadedNutrient.tag = "faunaNutrient";
 
         loadedNutrient.transform.localScale = new Vector3(1f, 1f, 1f);
 

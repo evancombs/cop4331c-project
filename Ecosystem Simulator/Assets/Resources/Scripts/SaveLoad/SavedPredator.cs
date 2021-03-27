@@ -19,6 +19,7 @@ public class SavedPredator : SavedFauna
         loadedPredator.transform.localScale = new Vector3(1f, 1f, 1f);
         Vector3 pos = new Vector3(predatorSave.xCoord, predatorSave.yCoord, predatorSave.zCoord);
         loadedPredator.transform.position = pos;
+        loadedPredator.tag = "predator";
 
         predScriptRef.waterLevel = predatorSave.waterLevel;
         predScriptRef.nutrientValue = predatorSave.nutrientValue;

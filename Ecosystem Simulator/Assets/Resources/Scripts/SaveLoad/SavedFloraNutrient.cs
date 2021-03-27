@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class SavedFloraNutrient : SavedNutrient
 {
     public static GameObject loadNutrient(SavedFloraNutrient nutrientSave)
@@ -12,6 +13,7 @@ public class SavedFloraNutrient : SavedNutrient
         loadedNutrient.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/FaunaNutrient", typeof(Material)) as Material);
 
         loadedNutrient.transform.localScale = new Vector3(1f, 1f, 1f);
+        loadedNutrient.tag = "floraNutrient";
 
         Vector3 pos = new Vector3(nutrientSave.xCoord, nutrientSave.yCoord, nutrientSave.zCoord);
         loadedNutrient.transform.position = pos;

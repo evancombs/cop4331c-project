@@ -11,7 +11,7 @@ public class SavedEcosystem
     public List<SavedPrey> prey;
     public List<SavedPredator> predators;
     public List<SavedFlora> flora;
-    public List<Transform> waterSources;
+    public List<SavedWater> waterSources;
     public List<SavedFaunaNutrient> faunaNutrients;
     public List<SavedFloraNutrient> floraNutrients;
 
@@ -20,7 +20,7 @@ public class SavedEcosystem
         prey = new List<SavedPrey>();
         predators = new List<SavedPredator>();
         flora = new List<SavedFlora>();
-        waterSources = new List<Transform>();
+        waterSources = new List<SavedWater>();
         faunaNutrients = new List<SavedFaunaNutrient>();
         floraNutrients = new List<SavedFloraNutrient>();
     }
@@ -47,7 +47,7 @@ public class SavedEcosystem
         floraNutrients.Add(nutrient);
     }
 
-    public void addWaterSource(Transform water)
+    public void addWaterSource(SavedWater water)
     {
         waterSources.Add(water);
     }

@@ -85,6 +85,7 @@
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedOrganism.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedPredator.cs" />
     <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedPrey.cs" />
+    <Compile Include="Assets\Resources\Scripts\SaveLoad\SavedWater.cs" />
     <Compile Include="Assets\Resources\Scripts\WaterSource.cs" />
     <None Include="Assets\Resources\Scripts\ScriptAssembly.asmdef" />
     <Reference Include="UnityEngine">

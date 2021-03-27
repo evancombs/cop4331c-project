@@ -11,13 +11,15 @@ public class SavedFlora : SavedOrganism
     public static GameObject loadFlora(SavedFlora floraSave)
     {
         // We are essentially building the Flora object from scratch here.
-        GameObject loadedFlora = GameObject.CreatePrimitive(PrimitiveType.Cube);
-        
-        Flora floraScriptRef = loadedFlora.AddComponent<Flora>();
-        
-        loadedFlora.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/Green", typeof(Material)) as Material);
+        // GameObject loadedFlora = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        GameObject loadedFlora = Resources.Load("Prefabs/Flora") as GameObject;
 
-        loadedFlora.transform.localScale = new Vector3(.25f, 3f, .25f);
+        // Flora floraScriptRef = loadedFlora.AddComponent<Flora>();
+        Flora floraScriptRef = loadedFlora.GetComponent<Flora>();
+
+        // loadedFlora.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/Green", typeof(Material)) as Material);
+
+        // loadedFlora.transform.localScale = new Vector3(.25f, 3f, .25f);
         Vector3 pos = new Vector3(floraSave.xCoord, floraSave.yCoord, floraSave.zCoord);
         loadedFlora.transform.position = pos;
 

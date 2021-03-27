@@ -11,7 +11,7 @@ public class Predator : Fauna
         Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
         for (int i = 0; i < nearby.Length; i++)
         {
-            if (nearby[i].gameObject.GetComponent("Nutrients"))
+            if (nearby[i].gameObject.GetComponent("FaunaNutrient"))
             {
                 if (nutrientLevel <= 100f)
                     // this will be changed to get the specific value from the game object

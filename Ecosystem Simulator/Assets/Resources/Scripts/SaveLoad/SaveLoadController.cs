@@ -15,21 +15,23 @@ public class SaveLoadController : MonoBehaviour
     {
         saveButton.onClick.AddListener(Save);
         loadButton.onClick.AddListener(Load);
+        ecosystem = GameObject.FindGameObjectWithTag("ecosystem");
     }
 
     // Info Source: https://gamedevelopment.tutsplus.com/tutorials/how-to-save-and-load-your-players-progress-in-unity--cms-20934
     public static void Save()
     {
-
         // Get current Ecosystem to save
         savedEcosystems.Add(getCurrentEcosystem());
         
         // BinaryFormatter handles Serialization/Deserialization
         BinaryFormatter bf = new BinaryFormatter();
-        
+
         // Get a file stream to save to. Application.persistenDataPath is a 
         // useful Unity reference that adapts to how you build game
         FileStream file = File.Create(Application.persistentDataPath + "/savedEcosystems.es");
+        Debug.Log("Saved to: " + Application.persistentDataPath + "/savedEcosystems.es");
+        //FileStream file = File.Create(@"c:\UnitySaveTest");
         bf.Serialize(file, SaveLoadController.savedEcosystems);
         file.Close();
     }
@@ -43,7 +45,7 @@ public class SaveLoadController : MonoBehaviour
             SaveLoadController.savedEcosystems = (List<SavedEcosystem>)bf.Deserialize(file);
             file.Close();
         }
-        loadEntireEcosystem(savedEcosystems[0]);
+        loadEntireEcosystem(savedEcosystems[savedEcosystems.Count - 1]);
     }
 
     // This function nukes the entire ecosystem and reinstantiates everything based
@@ -52,31 +54,60 @@ public class SaveLoadController : MonoBehaviour
     {
         // Clear the old, to make way for the new
         destroyEcosystem();
-        
+
+        Debug.Log("Loading " + saveToLoad.waterSources.Count + " water sources!");
+
         // Now we loop through the lists in the SavedEcosystem to instantiate them into the simulation
         for (int i = 0; i < saveToLoad.prey.Count; i++)
-            Instantiate(SavedPrey.loadPrey(saveToLoad.prey[i]));
+        {
+            GameObject tempPrey = Instantiate(SavedPrey.loadPrey(saveToLoad.prey[i]));
+            tempPrey.transform.parent = ecosystem.transform;
+        }
 
         for (int i = 0; i < saveToLoad.predators.Count; i++)
-            Instantiate(SavedPredator.loadPredator(saveToLoad.predators[i]));
+        {
+            GameObject tempPred = Instantiate(SavedPredator.loadPredator(saveToLoad.predators[i]));
+            tempPred.transform.parent = ecosystem.transform;
+            tempPred.name = "SHOULD BE CHILD";
+        }
 
         for (int i = 0; i < saveToLoad.flora.Count; i++)
-            Instantiate(SavedFlora.loadFlora(saveToLoad.flora[i]));
-
+        {
+            GameObject tempFlora = Instantiate(SavedFlora.loadFlora(saveToLoad.flora[i]));
+            tempFlora.transform.parent = ecosystem.transform;
+            
+        }
         for (int i = 0; i < saveToLoad.floraNutrients.Count; i++)
-            Instantiate(SavedFloraNutrient.loadNutrient(saveToLoad.floraNutrients[i]));
+        {
+            GameObject tempNutrients = Instantiate(SavedFloraNutrient.loadNutrient(saveToLoad.floraNutrients[i]));
+            tempNutrients.transform.parent = ecosystem.transform;
+        }
         for (int i = 0; i < saveToLoad.faunaNutrients.Count; i++)
-            Instantiate(SavedFaunaNutrient.loadNutrient(saveToLoad.faunaNutrients[i]));
+        {
+            GameObject tempNutrients = Instantiate(SavedFaunaNutrient.loadNutrient(saveToLoad.faunaNutrients[i]));
+            tempNutrients.transform.parent = ecosystem.transform;
+        }
 
         for (int i = 0; i < saveToLoad.waterSources.Count; i++)
-            Instantiate(Resources.Load("Prefab/WaterSource") as WaterSource, saveToLoad.waterSources[i]);
+        {
+            GameObject tempWater = Instantiate(Resources.Load("Prefabs/WaterSource") as GameObject, SavedWater.loadWaterPos(saveToLoad.waterSources[i]), Quaternion.identity);
+            tempWater.transform.parent = ecosystem.transform;
+            tempWater.tag = "waterSource";
+        }
     }
 
     // Destroys all children of this Ecosystem
     private static void destroyEcosystem()
     {
+        /*
         foreach (Transform child in ecosystem.transform)
-            Destroy(child);
+            GameObject.Destroy(child.gameObject);
+        */
+        foreach (GameObject gameObj in GameObject.FindObjectsOfType<GameObject>())
+        {
+            if (gameObj.transform.parent == ecosystem.transform)
+                Destroy(gameObj);
+        }
     }
 
     public static SavedEcosystem getCurrentEcosystem()
@@ -102,7 +133,7 @@ public class SaveLoadController : MonoBehaviour
 
         // Water
         for (int i = 0; i < waterSources.Length; i++)
-            save.addWaterSource(waterSources[i].transform);
+            save.addWaterSource(SavedWater.saveWater(waterSources[i]));
 
         // Organisms
         // Here we have "gathered" all of the organism GameObjects. We use

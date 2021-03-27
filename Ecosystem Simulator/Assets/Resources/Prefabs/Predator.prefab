@@ -108,7 +108,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waterLevel: 0
   nutrientValue: 50
+  reproductiveChance: 0.25
+  reproductiveRate: 1
   awareness: 10
+  movementSpeed: 5
+  controlSpeed: 1
   consumptionRate: 1
   movementConsumptionRate: 1
   nutrientLevel: 0
+  lethality: 0
