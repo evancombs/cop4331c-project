@@ -8,13 +8,15 @@ public class SavedPrey : SavedFauna
     public static GameObject loadPrey(SavedPrey preySave)
     {
         // We are essentially building the Predator object from scratch here.
-        GameObject loadedPrey = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        // GameObject loadedPrey = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        GameObject loadedPrey = Resources.Load("Prefabs/Prey") as GameObject;
 
-        Prey preyScriptRef = loadedPrey.AddComponent<Prey>();
+        // Prey preyScriptRef = loadedPrey.AddComponent<Prey>();
+        Prey preyScriptRef = loadedPrey.GetComponent<Prey>();
 
-        loadedPrey.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/Orange", typeof(Material)) as Material);
-        loadedPrey.tag = "prey";
-        loadedPrey.transform.localScale = new Vector3(1f, 1f, 1f);
+        // loadedPrey.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/Orange", typeof(Material)) as Material);
+        // loadedPrey.tag = "prey";
+        // loadedPrey.transform.localScale = new Vector3(1f, 1f, 1f);
 
         Vector3 pos = new Vector3(preySave.xCoord, preySave.yCoord, preySave.zCoord);
         loadedPrey.transform.position = pos;

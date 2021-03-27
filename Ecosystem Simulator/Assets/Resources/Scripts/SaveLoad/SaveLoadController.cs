@@ -54,7 +54,7 @@ public class SaveLoadController : MonoBehaviour
     {
         // Clear the old, to make way for the new
         destroyEcosystem();
-
+        
         Debug.Log("Loading " + saveToLoad.waterSources.Count + " water sources!");
 
         // Now we loop through the lists in the SavedEcosystem to instantiate them into the simulation

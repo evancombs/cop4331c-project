@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class Ecosystem : MonoBehaviour
 {
@@ -6,15 +7,26 @@ public class Ecosystem : MonoBehaviour
     public GameObject predatorSpecies;
     public GameObject floraSpecies;
     public GameObject waterSource;
+    public Button play, pause;
 
 
     public int xSize = 200;
     public int zSize = 200;
 
+    public void Pause()
+    {
+        Time.timeScale = 0;
+    }
+    public void Play()
+    {
+        Time.timeScale = 1;
+    }
+    
     void Start()
     {
         // preySpecies.GetComponent<PredatorDriver>().xSize = xSize;
-
+        pause.onClick.AddListener(Pause);
+        play.onClick.AddListener(Play);
         // Populate the system with some organisms
         int numPrey = 10;
         int numPredator = 10;
