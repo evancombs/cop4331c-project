@@ -7,13 +7,14 @@ public class SavedFaunaNutrient : SavedNutrient
 {
      public static GameObject loadNutrient(SavedFaunaNutrient nutrientSave)
     {
-        GameObject loadedNutrient = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        // GameObject loadedNutrient = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        GameObject loadedNutrient = Resources.Load("Prefabs/FaunaNutrient") as GameObject;
 
-        FaunaNutrient nutrientscriptRef = loadedNutrient.AddComponent<FaunaNutrient>();
-        loadedNutrient.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/FaunaNutrient", typeof(Material)) as Material);
-        loadedNutrient.tag = "faunaNutrient";
+        FaunaNutrient nutrientscriptRef = loadedNutrient.GetComponent<FaunaNutrient>();
+        // loadedNutrient.GetComponent<MeshRenderer>().material = (Resources.Load("Materials/FaunaNutrient", typeof(Material)) as Material);
+        // loadedNutrient.tag = "faunaNutrient";
 
-        loadedNutrient.transform.localScale = new Vector3(1f, 1f, 1f);
+        // loadedNutrient.transform.localScale = new Vector3(1f, 1f, 1f);
 
         Vector3 pos = new Vector3(nutrientSave.xCoord, nutrientSave.yCoord, nutrientSave.zCoord);
         loadedNutrient.transform.position = pos;

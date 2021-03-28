@@ -24,7 +24,8 @@ public class Prey : Fauna
             if (nearby[i].gameObject.GetComponent("Flora(Clone)"))
             {
                 if (nutrientLevel <= 100f)
-                    nutrientLevel += consume(nearby[i].gameObject);
+                    //nutrientLevel += consume(nearby[i].gameObject);
+                    nearby[i].gameObject.GetComponent<Flora>().kill();
 
                 break;
             }

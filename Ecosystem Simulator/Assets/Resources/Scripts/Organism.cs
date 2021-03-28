@@ -47,14 +47,14 @@ public class Organism : MonoBehaviour
 
     public virtual void UpdateWater()
     {
-      waterLevel -= 0.1f * Time.deltaTime;
+      waterLevel -= 0.4f * Time.deltaTime;
       Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
       for (int i = 0; i < nearby.Length; i++)
       {
         if (nearby[i].gameObject.GetComponent("WaterSource"))
         {
           if (waterLevel <= 100f)
-            waterLevel += .2f * Time.deltaTime;
+            waterLevel += 4f * Time.deltaTime;
           break;
         }
       }
@@ -91,9 +91,9 @@ public class Organism : MonoBehaviour
             if ((waterLevel -= 25f) <= 0)
                 break;
             // Random position within 10 units
-            Vector3 pos = new Vector3(gameObject.transform.position.x + Random.Range(-10, 10),
+            Vector3 pos = new Vector3(gameObject.transform.position.x + Mathf.Clamp(Random.Range(-10, 10), 0, transform.parent.gameObject.GetComponent<Ecosystem>().xSize - 1),
                                       gameObject.transform.position.y,
-                                      gameObject.transform.position.z + Random.Range(-10, 10));
+                                      gameObject.transform.position.z + Mathf.Clamp(Random.Range(-10, 10), 0, transform.parent.gameObject.GetComponent<Ecosystem>().zSize - 1));
             GameObject newChild = GameObject.Instantiate(gameObject as GameObject, pos, Quaternion.identity);
             // newChild.transform.parent = gameObject.transform.parent;
             newChild.transform.SetParent(gameObject.transform.parent);
