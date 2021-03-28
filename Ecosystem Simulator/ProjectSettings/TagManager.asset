@@ -11,6 +11,8 @@ TagManager:
   - faunaNutrient
   - ecosystem
   - waterSource
+  - saveUI
+  - loadUI
   layers:
   - Default
   - TransparentFX

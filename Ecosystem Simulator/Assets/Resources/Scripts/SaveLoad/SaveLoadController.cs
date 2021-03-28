@@ -7,22 +7,40 @@ using UnityEngine.UI;
 
 public class SaveLoadController : MonoBehaviour
 {
-    public static List<SavedEcosystem> savedEcosystems = new List<SavedEcosystem>();
+    //public static List<SavedEcosystem> savedEcosystems = new List<SavedEcosystem>();
+    //public static SavedEcosystem savedEco1, savedEco2, savedEco3;
+    public static SavedEcosystem[] savedEcosystems = new SavedEcosystem[3];
     public Button saveButton, loadButton;
+    public Button save1, save2, save3;
+    public Button load1, load2, load3;
     public static GameObject ecosystem;
+    public bool saveUIDisplayed, loadUIDisplayed;
+    public GameObject saveUIPanel, loadUIPanel;
+
 
     private void Start()
     {
-        saveButton.onClick.AddListener(Save);
-        loadButton.onClick.AddListener(Load);
+        saveButton.onClick.AddListener(displaySaveUI);
+        loadButton.onClick.AddListener(displayLoadUI);
+
+        saveUIPanel.SetActive(false);
+        loadUIPanel.SetActive(false);
+
+        save1.onClick.AddListener(Save1);
+        save2.onClick.AddListener(Save2);
+        save3.onClick.AddListener(Save3);
+
+        load1.onClick.AddListener(Load1);
+        load2.onClick.AddListener(Load2);
+        load3.onClick.AddListener(Load3);
         ecosystem = GameObject.FindGameObjectWithTag("ecosystem");
     }
 
     // Info Source: https://gamedevelopment.tutsplus.com/tutorials/how-to-save-and-load-your-players-progress-in-unity--cms-20934
-    public static void Save()
+    public static void Save(int saveSlot)
     {
         // Get current Ecosystem to save
-        savedEcosystems.Add(getCurrentEcosystem());
+        savedEcosystems[saveSlot] = getCurrentEcosystem();
         
         // BinaryFormatter handles Serialization/Deserialization
         BinaryFormatter bf = new BinaryFormatter();
@@ -36,16 +54,43 @@ public class SaveLoadController : MonoBehaviour
         file.Close();
     }
 
-    public static void Load()
+
+
+    public static void Load(int saveSlot)
     {
         if (File.Exists(Application.persistentDataPath + "/savedEcosystems.es"))
         {
             BinaryFormatter bf = new BinaryFormatter();
             FileStream file = File.Open(Application.persistentDataPath + "/savedEcosystems.es", FileMode.Open);
-            SaveLoadController.savedEcosystems = (List<SavedEcosystem>)bf.Deserialize(file);
+            SaveLoadController.savedEcosystems = (SavedEcosystem[])bf.Deserialize(file);
             file.Close();
         }
-        loadEntireEcosystem(savedEcosystems[savedEcosystems.Count - 1]);
+        loadEntireEcosystem(savedEcosystems[saveSlot]);
+    }
+    // Functions for each button. Yes this sucks, I know.
+    public static void Save1()
+    {
+        Save(0);
+    }
+    public static void Save2()
+    {
+        Save(1);
+    }
+    public static void Save3()
+    {
+        Save(2);
+    }
+    public static void Load1()
+    {
+        Load(0);
+    }
+    public static void Load2()
+    {
+        Load(1);
+    }
+    public static void Load3()
+    {
+        Load(2);
     }
 
     // This function nukes the entire ecosystem and reinstantiates everything based
@@ -68,7 +113,7 @@ public class SaveLoadController : MonoBehaviour
         {
             GameObject tempPred = Instantiate(SavedPredator.loadPredator(saveToLoad.predators[i]));
             tempPred.transform.parent = ecosystem.transform;
-            tempPred.name = "SHOULD BE CHILD";
+            
         }
 
         for (int i = 0; i < saveToLoad.flora.Count; i++)
@@ -148,5 +193,29 @@ public class SaveLoadController : MonoBehaviour
 
         Debug.Log("Finished profile save! Returning to Save()");
         return save;
+    }
+
+    public void displaySaveUI()
+    {
+        saveUIDisplayed = !saveUIDisplayed;
+        loadUIPanel.SetActive(false);
+        if (saveUIDisplayed)
+            saveUIPanel.SetActive(true);
+        else
+            saveUIPanel.SetActive(false);
+        loadUIPanel.SetActive(false);
+        loadUIDisplayed = false;
+    }
+
+    public void displayLoadUI()
+    {
+        loadUIDisplayed = !loadUIDisplayed;
+        
+        if (loadUIDisplayed)
+            loadUIPanel.SetActive(true);
+        else
+            loadUIPanel.SetActive(false);
+        saveUIPanel.SetActive(false);
+        saveUIDisplayed = false;
     }
 }
