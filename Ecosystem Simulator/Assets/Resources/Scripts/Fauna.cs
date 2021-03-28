@@ -13,6 +13,7 @@ public class Fauna : Organism
     public float consumptionRate = 1f; // Flat water consumption
     public float movementConsumptionRate = 1f; // Dynamic nutrient consumption
     public float nutrientLevel;
+    public bool lookingForNutrients = false;
 
     float directionDuration;
     private Vector3 directionVector;
@@ -86,6 +87,7 @@ public class Fauna : Organism
         // Debug.Log("Translating to " + direction * Time.deltaTime * movementSpeed);
         if (waterLevel <= 25)
         {
+            lookingForNutrients = false;
             GameObject closest = null; ;
             float minDist = Mathf.Infinity;
             Vector3 curPos = transform.position;
@@ -116,6 +118,7 @@ public class Fauna : Organism
         
         else if (nutrientLevel <= 25)
         {
+            lookingForNutrients = true;
             GameObject closest = null; ;
             float minDist = Mathf.Infinity;
             Vector3 curPos = transform.position;
@@ -159,6 +162,7 @@ public class Fauna : Organism
         
         else
         {
+            lookingForNutrients = false;
             transform.Translate(moveVector);
         }
     }

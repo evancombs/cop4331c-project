@@ -25,7 +25,31 @@ public class Predator : Fauna
     public float consume(GameObject nutrient)
     {
         nutrient.GetComponent<Nutrients>().consumeNutrients(consumptionRate);
-
+        if(lookingForNutrients == true)
+        {
+            GameObject closest = null; ;
+            float minDist = Mathf.Infinity;
+            Vector3 curPos = transform.position;
+            Transform tMin = null;
+            foreach (GameObject gameObj in GameObject.FindObjectsOfType<GameObject>())
+            {
+                if (gameObj.name.StartsWith("Prey"))
+                {
+                    float dist = Vector3.Distance(gameObj.transform.position, curPos);
+                    if (dist < minDist)
+                    {
+                        tMin = gameObj.transform;
+                        minDist = dist;
+                        closest = gameObj;
+                    }
+                }
+            }
+            if(minDist < 5f)
+            {
+                Debug.Log("Killed Prey");
+                Destroy(closest);
+            }
+        }
         // Note: currently allows consumptionRate to still be added even if the consumption would reduce the nutrient to 0.
         return consumptionRate;
     }
