@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - Flora
     - FloraNutrient
     - GraphPanel
+    - MoveCamera
     - Nutrients
     - Predator
     - Prey
@@ -90,20 +91,24 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12978}
     - Class: 114
-      Script: {instanceID: 13028}
+      Script: {instanceID: 13014}
     - Class: 114
-      Script: {instanceID: 13164}
+      Script: {instanceID: 13030}
     - Class: 114
-      Script: {instanceID: 13224}
+      Script: {instanceID: 13166}
     - Class: 114
-      Script: {instanceID: 13248}
+      Script: {instanceID: 13226}
     - Class: 114
-      Script: {instanceID: 13262}
+      Script: {instanceID: 13250}
+    - Class: 114
+      Script: {instanceID: 13264}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -494,13 +499,13 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: ceac3ef7dc8b5c93686a7c1740dff764
+      Hash: 842db23708ccdc2ecf6662b797e62977
     assemblyName: ScriptAssembly.dll
     namespaceName: 
     className: Ecosystem
   - hash:
       serializedVersion: 2
-      Hash: ceac3ef7dc8b5c93686a7c1740dff764
+      Hash: 842db23708ccdc2ecf6662b797e62977
     assemblyName: Tests.dll
     namespaceName: Tests
     className: Tests
@@ -618,6 +623,12 @@ ScriptsOnlyBuild:
     assemblyName: ScriptAssembly.dll
     namespaceName: 
     className: WaterSource
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc9df7a1110b389e3611bfc18a9c803
+    assemblyName: ScriptAssembly.dll
+    namespaceName: 
+    className: MoveCamera
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb

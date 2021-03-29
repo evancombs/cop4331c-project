@@ -64,6 +64,7 @@ public class Ecosystem : MonoBehaviour
             flora.transform.parent = gameObject.transform;
             flora.SetActive(true);
             flora.name = floraSpecies.name;
+            flora.GetComponent<Flora>().waterLevel = Random.Range(15f, 100f);
         }
         for (int i = 0; i < numWater; i++)
         {

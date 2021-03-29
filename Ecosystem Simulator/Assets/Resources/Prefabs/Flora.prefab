@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669479420023563448}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 62, y: 0, z: 53}
+  m_LocalPosition: {x: 82, y: 0, z: 32}
   m_LocalScale: {x: 0.25, y: 3, z: 0.25}
   m_Children: []
   m_Father: {fileID: 0}
@@ -106,9 +106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2204c64b11e84fd47acce1826e40be84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waterLevel: 13.9048605
-  nutrientValue: 50
+  waterLevel: 13.904003
+  nutrientValue: 20
   reproductiveChance: 1
-  reproductiveRate: 1
+  reproductiveRate: 2
   awareness: 10
   remainingNutrients: 0

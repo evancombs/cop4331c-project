@@ -249,7 +249,11 @@ public class Fauna : Organism
 
         // If the chance fails, we instantly return 0
         if (chanceToReproduce >= reproductiveChance)
+        {
+            waterLevel -= 12f;
+            nutrientLevel -= nutrientValue / 2; 
             return 0;
+        }
 
         // If we get here, reproduction has been succesful, so we must create
         // reproductiveRate new organisms.
@@ -261,9 +265,9 @@ public class Fauna : Organism
             if ((waterLevel - 25f) <= 0f)
                 return i;
             // Random position within 10 units
-            Vector3 pos = new Vector3(gameObject.transform.position.x + Random.Range(-10, 10),
+            Vector3 pos = new Vector3(gameObject.transform.position.x + Mathf.Clamp(Random.Range(-3, 3), 0, transform.parent.gameObject.GetComponent<Ecosystem>().xSize - 1),
                                       gameObject.transform.position.y,
-                                      gameObject.transform.position.z + Random.Range(-10, 10));
+                                      gameObject.transform.position.z + Mathf.Clamp(Random.Range(-3, 3), 0, transform.parent.gameObject.GetComponent<Ecosystem>().zSize - 1));
 
             // GameObject.Instantiate(gameObject, pos, Quaternion.identity);
 

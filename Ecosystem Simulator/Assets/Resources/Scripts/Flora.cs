@@ -24,6 +24,21 @@ public class Flora : Organism
             kill();
     }
 
+    public override void UpdateWater()
+    {
+        waterLevel -= 2f * Time.deltaTime;
+        Collider[] nearby = Physics.OverlapSphere(gameObject.transform.position, (float)awareness);
+        for (int i = 0; i < nearby.Length; i++)
+        {
+            if (nearby[i].gameObject.GetComponent("WaterSource"))
+            {
+                if (waterLevel <= 100f)
+                    waterLevel += 8f * Time.deltaTime;
+                break;
+            }
+        }
+    }
+
 
 
 
