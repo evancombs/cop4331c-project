@@ -104,11 +104,11 @@ Patrick Caughey - Water and nutrient pathing, user story/ requirement creation
 * [Product Demonstration](https://www.youtube.com/watch?v=qLniuHYMnOs)
 
 ## Task Allocation
-Evan Combs - Organism Reproduction ([U012]), demonstration recording, architecture updates
-Parker Doughty - Pathfinding, nutrient consumption/ dynamics for flora, fauna, automated testing
-Nathan Manierre - Pathfinding, nutrient consumption/ dynamics for flora, fauna
-William Cross - Pathfinding, nutrient consumption/ dynamics for flora, fauna
-Patrick Caughey -  Predator lethality, Prey flora consumption
+Evan Combs - Organism Reproduction ([U012]), demonstration recording, architecture updates  
+Parker Doughty - Pathfinding, nutrient consumption/ dynamics for flora, fauna, automated testing  
+Nathan Manierre - Pathfinding, nutrient consumption/ dynamics for flora, fauna  
+William Cross - Pathfinding, nutrient consumption/ dynamics for flora, fauna  
+Patrick Caughey -  Predator lethality, Prey flora consumption  
 
 ## Sprint 7
 * [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
@@ -120,11 +120,11 @@ Patrick Caughey -  Predator lethality, Prey flora consumption
 * [Product Demonstration](https://www.youtube.com/watch?v=0OPlO14ULtY)
 
 ## Task Allocation
-Evan Combs - Data management, Saving, Loading, product demonstration
-Parker Doughty - Predator/ prey dynamics, User interface
-Nathan Manierre - Predator/ prey dynamics, User interface
-William Cross - Predator/ prey dynamics
-Patrick Caughey - Data tracking, simulation statistics
+Evan Combs - Data management, Saving, Loading, product demonstration  
+Parker Doughty - Predator/ prey dynamics, User interface  
+Nathan Manierre - Predator/ prey dynamics, User interface  
+William Cross - Predator/ prey dynamics  
+Patrick Caughey - Data tracking, simulation statistics  
 
 ## Sprint 8
 * [Trello Board](https://trello.com/b/XcVEDUUZ/ecosystem-simulator) (Backlog and Requirements)
@@ -136,8 +136,8 @@ Patrick Caughey - Data tracking, simulation statistics
 * [Product Demonstration]
 
 ## Task Allocation
-Evan Combs - Data management, Saving, Loading, product demonstration
-Parker Doughty - Predator/ prey dynamics, User interface
-Nathan Manierre - Predator/ prey dynamics, User interface
-William Cross - Predator/ prey dynamics
-Patrick Caughey - Data tracking, simulation statistics
+Evan Combs - Data management, Saving, Loading, product demonstration, User Interface, predator Prey dynamics  
+Parker Doughty - Predator/ prey dynamics  
+Nathan Manierre - Predator/ prey dynamics   
+William Cross - Modelling  
+Patrick Caughey - simulation statistics display  
