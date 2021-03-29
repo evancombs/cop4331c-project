@@ -133,10 +133,10 @@ Patrick Caughey - Data tracking, simulation statistics
 * [Source Code](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Resources/Scripts)
 * [Manual Tests](https://github.com/evancombs/cop4331c-project/tree/master/tests)
 * [Automated Tests](https://github.com/evancombs/cop4331c-project/tree/master/Ecosystem%20Simulator/Assets/Resources/Tests)
-* [Product Demonstration]
+* [Product Demonstration](https://www.youtube.com/watch?v=ms414z5-bE4)
 
 ## Task Allocation
-Evan Combs - Data management, Saving, Loading, product demonstration, User Interface, predator Prey dynamics  
+Evan Combs - Data management, Saving, Loading, product demonstration, User Interface, predator prey dynamics, organism reproduction  
 Parker Doughty - Predator/ prey dynamics  
 Nathan Manierre - Predator/ prey dynamics   
 William Cross - Modelling  
