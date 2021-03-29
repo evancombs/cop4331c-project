@@ -7,7 +7,9 @@ public class Ecosystem : MonoBehaviour
     public GameObject predatorSpecies;
     public GameObject floraSpecies;
     public GameObject waterSource;
-    public Button play, pause;
+    public Button play, pause, populate;
+    bool displayUI;
+    public GameObject UI;
 
 
     public int xSize = 200;
@@ -27,6 +29,15 @@ public class Ecosystem : MonoBehaviour
         // preySpecies.GetComponent<PredatorDriver>().xSize = xSize;
         pause.onClick.AddListener(Pause);
         play.onClick.AddListener(Play);
+        populate.onClick.AddListener(populateEcosystem);
+        displayUI = false;
+        
+        // Testing SAVE LOAD
+        // SaveLoadController.Save();
+    }
+
+    public void populateEcosystem()
+    {
         // Populate the system with some organisms
         int numPrey = 10;
         int numPredator = 10;
@@ -46,28 +57,38 @@ public class Ecosystem : MonoBehaviour
             predator.transform.parent = gameObject.transform;
             predator.SetActive(true);
             predator.name = predatorSpecies.name;
-    }
+        }
         for (int i = 0; i < numFlora; i++)
         {
             GameObject flora = Instantiate(floraSpecies, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
             flora.transform.parent = gameObject.transform;
             flora.SetActive(true);
             flora.name = floraSpecies.name;
-    }
+        }
         for (int i = 0; i < numWater; i++)
         {
             GameObject water = Instantiate(waterSource, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
             water.transform.parent = gameObject.transform;
             water.SetActive(true);
             water.name = waterSource.name;
-         }
-        // Testing SAVE LOAD
-        // SaveLoadController.Save();
+        }
     }
 
 
     void Update()
     {
+        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MoveCamera>().cameraLocked = !GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MoveCamera>().cameraLocked;
+            displayUI = !displayUI;
+            
+        }
+
+        if (displayUI)
+            UI.SetActive(true);
+        else
+            UI.SetActive(false);
 
     }
     private void OnDrawGizmos()

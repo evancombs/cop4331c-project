@@ -132,5 +132,10 @@ public class Organism : MonoBehaviour
 
     }
 
+    private void OnMouseOver()
+    {
+        
+    }
+
 
 }

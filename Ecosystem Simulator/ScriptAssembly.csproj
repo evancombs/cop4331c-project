@@ -70,6 +70,7 @@
     <Compile Include="Assets\Resources\Scripts\Flora.cs" />
     <Compile Include="Assets\Resources\Scripts\FloraNutrient.cs" />
     <Compile Include="Assets\Resources\Scripts\GraphPanel.cs" />
+    <Compile Include="Assets\Resources\Scripts\MoveCamera.cs" />
     <Compile Include="Assets\Resources\Scripts\Nutrients.cs" />
     <Compile Include="Assets\Resources\Scripts\Organism.cs" />
     <Compile Include="Assets\Resources\Scripts\Predator.cs" />
