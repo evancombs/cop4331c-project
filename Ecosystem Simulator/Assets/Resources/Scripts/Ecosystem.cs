@@ -79,7 +79,7 @@ public class Ecosystem : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MoveCamera>().cameraLocked = !GameObject.FindGameObjectWithTag("MainCamera").GetComponent<MoveCamera>().cameraLocked;
             displayUI = !displayUI;
