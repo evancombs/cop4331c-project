@@ -13,19 +13,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-03-20T17:18:30.137-04:00
-  initializedAtString: 2021-03-20T17:18:30.129-04:00
+  lastUpdatedAtString: 2021-04-16T12:00:58.769-04:00
+  initializedAtString: 2021-04-16T11:55:00.272-04:00
   localBranches:
   - name: master
-    tracking: origin/master
+    tracking: ecosystem/master
+  - name: testing
+    tracking: ecosystem/testing
   remoteBranches:
-  - name: origin/HEAD
+  - name: ecosystem/main
     tracking: '[None]'
-  - name: origin/master
+  - name: ecosystem/master
+    tracking: '[None]'
+  - name: ecosystem/testing
     tracking: '[None]'
   remotes:
-  - name: origin
-    url: https://github.com/evancombs/cop4331c-project.git
+  - name: ecosystem
+    url: https://github.com/evancombs/cop4331c-project
     login: 
     user: 
     host: 
@@ -34,34 +38,46 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
+    - testing
     values:
     - name: master
       remote:
-        name: origin
-        url: https://github.com/evancombs/cop4331c-project.git
+        name: ecosystem
+        url: https://github.com/evancombs/cop4331c-project
       trackingBranch: master
+    - name: testing
+      remote:
+        name: ecosystem
+        url: https://github.com/evancombs/cop4331c-project
+      trackingBranch: testing
   remoteConfigBranches:
     keys:
-    - origin
+    - ecosystem
     subKeys:
     - Values:
-      - HEAD
+      - main
       - master
+      - testing
     subKeyValues:
     - Values:
-      - name: HEAD
+      - name: main
         remote:
-          name: origin
-          url: https://github.com/evancombs/cop4331c-project.git
+          name: ecosystem
+          url: https://github.com/evancombs/cop4331c-project
         trackingBranch: 
       - name: master
         remote:
-          name: origin
-          url: https://github.com/evancombs/cop4331c-project.git
+          name: ecosystem
+          url: https://github.com/evancombs/cop4331c-project
+        trackingBranch: 
+      - name: testing
+        remote:
+          name: ecosystem
+          url: https://github.com/evancombs/cop4331c-project
         trackingBranch: 
   configRemotes:
     keys:
-    - origin
+    - ecosystem
     values:
-    - name: origin
-      url: https://github.com/evancombs/cop4331c-project.git
+    - name: ecosystem
+      url: https://github.com/evancombs/cop4331c-project

@@ -18,6 +18,7 @@ public class Organism : MonoBehaviour
         // Create nutrients
         GameObject nutrients = Instantiate(Resources.Load("Prefabs/Nutrient") as GameObject, transform.position, Quaternion.identity);
         nutrients.GetComponent<Nutrients>().Init(nutrientValue);
+        nutrients.transform.name = "Flora Nutrients";
         nutrients.transform.parent = transform.parent;
 
 
@@ -95,6 +96,7 @@ public class Organism : MonoBehaviour
                                       gameObject.transform.position.y,
                                       gameObject.transform.position.z + Mathf.Clamp(Random.Range(-10, 10), 0, transform.parent.gameObject.GetComponent<Ecosystem>().zSize - 1));
             GameObject newChild = GameObject.Instantiate(gameObject as GameObject, pos, Quaternion.identity);
+            newChild.transform.name = gameObject.transform.name;
             // newChild.transform.parent = gameObject.transform.parent;
             newChild.transform.SetParent(gameObject.transform.parent);
             //Debug.Log(gameObject.transform.parent);
@@ -134,7 +136,21 @@ public class Organism : MonoBehaviour
 
     private void OnMouseOver()
     {
-        
+        GameObject popup = GameObject.FindGameObjectWithTag("InfoBubble");
+        popup.SetActive(true);
+
+               
+        GameObject nutrientText = popup.transform.GetChild(0).gameObject;
+        GameObject waterText = popup.transform.GetChild(1).gameObject;
+
+        waterText.GetComponent<UnityEngine.UI.Text>().text = ("Current Water: " + waterLevel);
+        nutrientText.GetComponent<UnityEngine.UI.Text>().text = "Current Nutrients: " + 100;
+    }
+
+    private void OnMouseExit()
+    {
+        // GameObject popup = GameObject.FindGameObjectWithTag("InfoBubble");
+        // popup.SetActive(false);
     }
 
 

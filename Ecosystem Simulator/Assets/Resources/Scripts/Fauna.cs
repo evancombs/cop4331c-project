@@ -10,7 +10,7 @@ public class Fauna : Organism
     public float movementSpeed = 5f;
     public float controlSpeed = 1f;
 
-    public float consumptionRate = 1f; // Flat water consumption
+    public float consumptionRate = .05f; // Flat water consumption
     public float movementConsumptionRate = 1f; // Dynamic nutrient consumption
     public float nutrientLevel;
     public bool lookingForNutrients = false;
@@ -218,7 +218,9 @@ public class Fauna : Organism
     {
         // Create nutrients
         GameObject nutrients = Instantiate(Resources.Load("Prefabs/FaunaNutrient") as GameObject, transform.position, Quaternion.identity);
+        nutrients.transform.name = "Fauna Nutrients";
         nutrients.GetComponent<Nutrients>().Init(nutrientValue);
+
         nutrients.transform.parent = transform.parent;
 
 
@@ -251,7 +253,7 @@ public class Fauna : Organism
         if (chanceToReproduce >= reproductiveChance)
         {
             waterLevel -= 12f;
-            nutrientLevel -= nutrientValue / 2; 
+            nutrientLevel -= nutrientValue; 
             return 0;
         }
 
@@ -272,6 +274,7 @@ public class Fauna : Organism
             // GameObject.Instantiate(gameObject, pos, Quaternion.identity);
 
             GameObject newChild = GameObject.Instantiate(gameObject, pos, Quaternion.identity);
+            newChild.transform.name = gameObject.transform.name;
             //newChild.transform.parent = gameObject.transform.parent;
             //newChild.transform.SetParent(transform.parent);
             newChild.transform.parent = transform.parent;
@@ -282,6 +285,19 @@ public class Fauna : Organism
         }
 
         return reproductiveRate;
+    }
+
+    private void OnMouseOver()
+    {
+        GameObject popup = GameObject.FindGameObjectWithTag("InfoBubble");
+        popup.SetActive(true);
+
+
+        GameObject nutrientText = popup.transform.GetChild(0).gameObject;
+        GameObject waterText = popup.transform.GetChild(1).gameObject;
+
+        waterText.GetComponent<UnityEngine.UI.Text>().text = ("Current Water: " + waterLevel);
+        nutrientText.GetComponent<UnityEngine.UI.Text>().text = "Current Nutrients: " + nutrientLevel;
     }
 
 

@@ -15,7 +15,7 @@ public class Predator : Fauna
             {
                 if (nutrientLevel <= 100f)
                     // this will be changed to get the specific value from the game object
-                    nutrientLevel += consume(nearby[i].gameObject);
+                    nutrientLevel += consume(nearby[i].gameObject) * Time.deltaTime;
 
                 break;
             }
