@@ -142,7 +142,7 @@ public class SaveLoadController : MonoBehaviour
     }
 
     // Destroys all children of this Ecosystem
-    private static void destroyEcosystem()
+    public static void destroyEcosystem()
     {
         /*
         foreach (Transform child in ecosystem.transform)

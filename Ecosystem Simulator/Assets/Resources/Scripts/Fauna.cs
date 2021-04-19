@@ -266,11 +266,13 @@ public class Fauna : Organism
                 return i;
             if ((waterLevel - 25f) <= 0f)
                 return i;
-            // Random position within 10 units
-            Vector3 pos = new Vector3(gameObject.transform.position.x + Mathf.Clamp(Random.Range(-3, 3), 0, transform.parent.gameObject.GetComponent<Ecosystem>().xSize - 1),
+            // Random position within 10 units and within ecosystem bounds
+            // Vector3 pos = new Vector3(gameObject.transform.position.x + Mathf.Clamp(Random.Range(-3, 3), 0, transform.parent.gameObject.GetComponent<Ecosystem>().xSize - 1),
+            //                           gameObject.transform.position.y,
+            //                           gameObject.transform.position.z + Mathf.Clamp(Random.Range(-3, 3), 0, transform.parent.gameObject.GetComponent<Ecosystem>().zSize - 1));
+            Vector3 pos = new Vector3(Mathf.Clamp(gameObject.transform.position.x + Random.Range(-3, 3), 0, transform.parent.GetComponent<Ecosystem>().xSize),
                                       gameObject.transform.position.y,
-                                      gameObject.transform.position.z + Mathf.Clamp(Random.Range(-3, 3), 0, transform.parent.gameObject.GetComponent<Ecosystem>().zSize - 1));
-
+                                      Mathf.Clamp(gameObject.transform.position.z + Random.Range(3, 3), 0, transform.parent.GetComponent<Ecosystem>().zSize));
             // GameObject.Instantiate(gameObject, pos, Quaternion.identity);
 
             GameObject newChild = GameObject.Instantiate(gameObject, pos, Quaternion.identity);

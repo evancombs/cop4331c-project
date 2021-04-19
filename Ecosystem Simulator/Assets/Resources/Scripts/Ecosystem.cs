@@ -7,7 +7,7 @@ public class Ecosystem : MonoBehaviour
     public GameObject predatorSpecies;
     public GameObject floraSpecies;
     public GameObject waterSource;
-    public Button play, pause, populate;
+    public Button play, pause, populate, reset;
     bool displayUI;
     public GameObject UI;
 
@@ -30,6 +30,7 @@ public class Ecosystem : MonoBehaviour
         pause.onClick.AddListener(Pause);
         play.onClick.AddListener(Play);
         populate.onClick.AddListener(populateEcosystem);
+        reset.onClick.AddListener(resetEcosystem);
         displayUI = false;
         
         // Testing SAVE LOAD
@@ -68,11 +69,15 @@ public class Ecosystem : MonoBehaviour
         }
         for (int i = 0; i < numWater; i++)
         {
-            GameObject water = Instantiate(waterSource, new Vector3((float)Random.Range(0, xSize), 0f, (float)Random.Range(0, zSize)), Quaternion.identity);
+            GameObject water = Instantiate(waterSource, new Vector3((float)Random.Range(10, xSize - 10), 0f, (float)Random.Range(10, zSize - 10)), Quaternion.identity);
             water.transform.parent = gameObject.transform;
             water.SetActive(true);
             water.name = waterSource.name;
         }
+    }
+    public void resetEcosystem()
+    {
+        SaveLoadController.destroyEcosystem();
     }
 
 
