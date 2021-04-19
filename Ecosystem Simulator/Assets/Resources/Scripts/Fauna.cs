@@ -298,8 +298,8 @@ public class Fauna : Organism
         GameObject nutrientText = popup.transform.GetChild(0).gameObject;
         GameObject waterText = popup.transform.GetChild(1).gameObject;
 
-        waterText.GetComponent<UnityEngine.UI.Text>().text = ("Current Water: " + waterLevel);
-        nutrientText.GetComponent<UnityEngine.UI.Text>().text = "Current Nutrients: " + nutrientLevel;
+        waterText.GetComponent<UnityEngine.UI.Text>().text = ("Water: " + waterLevel);
+        nutrientText.GetComponent<UnityEngine.UI.Text>().text = "Nutrients: " + nutrientLevel;
     }
 
 

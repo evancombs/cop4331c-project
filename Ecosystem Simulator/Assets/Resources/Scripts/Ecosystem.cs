@@ -39,6 +39,7 @@ public class Ecosystem : MonoBehaviour
 
     public void populateEcosystem()
     {
+        SaveLoadController.destroyEcosystem();
         // Populate the system with some organisms
         int numPrey = 10;
         int numPredator = 10;
